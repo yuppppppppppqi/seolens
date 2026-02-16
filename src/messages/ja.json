@@ -1,0 +1,402 @@
+{
+  "metadata": {
+    "title": "SEOLens - 無料キーワードリサーチツール",
+    "description": "世界中のキーワードの検索ボリューム、難易度、CPC、競合データを無料で調査。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "features": "機能",
+    "pricing": "料金",
+    "docs": "ドキュメント",
+    "blog": "ブログ",
+    "openTool": "ツールを開く"
+  },
+  "landing": {
+    "meta": {
+      "title": "無料キーワードリサーチツール",
+      "description": "リアルタイムの検索ボリューム、難易度スコア、CPCデータ、AI搭載サジェストでキーワードを調査。"
+    },
+    "hero": {
+      "badge": "無料 & オープンソース",
+      "title": "キーワードリサーチを、",
+      "titleHighlight": "もっとシンプルに",
+      "subtitle": "キーワードを入力するだけ。検索ボリューム・難易度・CPC・競合データを一瞬で取得。登録不要、すぐに使えます。",
+      "cta": "検索",
+      "ctaSecondary": "APIドキュメント",
+      "searchPlaceholder": "キーワードを入力..."
+    },
+    "features": {
+      "title": "必要なものをすべて",
+      "subtitle": "開発者とSEOプロフェッショナル向けの完全なキーワードリサーチツールキット。",
+      "searchVolume": {
+        "title": "検索ボリューム",
+        "description": "Google Ads APIから正確な月間検索ボリュームデータと過去のトレンドを取得。"
+      },
+      "difficulty": {
+        "title": "キーワード難易度",
+        "description": "DataForSEO搭載のリアルタイムKDスコアでランキングの可能性を評価。"
+      },
+      "suggestions": {
+        "title": "キーワードサジェスト",
+        "description": "Googleオートコンプリートとアルファベット展開を使用したAIキーワード拡張。"
+      },
+      "global": {
+        "title": "グローバル対応",
+        "description": "20カ国・14言語でキーワードを調査可能。"
+      },
+      "api": {
+        "title": "REST API & MCP",
+        "description": "REST APIまたはClaude MCP統合によるプログラマティックアクセス。"
+      },
+      "cache": {
+        "title": "スマートキャッシュ",
+        "description": "設定可能なTTLでSupabaseキャッシュを活用しAPIコストを最小化。"
+      }
+    },
+    "stats": {
+      "countries": "対応国",
+      "languages": "言語",
+      "keywords": "キャッシュ済みKW",
+      "apis": "データソース"
+    },
+    "howItWorks": {
+      "title": "使い方",
+      "subtitle": "3ステップでキーワードインサイトを取得。",
+      "step1": {
+        "title": "キーワード入力",
+        "description": "キーワードを入力し、対象の国と言語を選択。"
+      },
+      "step2": {
+        "title": "データ分析",
+        "description": "検索ボリューム、難易度、CPC、関連サジェストをリアルタイムで取得。"
+      },
+      "step3": {
+        "title": "エクスポート＆活用",
+        "description": "ソート可能なテーブルで結果を確認し、コンテンツ戦略に活用。"
+      }
+    },
+    "cta": {
+      "title": "リサーチを始めましょう",
+      "subtitle": "数秒でキーワードの機会を発見。",
+      "button": "キーワードツールを開く"
+    }
+  },
+  "tool": {
+    "title": "キーワードエクスプローラー",
+    "search": {
+      "placeholder": "キーワードを入力（1行に1つ、またはカンマ区切り）...",
+      "button": "検索",
+      "buttonMulti": "検索 ({count})",
+      "searching": "検索中...",
+      "loading": "データ取得中... 新しいキーワードの場合は数秒かかることがあります。"
+    },
+    "results": {
+      "volume": "検索ボリューム",
+      "difficulty": "キーワード難易度",
+      "cpc": "CPC",
+      "competition": "競合",
+      "suggestions": "キーワードサジェスト",
+      "exportCSV": "CSV",
+      "exportJSON": "JSON"
+    },
+    "difficulty": {
+      "veryEasy": "非常に簡単",
+      "easy": "簡単",
+      "moderate": "中程度",
+      "hard": "難しい",
+      "veryHard": "非常に難しい",
+      "extreme": "極めて困難"
+    }
+  },
+  "features": {
+    "meta": {
+      "title": "機能",
+      "description": "SEOLensの全機能：キーワードリサーチ、難易度スコアリング、関連サジェスト、グローバル対応、REST API、スマートキャッシュ。"
+    },
+    "heading": "キーワードリサーチに",
+    "headingHighlight": "必要なすべて",
+    "subtitle": "SEOLensは完全無料のキーワードリサーチツールを提供します。検索ボリュームから難易度分析まで、必要なものがすべて揃っています。",
+    "items": {
+      "searchVolume": {
+        "title": "検索ボリュームデータ",
+        "description": "Google キーワードプランナーを活用した正確な月間検索ボリュームデータ。すべてのキーワードの真の需要を把握し、データ駆動のコンテンツ戦略を実現。",
+        "details": [
+          "月間平均検索ボリューム",
+          "過去のトレンドデータ",
+          "季節変動の分析",
+          "地域別ボリューム範囲"
+        ]
+      },
+      "difficulty": {
+        "title": "キーワード難易度スコア",
+        "description": "任意のキーワードのランキング難易度を即座に評価。競合レベル、CPCデータ、検索意図を考慮した難易度スコアで明確な判断が可能。",
+        "details": [
+          "簡単 / 中程度 / 難しい の難易度ラベル",
+          "Googleの競合インデックス",
+          "CPC範囲の指標",
+          "実用的なランキング推奨"
+        ]
+      },
+      "suggestions": {
+        "title": "関連キーワードサジェスト",
+        "description": "見逃しているかもしれない高価値キーワードを発見。意味的に関連する用語、ロングテールバリエーション、質問ベースのクエリを提案。",
+        "details": [
+          "意味的に関連するキーワード",
+          "ロングテールキーワード",
+          "質問ベースのクエリ",
+          "各サジェストのボリュームと難易度"
+        ]
+      },
+      "global": {
+        "title": "20カ国以上対応",
+        "description": "20カ国以上、14言語でキーワードリサーチが可能。ターゲット市場に合わせたローカライズされた検索ボリュームと競合データを取得。",
+        "details": [
+          "米国、英国、日本、ドイツ、フランスなど",
+          "14言語オプション",
+          "ローカライズされた検索ボリュームデータ",
+          "国別の競合指標"
+        ]
+      },
+      "api": {
+        "title": "REST APIアクセス",
+        "description": "シンプルなREST APIでキーワードリサーチをツールやワークフローに直接統合。カスタムダッシュボードの構築、コンテンツパイプラインの自動化、SEOツールの構築に最適。",
+        "details": [
+          "シンプルなPOSTエンドポイント",
+          "JSONリクエストとレスポンス",
+          "バッチキーワードリサーチ対応",
+          "MCP（Model Context Protocol）統合"
+        ]
+      },
+      "cache": {
+        "title": "スマートキャッシュ",
+        "description": "Supabaseにキャッシュされた結果で高速な繰り返し検索を実現。同じキーワードクエリはキャッシュから即座に返され、APIコストを削減しレスポンス時間を改善。",
+        "details": [
+          "Supabaseバックエンドのキャッシュ",
+          "繰り返しクエリの即時キャッシュヒット",
+          "APIコストの削減",
+          "自動キャッシュ無効化"
+        ]
+      }
+    },
+    "cta": "キーワードリサーチを始めませんか？",
+    "ctaButton": "キーワードツールを開く"
+  },
+  "pricing": {
+    "meta": {
+      "title": "料金",
+      "description": "SEOLensの料金プラン。キーワードリサーチ、難易度スコア、APIアクセスを含む無料プランから始めましょう。"
+    },
+    "heading": "シンプルで",
+    "headingHighlight": "透明な",
+    "headingSuffix": "料金体系",
+    "subtitle": "無料でキーワードリサーチを開始。クレジットカード不要。",
+    "free": {
+      "name": "無料",
+      "description": "はじめての方に最適",
+      "price": "$0",
+      "period": "/ 月",
+      "features": [
+        "キーワードリサーチツール",
+        "関連キーワードサジェスト",
+        "難易度スコア",
+        "20カ国以上対応",
+        "REST APIアクセス",
+        "1日100回までの検索"
+      ],
+      "cta": "無料で始める"
+    },
+    "pro": {
+      "name": "Pro",
+      "badge": "近日公開",
+      "description": "パワーユーザーとチーム向け",
+      "price": "$19",
+      "period": "/ 月",
+      "features": [
+        "無料プランのすべて",
+        "無制限のAPI呼び出し",
+        "一括キーワードリサーチ（50+）",
+        "優先メールサポート",
+        "CSV / JSONエクスポート"
+      ],
+      "cta": "近日公開"
+    },
+    "contact": "より高い制限やカスタム料金が必要ですか？",
+    "contactLink": "お問い合わせ"
+  },
+  "docs": {
+    "meta": {
+      "title": "ドキュメント",
+      "description": "SEOLens APIドキュメント。REST APIを使用してキーワードリサーチをアプリケーションに統合する方法を説明。"
+    },
+    "heading": "ドキュメント",
+    "subtitle": "SEOLens REST APIでキーワードリサーチをアプリケーションに統合。シンプル、高速、無料で開始できます。",
+    "quickStart": "クイックスタート",
+    "quickStartDescription": "SEOLens APIはキーワードリサーチ用の単一エンドポイントを提供します。キーワードを含むPOSTリクエストを送信し、検索ボリューム、難易度、関連サジェストを取得します。",
+    "endpointDescription": "キーワードをリサーチし、検索ボリューム、難易度、CPC、関連サジェストを取得。",
+    "exampleRequest": "リクエスト例",
+    "exampleResponse": "レスポンス例",
+    "apiReference": "APIリファレンス",
+    "apiReferenceDescription": "すべてのエンドポイント、パラメータ、レスポンス形式の詳細なドキュメント。",
+    "tryTool": "ツールを試す",
+    "tryToolDescription": "ブラウザで直接インタラクティブなキーワードリサーチツールを使用。"
+  },
+  "docsApi": {
+    "meta": {
+      "title": "APIリファレンス",
+      "description": "SEOLensキーワードリサーチAPIの完全なリファレンス。エンドポイント、パラメータ、レスポンス形式、コード例。"
+    },
+    "breadcrumbDocs": "ドキュメント",
+    "heading": "APIリファレンス",
+    "subtitle": "SEOLens REST APIの完全なリファレンス。",
+    "baseUrl": "ベースURL",
+    "authentication": "認証",
+    "authenticationDescription": "APIは現在無料で、認証は不要です。IPアドレスごとにレート制限が適用されます。将来のバージョンでは、より高いレート制限のためにAPIキー認証が導入される可能性があります。",
+    "researchEndpointDescription": "1つまたは複数のキーワードをリサーチし、検索ボリューム、難易度、CPCデータ、関連キーワードサジェストを取得します。",
+    "requestBody": "リクエストボディ",
+    "parameter": "パラメータ",
+    "type": "型",
+    "required": "必須",
+    "description": "説明",
+    "keywordDescription": "リサーチする単一キーワード",
+    "keywordsDescription": "キーワードの配列（最大50件）。次の代わりに使用：",
+    "keywordsNote": "次のいずれかを指定：",
+    "keywordsNoteOr": "または",
+    "keywordsNoteEnd": "（両方は不可）。",
+    "countryCodeDescription": "国コード（デフォルト: \"US\"）。選択肢: US, JP, GB, DE, FR, CA, AU, BR, IN, KR, MX, ES, IT, NL, SE, TW, TH, VN, ID, PH",
+    "languageCodeDescription": "言語コード（デフォルト: \"en\"）。選択肢: en, ja, de, fr, es, pt, it, nl, ko, zh, th, vi, id, sv",
+    "responseSingle": "レスポンス形式（単一キーワード）",
+    "responseBatch": "レスポンス形式（バッチ）",
+    "codeExamples": "コード例",
+    "errorCodes": "エラーコード",
+    "status": "ステータス",
+    "errors": {
+      "200": "成功 - キーワードデータが返されました",
+      "400": "Bad Request - パラメータが不足または無効",
+      "429": "レート制限超過 - リクエストが多すぎます",
+      "500": "内部サーバーエラー - しばらくしてから再試行してください"
+    },
+    "rateLimits": "レート制限",
+    "rateLimitsDescription": "無料プランでは、すべてのユーザーの公平な利用を確保するためにレート制限が適用されます。",
+    "rateLimitItems": [
+      "IPアドレスごとに1日100リクエスト",
+      "バッチリクエストごとに50キーワード",
+      "キャッシュ済みの結果はレート制限にカウントされません"
+    ]
+  },
+  "blog": {
+    "meta": {
+      "title": "ブログ",
+      "description": "SEOLensブログ - キーワードリサーチ、SEO戦略、コンテンツ最適化に関するヒント、チュートリアル、インサイト。"
+    },
+    "heading": "ブログ",
+    "badge": "近日公開",
+    "subtitle": "キーワードリサーチ、SEO戦略、コンテンツ最適化に関する記事を準備中です。",
+    "subtitleSecondary": "チュートリアル、ケーススタディ、業界インサイトを近日公開予定。",
+    "cta": "キーワードツールを試す"
+  },
+  "blogPost": {
+    "meta": {
+      "title": "ブログ記事",
+      "description": "SEOLensブログ記事。"
+    },
+    "notFoundHeading": "記事が見つかりません",
+    "notFoundDescription": "このブログ記事はまだ存在しないか、執筆中です。",
+    "notFoundSubtitle": "SEO、キーワードリサーチ、コンテンツ戦略に関するブログを近日公開予定です。",
+    "backToBlog": "ブログに戻る",
+    "tryTool": "ツールを試す"
+  },
+  "privacy": {
+    "meta": {
+      "title": "プライバシーポリシー",
+      "description": "SEOLensのプライバシーポリシー。データの収集、使用、保護の方法について説明します。"
+    },
+    "heading": "プライバシーポリシー",
+    "lastUpdated": "最終更新: 2026年2月",
+    "intro": "SEOLens（「当社」）は、seolens.devウェブサイトおよびAPIを運営しています。このプライバシーポリシーは、サービスを利用する際の情報の収集、使用、開示、保護の方法を説明します。",
+    "informationWeCollect": "収集する情報",
+    "usageData": "利用データ",
+    "usageDataDescription": "サービスの訪問または使用時に、IPアドレス、ブラウザの種類、オペレーティングシステム、参照URL、閲覧ページ、訪問日時などの情報を自動的に収集します。このデータは分析とサービスの改善に使用されます。",
+    "searchQueries": "検索クエリ",
+    "searchQueriesDescription": "ツールまたはAPIを通じてリサーチするキーワードは、結果を提供するために処理されます。すべてのユーザーのパフォーマンスを向上させるために、キーワード結果をキャッシュする場合があります。キャッシュされたキーワードデータは個別のユーザーに紐づけられません。",
+    "cookies": "Cookieとトラッキング",
+    "cookiesDescription": "言語設定と基本的なサイト機能のために必要なCookieを使用しています。サードパーティの広告Cookieやトラッキングピクセルは使用していません。",
+    "howWeUse": "情報の利用方法",
+    "howWeUseItems": [
+      "キーワードリサーチサービスの提供と維持",
+      "サービスの改善、パーソナライズ、拡張",
+      "利用パターンとトレンドの理解と分析",
+      "技術的問題や不正利用の検出、防止、対処",
+      "レート制限の実施とAPIの公平な利用の確保"
+    ],
+    "dataRetention": "データ保持",
+    "dataRetentionIntro": "このポリシーに記載された目的を達成するために必要な期間、利用データを保持します。具体的には：",
+    "dataRetentionItems": [
+      "キャッシュされたキーワード結果はパフォーマンス向上のため最大30日間保持",
+      "サーバーログ（IPアドレスを含む）は最大90日間保持",
+      "集約された分析データ（個人を特定できないもの）は無期限に保持される場合があります"
+    ],
+    "thirdParty": "サードパーティサービス",
+    "thirdPartyIntro": "SEOLensの運営に以下のサードパーティサービスを使用しています：",
+    "thirdPartyVercel": "ホスティングとデプロイ",
+    "thirdPartySupabase": "データベースとキャッシュ",
+    "thirdPartyGoogle": "キーワードデータソース",
+    "contactUs": "お問い合わせ",
+    "contactDescription": "このプライバシーポリシーまたはデータの取り扱いについてご質問がある場合は、以下までお問い合わせください："
+  },
+  "terms": {
+    "meta": {
+      "title": "利用規約",
+      "description": "SEOLensの利用規約。キーワードリサーチツールとAPIの利用条件をお読みください。"
+    },
+    "heading": "利用規約",
+    "lastUpdated": "最終更新: 2026年2月",
+    "acceptance": "利用規約への同意",
+    "acceptanceDescription": "SEOLens（以下「本サービス」）（seolens.devで利用可能）にアクセスまたは使用することにより、本利用規約（以下「本規約」）に拘束されることに同意するものとします。本規約のすべてに同意しない場合は、本サービスを使用しないでください。当社は随時本規約を更新する権利を留保します。変更後の本サービスの継続使用は、変更された規約の承諾を構成します。",
+    "serviceDescription": "サービスの説明",
+    "serviceDescriptionIntro": "SEOLensは、ユーザーが以下を行える無料のキーワードリサーチツールとREST APIを提供します：",
+    "serviceDescriptionItems": [
+      "キーワードの検索ボリューム、競合、CPCデータのリサーチ",
+      "関連キーワードサジェストの発見",
+      "SEO目的のキーワード難易度の評価",
+      "REST APIを通じたプログラマティックなキーワードデータへのアクセス"
+    ],
+    "serviceDescriptionDisclaimer": "本サービスは、明示または黙示を問わず、いかなる種類の保証もなく「現状のまま」「利用可能な状態で」提供されます。",
+    "acceptableUse": "許容される利用",
+    "acceptableUseIntro": "以下の目的で本サービスを使用しないことに同意するものとします：",
+    "acceptableUseItems": [
+      "サービスインフラの過負荷、無効化、または障害",
+      "レート制限の回避またはAPIの不正利用",
+      "サービスから取得したデータのスクレイピングまたは転売",
+      "文書化されたAPIエンドポイント以外での自動化ツールによる過度のアクセス",
+      "適用される法律または規制の違反"
+    ],
+    "limitations": "責任の制限",
+    "limitationsIntro": "適用法が許容する最大限の範囲において、SEOLensおよびその運営者は、以下から生じるいかなる間接的、偶発的、特別、結果的、または懲罰的損害、あるいは直接的または間接的に発生した利益や収益の損失、データ、使用、のれん、その他の無形損失について責任を負わないものとします：",
+    "limitationsItems": [
+      "本サービスの使用または使用不能",
+      "キーワードデータ、検索ボリューム、難易度スコアの不正確さ",
+      "本サービスの中断、停止、または終了",
+      "本サービスを通じて送信されたバグ、ウイルス、またはエラー"
+    ],
+    "dataAccuracy": "データの正確性",
+    "dataAccuracyDescription": "検索ボリューム、CPC範囲、難易度スコアを含むキーワードデータは、サードパーティプロバイダーから提供されており、情報提供のみを目的としています。このデータの正確性、完全性、適時性を保証するものではありません。SEOに関する意思決定は、複数のデータソースと専門的な判断に基づいて行うべきです。",
+    "changes": "本規約の変更",
+    "changesDescription": "当社は随時本規約を修正または変更する権利を留保します。重要な変更がある場合は、新しい規約が発効する少なくとも30日前にサービス上に通知を掲載します。何が重要な変更に当たるかは、当社の単独の裁量により決定されます。そのような変更後の本サービスの継続使用は、更新された規約の承諾を構成します。",
+    "contactUs": "お問い合わせ",
+    "contactDescription": "本利用規約についてご質問がある場合は、以下までお問い合わせください："
+  },
+  "footer": {
+    "product": "プロダクト",
+    "resources": "リソース",
+    "legal": "法的情報",
+    "features": "機能",
+    "pricing": "料金",
+    "changelog": "変更履歴",
+    "apiDocs": "APIドキュメント",
+    "blog": "ブログ",
+    "documentation": "ドキュメント",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyright": "© {year} SEOLens. All rights reserved."
+  }
+}

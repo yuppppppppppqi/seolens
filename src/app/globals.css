@@ -1,26 +1,71 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Background scale */
+  --sl-bg-base: #0A0E17;
+  --sl-bg-surface: #111827;
+  --sl-bg-elevated: #1A2235;
+  --sl-bg-hover: #1F2A3F;
+
+  /* Border */
+  --sl-border: #1E293B;
+  --sl-border-strong: #334155;
+
+  /* Text */
+  --sl-text-primary: #F1F5F9;
+  --sl-text-secondary: #94A3B8;
+  --sl-text-muted: #64748B;
+
+  /* Accent */
+  --sl-accent: #06B6D4;
+  --sl-accent-hover: #22D3EE;
+
+  /* Status */
+  --sl-success: #10B981;
+  --sl-warning: #F59E0B;
+  --sl-error: #F43F5E;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-sl-bg-base: var(--sl-bg-base);
+  --color-sl-bg-surface: var(--sl-bg-surface);
+  --color-sl-bg-elevated: var(--sl-bg-elevated);
+  --color-sl-bg-hover: var(--sl-bg-hover);
+  --color-sl-border: var(--sl-border);
+  --color-sl-border-strong: var(--sl-border-strong);
+  --color-sl-text-primary: var(--sl-text-primary);
+  --color-sl-text-secondary: var(--sl-text-secondary);
+  --color-sl-text-muted: var(--sl-text-muted);
+  --color-sl-accent: var(--sl-accent);
+  --color-sl-accent-hover: var(--sl-accent-hover);
+  --color-sl-success: var(--sl-success);
+  --color-sl-warning: var(--sl-warning);
+  --color-sl-error: var(--sl-error);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+body {
+  background: var(--sl-bg-base);
+  color: var(--sl-text-primary);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Scrollbar styling for dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--sl-bg-base);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--sl-border-strong);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--sl-text-muted);
 }

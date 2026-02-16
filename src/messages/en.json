@@ -1,0 +1,402 @@
+{
+  "metadata": {
+    "title": "SEOLens - Free Keyword Research Tool",
+    "description": "Discover search volume, keyword difficulty, CPC, and competition data for any keyword worldwide."
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "pricing": "Pricing",
+    "docs": "Docs",
+    "blog": "Blog",
+    "openTool": "Open Tool"
+  },
+  "landing": {
+    "meta": {
+      "title": "Free Keyword Research Tool",
+      "description": "Research keywords with real-time search volume, difficulty scores, CPC data, and AI-powered suggestions."
+    },
+    "hero": {
+      "badge": "Free & Open Source",
+      "title": "Keyword Research,",
+      "titleHighlight": "Made Simple",
+      "subtitle": "Just type a keyword and instantly get search volume, difficulty, CPC, and competition data. No signup, no complexity.",
+      "cta": "Search",
+      "ctaSecondary": "View API Docs",
+      "searchPlaceholder": "Enter a keyword to research..."
+    },
+    "features": {
+      "title": "Everything You Need",
+      "subtitle": "A complete keyword research toolkit built for developers and SEO professionals.",
+      "searchVolume": {
+        "title": "Search Volume",
+        "description": "Accurate monthly search volume data from Google Ads API with historical trends."
+      },
+      "difficulty": {
+        "title": "Keyword Difficulty",
+        "description": "Real-time KD scores powered by DataForSEO to gauge ranking potential."
+      },
+      "suggestions": {
+        "title": "Keyword Suggestions",
+        "description": "AI-powered keyword expansion using Google Autocomplete with alphabet crawling."
+      },
+      "global": {
+        "title": "Global Coverage",
+        "description": "Research keywords across 20 countries and 14 languages worldwide."
+      },
+      "api": {
+        "title": "REST API & MCP",
+        "description": "Programmatic access via REST API or Claude MCP integration."
+      },
+      "cache": {
+        "title": "Smart Caching",
+        "description": "Supabase-backed cache with configurable TTLs to minimize API costs."
+      }
+    },
+    "stats": {
+      "countries": "Countries",
+      "languages": "Languages",
+      "keywords": "Keywords Cached",
+      "apis": "Data Sources"
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "subtitle": "Three simple steps to keyword insights.",
+      "step1": {
+        "title": "Enter Keywords",
+        "description": "Type one or multiple keywords, select your target country and language."
+      },
+      "step2": {
+        "title": "Analyze Data",
+        "description": "We fetch search volume, difficulty, CPC, and related suggestions in real-time."
+      },
+      "step3": {
+        "title": "Export & Act",
+        "description": "Review results in sortable tables and use the data to optimize your content strategy."
+      }
+    },
+    "cta": {
+      "title": "Ready to Research?",
+      "subtitle": "Start discovering keyword opportunities in seconds.",
+      "button": "Open Keyword Tool"
+    }
+  },
+  "tool": {
+    "title": "Keyword Explorer",
+    "search": {
+      "placeholder": "Enter keywords (one per line or comma-separated)...",
+      "button": "Search",
+      "buttonMulti": "Search ({count})",
+      "searching": "Searching...",
+      "loading": "Fetching data... This may take a few seconds for new keywords."
+    },
+    "results": {
+      "volume": "Volume",
+      "difficulty": "Keyword Difficulty",
+      "cpc": "CPC",
+      "competition": "Competition",
+      "suggestions": "Keyword Suggestions",
+      "exportCSV": "CSV",
+      "exportJSON": "JSON"
+    },
+    "difficulty": {
+      "veryEasy": "Very Easy",
+      "easy": "Easy",
+      "moderate": "Moderate",
+      "hard": "Hard",
+      "veryHard": "Very Hard",
+      "extreme": "Extreme"
+    }
+  },
+  "features": {
+    "meta": {
+      "title": "Features",
+      "description": "Explore all SEOLens features: keyword research, difficulty scoring, related suggestions, global coverage, REST API, and smart caching."
+    },
+    "heading": "Everything You Need for",
+    "headingHighlight": "Keyword Research",
+    "subtitle": "SEOLens provides a comprehensive suite of keyword research tools, completely free. From search volume to difficulty analysis, get everything you need in one place.",
+    "items": {
+      "searchVolume": {
+        "title": "Search Volume Data",
+        "description": "Get accurate monthly search volume data powered by Google Keyword Planner. Understand the true demand behind every keyword to make data-driven content decisions.",
+        "details": [
+          "Average monthly search volume",
+          "Historical trend data",
+          "Seasonal fluctuation insights",
+          "Volume ranges by region"
+        ]
+      },
+      "difficulty": {
+        "title": "Keyword Difficulty Scores",
+        "description": "Instantly gauge how hard it will be to rank for any keyword. Our difficulty scores factor in competition levels, CPC data, and search intent to give you a clear picture.",
+        "details": [
+          "Easy / Medium / Hard difficulty labels",
+          "Competition index from Google",
+          "CPC range indicators",
+          "Actionable ranking recommendations"
+        ]
+      },
+      "suggestions": {
+        "title": "Related Keyword Suggestions",
+        "description": "Discover high-value keyword opportunities you might be missing. Our suggestion engine surfaces semantically related terms, long-tail variations, and question-based queries.",
+        "details": [
+          "Semantically related keywords",
+          "Long-tail keyword variations",
+          "Question-based queries",
+          "Volume and difficulty for each suggestion"
+        ]
+      },
+      "global": {
+        "title": "20+ Country Coverage",
+        "description": "Research keywords in over 20 countries and 14 languages. Get localized search volume and competition data tailored to your target market.",
+        "details": [
+          "US, UK, Japan, Germany, France, and more",
+          "14 language options",
+          "Localized search volume data",
+          "Country-specific competition metrics"
+        ]
+      },
+      "api": {
+        "title": "REST API Access",
+        "description": "Integrate keyword research directly into your tools and workflows with our simple REST API. Perfect for building custom dashboards, automating content pipelines, or powering SEO tools.",
+        "details": [
+          "Simple POST endpoint",
+          "JSON request and response",
+          "Batch keyword research support",
+          "MCP (Model Context Protocol) integration"
+        ]
+      },
+      "cache": {
+        "title": "Smart Caching",
+        "description": "Results are cached in Supabase for lightning-fast repeated lookups. The same keyword query returns instantly from cache, reducing API costs and improving response times.",
+        "details": [
+          "Supabase-backed result caching",
+          "Instant cache hits for repeated queries",
+          "Reduced API costs",
+          "Automatic cache invalidation"
+        ]
+      }
+    },
+    "cta": "Ready to start your keyword research?",
+    "ctaButton": "Open Keyword Tool"
+  },
+  "pricing": {
+    "meta": {
+      "title": "Pricing",
+      "description": "SEOLens pricing plans. Start with our free plan including keyword research, difficulty scores, and API access."
+    },
+    "heading": "Simple,",
+    "headingHighlight": "Transparent",
+    "headingSuffix": "Pricing",
+    "subtitle": "Start researching keywords for free. No credit card required.",
+    "free": {
+      "name": "Free",
+      "description": "Perfect for getting started",
+      "price": "$0",
+      "period": "/ month",
+      "features": [
+        "Keyword research tool",
+        "Related keyword suggestions",
+        "Difficulty scores",
+        "20+ countries supported",
+        "REST API access",
+        "Up to 100 lookups / day"
+      ],
+      "cta": "Get Started Free"
+    },
+    "pro": {
+      "name": "Pro",
+      "badge": "Coming Soon",
+      "description": "For power users and teams",
+      "price": "$19",
+      "period": "/ month",
+      "features": [
+        "Everything in Free",
+        "Unlimited API calls",
+        "Bulk keyword research (50+)",
+        "Priority email support",
+        "Export to CSV / JSON"
+      ],
+      "cta": "Coming Soon"
+    },
+    "contact": "Need higher limits or custom pricing?",
+    "contactLink": "Contact us"
+  },
+  "docs": {
+    "meta": {
+      "title": "Documentation",
+      "description": "SEOLens API documentation. Learn how to integrate keyword research into your applications with our REST API."
+    },
+    "heading": "Documentation",
+    "subtitle": "Integrate keyword research into your applications with the SEOLens REST API. Simple, fast, and free to get started.",
+    "quickStart": "Quick Start",
+    "quickStartDescription": "The SEOLens API provides a single endpoint for keyword research. Send a POST request with your keyword and get back search volume, difficulty, and related suggestions.",
+    "endpointDescription": "Research a keyword and get search volume, difficulty, CPC, and related suggestions.",
+    "exampleRequest": "Example Request",
+    "exampleResponse": "Example Response",
+    "apiReference": "API Reference",
+    "apiReferenceDescription": "Detailed documentation for all endpoints, parameters, and response formats.",
+    "tryTool": "Try the Tool",
+    "tryToolDescription": "Use the interactive keyword research tool directly in your browser."
+  },
+  "docsApi": {
+    "meta": {
+      "title": "API Reference",
+      "description": "Complete API reference for the SEOLens keyword research API. Endpoints, parameters, response formats, and code examples."
+    },
+    "breadcrumbDocs": "Docs",
+    "heading": "API Reference",
+    "subtitle": "Complete reference for the SEOLens REST API.",
+    "baseUrl": "Base URL",
+    "authentication": "Authentication",
+    "authenticationDescription": "The API is currently free and does not require authentication. Rate limits apply per IP address. Future versions may introduce API key authentication for higher rate limits.",
+    "researchEndpointDescription": "Research one or more keywords and retrieve search volume, difficulty, CPC data, and related keyword suggestions.",
+    "requestBody": "Request Body",
+    "parameter": "Parameter",
+    "type": "Type",
+    "required": "Required",
+    "description": "Description",
+    "keywordDescription": "Single keyword to research",
+    "keywordsDescription": "Array of keywords (max 50). Use instead of",
+    "keywordsNote": "Provide either",
+    "keywordsNoteOr": "or",
+    "keywordsNoteEnd": ", not both.",
+    "countryCodeDescription": "Country code (default: \"US\"). Options: US, JP, GB, DE, FR, CA, AU, BR, IN, KR, MX, ES, IT, NL, SE, TW, TH, VN, ID, PH",
+    "languageCodeDescription": "Language code (default: \"en\"). Options: en, ja, de, fr, es, pt, it, nl, ko, zh, th, vi, id, sv",
+    "responseSingle": "Response Format (Single Keyword)",
+    "responseBatch": "Response Format (Batch)",
+    "codeExamples": "Code Examples",
+    "errorCodes": "Error Codes",
+    "status": "Status",
+    "errors": {
+      "200": "Success - keyword data returned",
+      "400": "Bad Request - missing or invalid parameters",
+      "429": "Rate Limit Exceeded - too many requests",
+      "500": "Internal Server Error - please try again later"
+    },
+    "rateLimits": "Rate Limits",
+    "rateLimitsDescription": "The free tier is rate-limited to ensure fair usage for all users.",
+    "rateLimitItems": [
+      "100 requests per day per IP address",
+      "50 keywords per batch request",
+      "Cached results do not count against the rate limit"
+    ]
+  },
+  "blog": {
+    "meta": {
+      "title": "Blog",
+      "description": "SEOLens blog - tips, tutorials, and insights on keyword research, SEO strategy, and content optimization."
+    },
+    "heading": "Blog",
+    "badge": "Coming Soon",
+    "subtitle": "We are working on articles about keyword research, SEO strategy, and content optimization.",
+    "subtitleSecondary": "Check back soon for tutorials, case studies, and industry insights.",
+    "cta": "Try the Keyword Tool"
+  },
+  "blogPost": {
+    "meta": {
+      "title": "Blog Post",
+      "description": "SEOLens blog post."
+    },
+    "notFoundHeading": "Post Not Found",
+    "notFoundDescription": "This blog post does not exist yet or is still being written.",
+    "notFoundSubtitle": "Our blog is coming soon with articles on SEO, keyword research, and content strategy.",
+    "backToBlog": "Back to Blog",
+    "tryTool": "Try the Tool"
+  },
+  "privacy": {
+    "meta": {
+      "title": "Privacy Policy",
+      "description": "SEOLens privacy policy. Learn how we collect, use, and protect your data."
+    },
+    "heading": "Privacy Policy",
+    "lastUpdated": "Last updated: February 2026",
+    "intro": "SEOLens (\"we\", \"our\", or \"us\") operates the seolens.dev website and API. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our service.",
+    "informationWeCollect": "Information We Collect",
+    "usageData": "Usage Data",
+    "usageDataDescription": "We automatically collect certain information when you visit or use our service, including your IP address, browser type, operating system, referring URLs, pages viewed, and the dates and times of your visits. This data is used for analytics and to improve the service.",
+    "searchQueries": "Search Queries",
+    "searchQueriesDescription": "Keywords you research through our tool or API are processed to provide results. We may cache keyword results to improve performance for all users. Cached keyword data is not linked to individual users.",
+    "cookies": "Cookies and Tracking",
+    "cookiesDescription": "We use essential cookies for locale preferences and basic site functionality. We do not use third-party advertising cookies or tracking pixels.",
+    "howWeUse": "How We Use Your Information",
+    "howWeUseItems": [
+      "To provide and maintain our keyword research service",
+      "To improve, personalize, and expand our service",
+      "To understand and analyze usage patterns and trends",
+      "To detect, prevent, and address technical issues or abuse",
+      "To enforce rate limits and ensure fair usage of the API"
+    ],
+    "dataRetention": "Data Retention",
+    "dataRetentionIntro": "We retain usage data for a limited period necessary to fulfill the purposes outlined in this policy. Specifically:",
+    "dataRetentionItems": [
+      "Cached keyword results are retained for up to 30 days to improve performance",
+      "Server logs (including IP addresses) are retained for up to 90 days",
+      "Aggregated analytics data (non-personally identifiable) may be retained indefinitely"
+    ],
+    "thirdParty": "Third-Party Services",
+    "thirdPartyIntro": "We use the following third-party services to operate SEOLens:",
+    "thirdPartyVercel": "Hosting and deployment",
+    "thirdPartySupabase": "Database and caching",
+    "thirdPartyGoogle": "Keyword data source",
+    "contactUs": "Contact Us",
+    "contactDescription": "If you have any questions about this Privacy Policy or our data practices, please contact us at:"
+  },
+  "terms": {
+    "meta": {
+      "title": "Terms of Service",
+      "description": "SEOLens terms of service. Read the terms and conditions for using our keyword research tool and API."
+    },
+    "heading": "Terms of Service",
+    "lastUpdated": "Last updated: February 2026",
+    "acceptance": "Acceptance of Terms",
+    "acceptanceDescription": "By accessing or using SEOLens (the \"Service\"), available at seolens.dev, you agree to be bound by these Terms of Service (\"Terms\"). If you do not agree to all of these Terms, do not use the Service. We reserve the right to update these Terms at any time. Continued use of the Service after changes constitutes acceptance of the modified Terms.",
+    "serviceDescription": "Service Description",
+    "serviceDescriptionIntro": "SEOLens provides a free keyword research tool and REST API that allows users to:",
+    "serviceDescriptionItems": [
+      "Research keyword search volume, competition, and CPC data",
+      "Discover related keyword suggestions",
+      "Assess keyword difficulty for SEO purposes",
+      "Access keyword data programmatically via the REST API"
+    ],
+    "serviceDescriptionDisclaimer": "The Service is provided \"as is\" and \"as available\" without warranties of any kind, either express or implied.",
+    "acceptableUse": "Acceptable Use",
+    "acceptableUseIntro": "You agree not to use the Service to:",
+    "acceptableUseItems": [
+      "Overload, disable, or impair the Service infrastructure",
+      "Circumvent rate limits or abuse the API",
+      "Scrape or resell data obtained from the Service",
+      "Use automated tools to excessively access the Service beyond documented API endpoints",
+      "Violate any applicable laws or regulations"
+    ],
+    "limitations": "Limitations of Liability",
+    "limitationsIntro": "To the maximum extent permitted by applicable law, SEOLens and its operators shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses resulting from:",
+    "limitationsItems": [
+      "Your use of or inability to use the Service",
+      "Any inaccuracies in keyword data, search volumes, or difficulty scores",
+      "Any interruption, suspension, or termination of the Service",
+      "Any bugs, viruses, or errors transmitted through the Service"
+    ],
+    "dataAccuracy": "Data Accuracy",
+    "dataAccuracyDescription": "Keyword data, including search volumes, CPC ranges, and difficulty scores, is sourced from third-party providers and is provided for informational purposes only. We do not guarantee the accuracy, completeness, or timeliness of this data. SEO decisions should be made using multiple data sources and professional judgment.",
+    "changes": "Changes to These Terms",
+    "changesDescription": "We reserve the right to modify or replace these Terms at any time. If a revision is material, we will provide at least 30 days notice prior to any new terms taking effect by posting a notice on the Service. What constitutes a material change will be determined at our sole discretion. Your continued use of the Service after such modifications constitutes your acceptance of the updated Terms.",
+    "contactUs": "Contact Us",
+    "contactDescription": "If you have any questions about these Terms of Service, please contact us at:"
+  },
+  "footer": {
+    "product": "Product",
+    "resources": "Resources",
+    "legal": "Legal",
+    "features": "Features",
+    "pricing": "Pricing",
+    "changelog": "Changelog",
+    "apiDocs": "API Docs",
+    "blog": "Blog",
+    "documentation": "Documentation",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© {year} SEOLens. All rights reserved."
+  }
+}
