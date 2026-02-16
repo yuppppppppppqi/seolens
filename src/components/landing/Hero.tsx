@@ -1,11 +1,17 @@
 "use client";
 
 import { useState } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { useRouter } from "@/i18n/navigation";
+
+const LOCALE_DEFAULTS: Record<string, { country: string; lang: string }> = {
+  ja: { country: "JP", lang: "ja" },
+  en: { country: "US", lang: "en" },
+};
 
 export default function Hero() {
   const t = useTranslations("landing.hero");
+  const locale = useLocale();
   const router = useRouter();
   const [keyword, setKeyword] = useState("");
 
@@ -13,7 +19,10 @@ export default function Hero() {
     e.preventDefault();
     const trimmed = keyword.trim();
     if (!trimmed) return;
-    router.push(`/tool?q=${encodeURIComponent(trimmed)}`);
+    const defaults = LOCALE_DEFAULTS[locale] ?? LOCALE_DEFAULTS.en;
+    router.push(
+      `/tool?q=${encodeURIComponent(trimmed)}&country=${defaults.country}&lang=${defaults.lang}`
+    );
   }
 
   return (

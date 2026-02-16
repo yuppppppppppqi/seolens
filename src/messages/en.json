@@ -97,7 +97,11 @@
       "competition": "Competition",
       "suggestions": "Keyword Suggestions",
       "exportCSV": "CSV",
-      "exportJSON": "JSON"
+      "exportJSON": "JSON",
+      "volumeTooltip": "The average number of times this keyword is searched per month on Google. Higher volume means more potential traffic.",
+      "difficultyTooltip": "How hard it is to rank on the first page of Google for this keyword. Lower scores are easier to rank for.",
+      "cpcTooltip": "Cost Per Click — the average price advertisers pay when someone clicks their ad for this keyword. Higher CPC often means higher commercial value.",
+      "competitionTooltip": "How many advertisers are bidding on this keyword. HIGH means lots of competition, LOW means fewer advertisers."
     },
     "difficulty": {
       "veryEasy": "Very Easy",

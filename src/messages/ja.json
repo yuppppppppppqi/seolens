@@ -97,7 +97,11 @@
       "competition": "競合",
       "suggestions": "キーワードサジェスト",
       "exportCSV": "CSV",
-      "exportJSON": "JSON"
+      "exportJSON": "JSON",
+      "volumeTooltip": "このキーワードがGoogleで月間に検索される平均回数。数値が大きいほど、より多くのアクセスが見込めます。",
+      "difficultyTooltip": "このキーワードでGoogle検索の上位に表示される難しさ。スコアが低いほど上位表示しやすいです。",
+      "cpcTooltip": "クリック単価 — 広告主がこのキーワードの広告1クリックに支払う平均費用。CPCが高いほど商業的価値が高い傾向があります。",
+      "competitionTooltip": "このキーワードに入札している広告主の多さ。HIGHは競争が激しく、LOWは広告主が少ないことを意味します。"
     },
     "difficulty": {
       "veryEasy": "非常に簡単",

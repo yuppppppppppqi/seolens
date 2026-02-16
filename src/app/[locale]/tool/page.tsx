@@ -6,6 +6,7 @@ import { useTranslations } from "next-intl";
 import SearchBar from "@/components/tool/SearchBar";
 import ResultsTable from "@/components/tool/ResultsTable";
 import DifficultyBadge from "@/components/tool/DifficultyBadge";
+import Tooltip from "@/components/ui/Tooltip";
 import type { SearchResult } from "@/types";
 
 function formatNumber(n: number | null): string {
@@ -93,8 +94,17 @@ function ToolPageContent() {
     const q = searchParams.get("q");
     if (q) {
       initialSearchDone.current = true;
-      const countryCode = localStorage.getItem("seolens_country") || "US";
-      const languageCode = localStorage.getItem("seolens_language") || "en";
+      const countryCode =
+        searchParams.get("country") ||
+        localStorage.getItem("seolens_country") ||
+        "US";
+      const languageCode =
+        searchParams.get("lang") ||
+        localStorage.getItem("seolens_language") ||
+        "en";
+      // Also persist the choice so SearchBar picks it up
+      localStorage.setItem("seolens_country", countryCode);
+      localStorage.setItem("seolens_language", languageCode);
       handleSearch(q, countryCode, languageCode);
     }
   }, [searchParams, handleSearch]);
@@ -151,7 +161,9 @@ function ToolPageContent() {
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
               <div>
                 <p className="text-xs text-sl-text-muted uppercase font-medium tracking-wider">
-                  {t("results.volume")}
+                  <Tooltip text={t("results.volumeTooltip")}>
+                    {t("results.volume")}
+                  </Tooltip>
                 </p>
                 <p className="text-2xl font-bold text-sl-text-primary font-mono tabular-nums mt-1">
                   {formatNumber(result.metrics?.avgMonthlySearches ?? null)}
@@ -159,7 +171,9 @@ function ToolPageContent() {
               </div>
               <div>
                 <p className="text-xs text-sl-text-muted uppercase font-medium tracking-wider">
-                  {t("results.difficulty")}
+                  <Tooltip text={t("results.difficultyTooltip")}>
+                    {t("results.difficulty")}
+                  </Tooltip>
                 </p>
                 <div className="mt-2">
                   <DifficultyBadge difficulty={result.difficulty} />
@@ -167,7 +181,9 @@ function ToolPageContent() {
               </div>
               <div>
                 <p className="text-xs text-sl-text-muted uppercase font-medium tracking-wider">
-                  {t("results.cpc")}
+                  <Tooltip text={t("results.cpcTooltip")}>
+                    {t("results.cpc")}
+                  </Tooltip>
                 </p>
                 <p className="text-lg font-semibold text-sl-text-primary font-mono tabular-nums mt-1">
                   {formatCpc(
@@ -178,7 +194,9 @@ function ToolPageContent() {
               </div>
               <div>
                 <p className="text-xs text-sl-text-muted uppercase font-medium tracking-wider">
-                  {t("results.competition")}
+                  <Tooltip text={t("results.competitionTooltip")}>
+                    {t("results.competition")}
+                  </Tooltip>
                 </p>
                 <p className="text-lg font-semibold text-sl-text-primary mt-1">
                   {result.metrics?.competition ?? "-"}

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import DifficultyBadge from "./DifficultyBadge";
+import Tooltip from "@/components/ui/Tooltip";
 import { exportToCSV, exportToJSON } from "@/lib/export";
 import type { KeywordSuggestion } from "@/types";
 
@@ -111,24 +112,33 @@ export default function ResultsTable({ suggestions }: ResultsTableProps) {
                 className="px-4 py-3 text-right text-xs font-medium text-sl-text-muted uppercase cursor-pointer hover:text-sl-text-secondary"
                 onClick={() => handleSort("avgMonthlySearches")}
               >
-                {t("volume")}
+                <Tooltip text={t("volumeTooltip")}>
+                  {t("volume")}
+                </Tooltip>
                 {sortIndicator("avgMonthlySearches")}
               </th>
               <th
                 className="px-4 py-3 text-center text-xs font-medium text-sl-text-muted uppercase cursor-pointer hover:text-sl-text-secondary"
                 onClick={() => handleSort("difficulty")}
               >
-                KD{sortIndicator("difficulty")}
+                <Tooltip text={t("difficultyTooltip")}>
+                  KD
+                </Tooltip>
+                {sortIndicator("difficulty")}
               </th>
               <th
                 className="px-4 py-3 text-right text-xs font-medium text-sl-text-muted uppercase cursor-pointer hover:text-sl-text-secondary"
                 onClick={() => handleSort("cpcLow")}
               >
-                {t("cpc")}
+                <Tooltip text={t("cpcTooltip")}>
+                  {t("cpc")}
+                </Tooltip>
                 {sortIndicator("cpcLow")}
               </th>
               <th className="px-4 py-3 text-center text-xs font-medium text-sl-text-muted uppercase">
-                {t("competition")}
+                <Tooltip text={t("competitionTooltip")}>
+                  {t("competition")}
+                </Tooltip>
               </th>
             </tr>
           </thead>
