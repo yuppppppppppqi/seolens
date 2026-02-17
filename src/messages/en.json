@@ -9,7 +9,8 @@
     "pricing": "Pricing",
     "docs": "Docs",
     "blog": "Blog",
-    "openTool": "Open Tool"
+    "openTool": "Open Tool",
+    "apiKeys": "API Keys"
   },
   "landing": {
     "meta": {
@@ -17,7 +18,7 @@
       "description": "Research keywords with real-time search volume, difficulty scores, CPC data, and AI-powered suggestions."
     },
     "hero": {
-      "badge": "Free & Open Source",
+      "badge": "Free to Use",
       "title": "Keyword Research,",
       "titleHighlight": "Made Simple",
       "subtitle": "Just type a keyword and instantly get search volume, difficulty, CPC, and competition data. No signup, no complexity.",
@@ -254,7 +255,7 @@
     "subtitle": "Complete reference for the SEOLens REST API.",
     "baseUrl": "Base URL",
     "authentication": "Authentication",
-    "authenticationDescription": "The API is currently free and does not require authentication. Rate limits apply per IP address. Future versions may introduce API key authentication for higher rate limits.",
+    "authenticationDescription": "All API requests require an API key. Sign in to your dashboard to create a free API key. Include it in every request via the Authorization header or x-api-key header.",
     "researchEndpointDescription": "Research one or more keywords and retrieve search volume, difficulty, CPC data, and related keyword suggestions.",
     "requestBody": "Request Body",
     "parameter": "Parameter",
@@ -275,6 +276,7 @@
     "status": "Status",
     "errors": {
       "200": "Success - keyword data returned",
+      "401": "Unauthorized - missing or invalid API key",
       "400": "Bad Request - missing or invalid parameters",
       "429": "Rate Limit Exceeded - too many requests",
       "500": "Internal Server Error - please try again later"
@@ -388,6 +390,47 @@
     "changesDescription": "We reserve the right to modify or replace these Terms at any time. If a revision is material, we will provide at least 30 days notice prior to any new terms taking effect by posting a notice on the Service. What constitutes a material change will be determined at our sole discretion. Your continued use of the Service after such modifications constitutes your acceptance of the updated Terms.",
     "contactUs": "Contact Us",
     "contactDescription": "If you have any questions about these Terms of Service, please contact us at:"
+  },
+  "auth": {
+    "loginTitle": "Sign In",
+    "signupTitle": "Create Account",
+    "subtitle": "Sign in to manage your API keys",
+    "continueWithGoogle": "Continue with Google",
+    "continueWithGitHub": "Continue with GitHub",
+    "or": "or",
+    "email": "Email",
+    "password": "Password",
+    "loginButton": "Sign In",
+    "signupButton": "Create Account",
+    "loading": "Loading...",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "signupLink": "Sign up",
+    "loginLink": "Sign in",
+    "checkEmail": "Check your email for the confirmation link."
+  },
+  "dashboard": {
+    "title": "API Keys",
+    "logout": "Sign Out",
+    "createKey": "Create New API Key",
+    "keyNamePlaceholder": "e.g. My SEO Bot",
+    "create": "Create",
+    "creating": "Creating...",
+    "freeLimit": "Free tier: 100 requests per day per key.",
+    "yourKeys": "Your Keys",
+    "noKeys": "No API keys yet. Create one to get started.",
+    "todayUsage": "Today",
+    "created": "Created",
+    "delete": "Delete",
+    "newKeyCreated": "API key created successfully!",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "saveWarning": "Save this key now. It will not be shown again.",
+    "dismiss": "Dismiss",
+    "docsTitle": "API Usage",
+    "docsBaseUrl": "Endpoint",
+    "docsAuth": "Authentication",
+    "docsParams": "Parameters: keywords (string[], required, max 50), countryCode (string, default: \"US\"), languageCode (string, default: \"en\"). Supported countries: US, JP, GB, DE, FR, CA, AU, BR, IN, KR, MX, ES, IT, NL, SE, TW, TH, VN, ID, PH."
   },
   "footer": {
     "product": "Product",

@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getKeywordDifficulty } from "@/lib/dataforseo";
+import { isInternalRequest } from "@/lib/api-auth";
 import {
   getCachedDifficulty,
   setCachedDifficulty,
@@ -8,6 +9,13 @@ import {
 import { getCountry, getLanguage } from "@/lib/constants";
 
 export async function POST(req: NextRequest) {
+  if (!isInternalRequest(req)) {
+    return NextResponse.json(
+      { error: "This endpoint is for internal use. Use /api/v1/research with an API key." },
+      { status: 403 }
+    );
+  }
+
   try {
     const { keywords, countryCode, languageCode } = await req.json();
 

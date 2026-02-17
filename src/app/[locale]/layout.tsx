@@ -34,11 +34,14 @@ export async function generateMetadata({
       languages: {
         en: "/en",
         ja: "/ja",
+        ko: "/ko",
+        zh: "/zh",
+        es: "/es",
       },
     },
     openGraph: {
       type: "website" as const,
-      locale: locale === "ja" ? "ja_JP" : "en_US",
+      locale: locale === "ja" ? "ja_JP" : locale === "ko" ? "ko_KR" : locale === "zh" ? "zh_TW" : locale === "es" ? "es_ES" : "en_US",
       siteName: "SEOLens",
     },
     twitter: {
@@ -50,7 +53,7 @@ export async function generateMetadata({
 export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params;
 
-  if (!routing.locales.includes(locale as "en" | "ja")) {
+  if (!routing.locales.includes(locale as "en" | "ja" | "ko" | "zh" | "es")) {
     notFound();
   }
 

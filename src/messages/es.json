@@ -1,0 +1,449 @@
+{
+  "metadata": {
+    "title": "SEOLens - Herramienta Gratuita de Investigación de Palabras Clave",
+    "description": "Descubre volumen de búsqueda, dificultad de palabra clave, CPC y datos de competencia para cualquier palabra clave en todo el mundo."
+  },
+  "nav": {
+    "home": "Inicio",
+    "features": "Funciones",
+    "pricing": "Precios",
+    "docs": "Documentación",
+    "blog": "Blog",
+    "openTool": "Abrir Herramienta",
+    "apiKeys": "API Keys"
+  },
+  "landing": {
+    "meta": {
+      "title": "Herramienta Gratuita de Investigación de Palabras Clave",
+      "description": "Investiga palabras clave con volumen de búsqueda en tiempo real, puntuaciones de dificultad, datos de CPC y sugerencias impulsadas por IA."
+    },
+    "hero": {
+      "badge": "Uso Gratuito",
+      "title": "Investigación de Palabras Clave,",
+      "titleHighlight": "Simplificada",
+      "subtitle": "Solo escribe una palabra clave y obtén al instante volumen de búsqueda, dificultad, CPC y datos de competencia. Sin registro, sin complicaciones.",
+      "cta": "Buscar",
+      "ctaSecondary": "Ver Documentación API",
+      "searchPlaceholder": "Introduce una palabra clave para investigar..."
+    },
+    "features": {
+      "title": "Todo lo que Necesitas",
+      "subtitle": "Un kit completo de investigación de palabras clave diseñado para desarrolladores y profesionales SEO.",
+      "searchVolume": {
+        "title": "Volumen de Búsqueda",
+        "description": "Datos precisos de volumen de búsqueda mensual de Google Ads API con tendencias históricas."
+      },
+      "difficulty": {
+        "title": "Dificultad de Palabra Clave",
+        "description": "Puntuaciones KD en tiempo real impulsadas por DataForSEO para evaluar el potencial de posicionamiento."
+      },
+      "suggestions": {
+        "title": "Sugerencias de Palabras Clave",
+        "description": "Expansión de palabras clave impulsada por IA usando Google Autocomplete con rastreo alfabético."
+      },
+      "global": {
+        "title": "Cobertura Global",
+        "description": "Investiga palabras clave en más de 20 países y 14 idiomas en todo el mundo."
+      },
+      "api": {
+        "title": "REST API y MCP",
+        "description": "Acceso programático a través de REST API o integración con Claude MCP."
+      },
+      "cache": {
+        "title": "Caché Inteligente",
+        "description": "Caché respaldado por Supabase con TTLs configurables para minimizar costes de API."
+      }
+    },
+    "stats": {
+      "countries": "Países",
+      "languages": "Idiomas",
+      "keywords": "Palabras Clave en Caché",
+      "apis": "Fuentes de Datos"
+    },
+    "howItWorks": {
+      "title": "Cómo Funciona",
+      "subtitle": "Tres pasos simples para obtener insights de palabras clave.",
+      "step1": {
+        "title": "Introduce Palabras Clave",
+        "description": "Escribe una o varias palabras clave, selecciona tu país e idioma objetivo."
+      },
+      "step2": {
+        "title": "Analiza los Datos",
+        "description": "Obtenemos volumen de búsqueda, dificultad, CPC y sugerencias relacionadas en tiempo real."
+      },
+      "step3": {
+        "title": "Exporta y Actúa",
+        "description": "Revisa los resultados en tablas ordenables y usa los datos para optimizar tu estrategia de contenido."
+      }
+    },
+    "cta": {
+      "title": "¿Listo para Investigar?",
+      "subtitle": "Comienza a descubrir oportunidades de palabras clave en segundos.",
+      "button": "Abrir Herramienta de Palabras Clave"
+    }
+  },
+  "tool": {
+    "title": "Explorador de Palabras Clave",
+    "search": {
+      "placeholder": "Introduce palabras clave (una por línea o separadas por comas)...",
+      "button": "Buscar",
+      "buttonMulti": "Buscar ({count})",
+      "searching": "Buscando...",
+      "loading": "Obteniendo datos... Puede tardar unos segundos para palabras clave nuevas."
+    },
+    "results": {
+      "volume": "Volumen",
+      "difficulty": "Dificultad de Palabra Clave",
+      "cpc": "CPC",
+      "competition": "Competencia",
+      "suggestions": "Sugerencias de Palabras Clave",
+      "exportCSV": "CSV",
+      "exportJSON": "JSON",
+      "volumeTooltip": "El número promedio de veces que esta palabra clave se busca por mes en Google. Mayor volumen significa más tráfico potencial.",
+      "difficultyTooltip": "Qué tan difícil es posicionarse en la primera página de Google para esta palabra clave. Puntuaciones más bajas son más fáciles de posicionar.",
+      "cpcTooltip": "Coste Por Clic — el precio promedio que los anunciantes pagan cuando alguien hace clic en su anuncio para esta palabra clave. Mayor CPC suele significar mayor valor comercial.",
+      "competitionTooltip": "Cuántos anunciantes pujan por esta palabra clave. ALTO significa mucha competencia, BAJO significa menos anunciantes."
+    },
+    "difficulty": {
+      "veryEasy": "Muy Fácil",
+      "easy": "Fácil",
+      "moderate": "Moderado",
+      "hard": "Difícil",
+      "veryHard": "Muy Difícil",
+      "extreme": "Extremo"
+    }
+  },
+  "features": {
+    "meta": {
+      "title": "Funciones",
+      "description": "Explora todas las funciones de SEOLens: investigación de palabras clave, puntuación de dificultad, sugerencias relacionadas, cobertura global, REST API y caché inteligente."
+    },
+    "heading": "Todo lo que Necesitas para",
+    "headingHighlight": "Investigación de Palabras Clave",
+    "subtitle": "SEOLens ofrece un conjunto completo de herramientas de investigación de palabras clave, completamente gratis. Desde volumen de búsqueda hasta análisis de dificultad, obtén todo lo que necesitas en un solo lugar.",
+    "items": {
+      "searchVolume": {
+        "title": "Datos de Volumen de Búsqueda",
+        "description": "Obtén datos precisos de volumen de búsqueda mensual impulsados por Google Keyword Planner. Comprende la demanda real detrás de cada palabra clave para tomar decisiones basadas en datos.",
+        "details": [
+          "Volumen de búsqueda mensual promedio",
+          "Datos de tendencias históricas",
+          "Insights de fluctuación estacional",
+          "Rangos de volumen por región"
+        ]
+      },
+      "difficulty": {
+        "title": "Puntuaciones de Dificultad de Palabras Clave",
+        "description": "Evalúa al instante lo difícil que será posicionar cualquier palabra clave. Nuestras puntuaciones de dificultad consideran niveles de competencia, datos de CPC e intención de búsqueda.",
+        "details": [
+          "Etiquetas de dificultad Fácil / Medio / Difícil",
+          "Índice de competencia de Google",
+          "Indicadores de rango de CPC",
+          "Recomendaciones accionables de posicionamiento"
+        ]
+      },
+      "suggestions": {
+        "title": "Sugerencias de Palabras Clave Relacionadas",
+        "description": "Descubre oportunidades de palabras clave de alto valor que podrías estar perdiendo. Nuestro motor de sugerencias muestra términos semánticamente relacionados, variaciones de cola larga y consultas basadas en preguntas.",
+        "details": [
+          "Palabras clave semánticamente relacionadas",
+          "Variaciones de palabras clave de cola larga",
+          "Consultas basadas en preguntas",
+          "Volumen y dificultad para cada sugerencia"
+        ]
+      },
+      "global": {
+        "title": "Cobertura de 20+ Países",
+        "description": "Investiga palabras clave en más de 20 países y 14 idiomas. Obtén volumen de búsqueda y datos de competencia localizados adaptados a tu mercado objetivo.",
+        "details": [
+          "EE.UU., Reino Unido, Japón, Alemania, Francia y más",
+          "14 opciones de idioma",
+          "Datos de volumen de búsqueda localizados",
+          "Métricas de competencia específicas por país"
+        ]
+      },
+      "api": {
+        "title": "Acceso a REST API",
+        "description": "Integra la investigación de palabras clave directamente en tus herramientas y flujos de trabajo con nuestra simple REST API. Perfecto para crear paneles personalizados, automatizar pipelines de contenido o impulsar herramientas SEO.",
+        "details": [
+          "Endpoint POST simple",
+          "Solicitud y respuesta en JSON",
+          "Soporte de investigación por lotes",
+          "Integración MCP (Model Context Protocol)"
+        ]
+      },
+      "cache": {
+        "title": "Caché Inteligente",
+        "description": "Los resultados se almacenan en caché en Supabase para búsquedas repetidas ultrarrápidas. La misma consulta de palabra clave se devuelve instantáneamente desde la caché, reduciendo costes de API y mejorando tiempos de respuesta.",
+        "details": [
+          "Caché de resultados respaldada por Supabase",
+          "Resultados instantáneos de caché para consultas repetidas",
+          "Costes de API reducidos",
+          "Invalidación automática de caché"
+        ]
+      }
+    },
+    "cta": "¿Listo para comenzar tu investigación de palabras clave?",
+    "ctaButton": "Abrir Herramienta de Palabras Clave"
+  },
+  "pricing": {
+    "meta": {
+      "title": "Precios",
+      "description": "Planes de precios de SEOLens. Comienza con nuestro plan gratuito que incluye investigación de palabras clave, puntuaciones de dificultad y acceso a la API."
+    },
+    "heading": "Precios",
+    "headingHighlight": "Transparentes",
+    "headingSuffix": "y Simples",
+    "subtitle": "Comienza a investigar palabras clave gratis. Sin tarjeta de crédito.",
+    "free": {
+      "name": "Gratis",
+      "description": "Perfecto para empezar",
+      "price": "$0",
+      "period": "/ mes",
+      "features": [
+        "Herramienta de investigación de palabras clave",
+        "Sugerencias de palabras clave relacionadas",
+        "Puntuaciones de dificultad",
+        "20+ países soportados",
+        "Acceso a REST API",
+        "Hasta 100 consultas / día"
+      ],
+      "cta": "Comenzar Gratis"
+    },
+    "pro": {
+      "name": "Pro",
+      "badge": "Próximamente",
+      "description": "Para usuarios avanzados y equipos",
+      "price": "$19",
+      "period": "/ mes",
+      "features": [
+        "Todo lo del plan Gratis",
+        "Llamadas API ilimitadas",
+        "Investigación masiva de palabras clave (50+)",
+        "Soporte por email prioritario",
+        "Exportación a CSV / JSON"
+      ],
+      "cta": "Próximamente"
+    },
+    "contact": "¿Necesitas límites más altos o precios personalizados?",
+    "contactLink": "Contáctanos"
+  },
+  "docs": {
+    "meta": {
+      "title": "Documentación",
+      "description": "Documentación de la API de SEOLens. Aprende a integrar la investigación de palabras clave en tus aplicaciones con nuestra REST API."
+    },
+    "heading": "Documentación",
+    "subtitle": "Integra la investigación de palabras clave en tus aplicaciones con la REST API de SEOLens. Simple, rápida y gratuita para empezar.",
+    "quickStart": "Inicio Rápido",
+    "quickStartDescription": "La API de SEOLens proporciona un único endpoint para investigación de palabras clave. Envía una solicitud POST con tu palabra clave y obtén volumen de búsqueda, dificultad y sugerencias relacionadas.",
+    "endpointDescription": "Investiga una palabra clave y obtén volumen de búsqueda, dificultad, CPC y sugerencias relacionadas.",
+    "exampleRequest": "Ejemplo de Solicitud",
+    "exampleResponse": "Ejemplo de Respuesta",
+    "apiReference": "Referencia de la API",
+    "apiReferenceDescription": "Documentación detallada de todos los endpoints, parámetros y formatos de respuesta.",
+    "tryTool": "Probar la Herramienta",
+    "tryToolDescription": "Usa la herramienta interactiva de investigación de palabras clave directamente en tu navegador."
+  },
+  "docsApi": {
+    "meta": {
+      "title": "Referencia de la API",
+      "description": "Referencia completa de la API de investigación de palabras clave de SEOLens. Endpoints, parámetros, formatos de respuesta y ejemplos de código."
+    },
+    "breadcrumbDocs": "Docs",
+    "heading": "Referencia de la API",
+    "subtitle": "Referencia completa para la REST API de SEOLens.",
+    "baseUrl": "URL Base",
+    "authentication": "Autenticación",
+    "authenticationDescription": "Todas las solicitudes API requieren una clave API. Inicia sesión en tu panel para crear una clave API gratuita. Inclúyela en cada solicitud a través del encabezado Authorization o x-api-key.",
+    "researchEndpointDescription": "Investiga una o más palabras clave y obtén volumen de búsqueda, dificultad, datos de CPC y sugerencias de palabras clave relacionadas.",
+    "requestBody": "Cuerpo de la Solicitud",
+    "parameter": "Parámetro",
+    "type": "Tipo",
+    "required": "Requerido",
+    "description": "Descripción",
+    "keywordDescription": "Palabra clave individual para investigar",
+    "keywordsDescription": "Array de palabras clave (máx. 50). Usar en lugar de",
+    "keywordsNote": "Proporciona",
+    "keywordsNoteOr": "o",
+    "keywordsNoteEnd": ", no ambos.",
+    "countryCodeDescription": "Código de país (por defecto: \"US\"). Opciones: US, JP, GB, DE, FR, CA, AU, BR, IN, KR, MX, ES, IT, NL, SE, TW, TH, VN, ID, PH",
+    "languageCodeDescription": "Código de idioma (por defecto: \"en\"). Opciones: en, ja, de, fr, es, pt, it, nl, ko, zh, th, vi, id, sv",
+    "responseSingle": "Formato de Respuesta (Palabra Clave Individual)",
+    "responseBatch": "Formato de Respuesta (Lote)",
+    "codeExamples": "Ejemplos de Código",
+    "errorCodes": "Códigos de Error",
+    "status": "Estado",
+    "errors": {
+      "200": "Éxito - datos de palabra clave devueltos",
+      "401": "No autorizado - clave API faltante o inválida",
+      "400": "Solicitud Incorrecta - parámetros faltantes o inválidos",
+      "429": "Límite de Frecuencia Excedido - demasiadas solicitudes",
+      "500": "Error Interno del Servidor - por favor intenta de nuevo más tarde"
+    },
+    "rateLimits": "Límites de Frecuencia",
+    "rateLimitsDescription": "El nivel gratuito tiene límites de frecuencia para garantizar un uso justo para todos los usuarios.",
+    "rateLimitItems": [
+      "100 solicitudes por día por dirección IP",
+      "50 palabras clave por solicitud por lotes",
+      "Los resultados en caché no cuentan contra el límite de frecuencia"
+    ]
+  },
+  "blog": {
+    "meta": {
+      "title": "Blog",
+      "description": "Blog de SEOLens - consejos, tutoriales e insights sobre investigación de palabras clave, estrategia SEO y optimización de contenido."
+    },
+    "heading": "Blog",
+    "badge": "Próximamente",
+    "subtitle": "Estamos trabajando en artículos sobre investigación de palabras clave, estrategia SEO y optimización de contenido.",
+    "subtitleSecondary": "Vuelve pronto para tutoriales, casos de estudio e insights de la industria.",
+    "cta": "Probar la Herramienta de Palabras Clave"
+  },
+  "blogPost": {
+    "meta": {
+      "title": "Artículo del Blog",
+      "description": "Artículo del blog de SEOLens."
+    },
+    "notFoundHeading": "Artículo No Encontrado",
+    "notFoundDescription": "Este artículo del blog aún no existe o está en proceso de escritura.",
+    "notFoundSubtitle": "Nuestro blog estará disponible pronto con artículos sobre SEO, investigación de palabras clave y estrategia de contenido.",
+    "backToBlog": "Volver al Blog",
+    "tryTool": "Probar la Herramienta"
+  },
+  "privacy": {
+    "meta": {
+      "title": "Política de Privacidad",
+      "description": "Política de privacidad de SEOLens. Conoce cómo recopilamos, usamos y protegemos tus datos."
+    },
+    "heading": "Política de Privacidad",
+    "lastUpdated": "Última actualización: Febrero 2026",
+    "intro": "SEOLens (\"nosotros\" o \"nuestro\") opera el sitio web y la API seolens.dev. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos tu información cuando utilizas nuestro servicio.",
+    "informationWeCollect": "Información que Recopilamos",
+    "usageData": "Datos de Uso",
+    "usageDataDescription": "Recopilamos automáticamente cierta información cuando visitas o usas nuestro servicio, incluyendo tu dirección IP, tipo de navegador, sistema operativo, URLs de referencia, páginas visitadas y las fechas y horas de tus visitas. Estos datos se usan para análisis y para mejorar el servicio.",
+    "searchQueries": "Consultas de Búsqueda",
+    "searchQueriesDescription": "Las palabras clave que investigas a través de nuestra herramienta o API se procesan para proporcionar resultados. Podemos almacenar en caché los resultados de palabras clave para mejorar el rendimiento para todos los usuarios. Los datos de palabras clave en caché no están vinculados a usuarios individuales.",
+    "cookies": "Cookies y Seguimiento",
+    "cookiesDescription": "Usamos cookies esenciales para preferencias de idioma y funcionalidad básica del sitio. No usamos cookies de publicidad de terceros ni píxeles de seguimiento.",
+    "howWeUse": "Cómo Usamos tu Información",
+    "howWeUseItems": [
+      "Para proporcionar y mantener nuestro servicio de investigación de palabras clave",
+      "Para mejorar, personalizar y expandir nuestro servicio",
+      "Para comprender y analizar patrones y tendencias de uso",
+      "Para detectar, prevenir y abordar problemas técnicos o abuso",
+      "Para aplicar límites de frecuencia y garantizar un uso justo de la API"
+    ],
+    "dataRetention": "Retención de Datos",
+    "dataRetentionIntro": "Retenemos los datos de uso por un período limitado necesario para cumplir los propósitos descritos en esta política. Específicamente:",
+    "dataRetentionItems": [
+      "Los resultados de palabras clave en caché se retienen hasta 30 días para mejorar el rendimiento",
+      "Los registros del servidor (incluyendo direcciones IP) se retienen hasta 90 días",
+      "Los datos analíticos agregados (no identificables personalmente) pueden retenerse indefinidamente"
+    ],
+    "thirdParty": "Servicios de Terceros",
+    "thirdPartyIntro": "Usamos los siguientes servicios de terceros para operar SEOLens:",
+    "thirdPartyVercel": "Alojamiento y despliegue",
+    "thirdPartySupabase": "Base de datos y caché",
+    "thirdPartyGoogle": "Fuente de datos de palabras clave",
+    "contactUs": "Contáctanos",
+    "contactDescription": "Si tienes alguna pregunta sobre esta Política de Privacidad o nuestras prácticas de datos, por favor contáctanos en:"
+  },
+  "terms": {
+    "meta": {
+      "title": "Términos de Servicio",
+      "description": "Términos de servicio de SEOLens. Lee los términos y condiciones para usar nuestra herramienta de investigación de palabras clave y API."
+    },
+    "heading": "Términos de Servicio",
+    "lastUpdated": "Última actualización: Febrero 2026",
+    "acceptance": "Aceptación de los Términos",
+    "acceptanceDescription": "Al acceder o usar SEOLens (el \"Servicio\"), disponible en seolens.dev, aceptas estar sujeto a estos Términos de Servicio (\"Términos\"). Si no estás de acuerdo con todos estos Términos, no uses el Servicio. Nos reservamos el derecho de actualizar estos Términos en cualquier momento. El uso continuado del Servicio después de los cambios constituye la aceptación de los Términos modificados.",
+    "serviceDescription": "Descripción del Servicio",
+    "serviceDescriptionIntro": "SEOLens proporciona una herramienta gratuita de investigación de palabras clave y REST API que permite a los usuarios:",
+    "serviceDescriptionItems": [
+      "Investigar volumen de búsqueda, competencia y datos de CPC de palabras clave",
+      "Descubrir sugerencias de palabras clave relacionadas",
+      "Evaluar la dificultad de palabras clave para propósitos SEO",
+      "Acceder a datos de palabras clave programáticamente a través de la REST API"
+    ],
+    "serviceDescriptionDisclaimer": "El Servicio se proporciona \"tal cual\" y \"según disponibilidad\" sin garantías de ningún tipo, ya sean expresas o implícitas.",
+    "acceptableUse": "Uso Aceptable",
+    "acceptableUseIntro": "Aceptas no usar el Servicio para:",
+    "acceptableUseItems": [
+      "Sobrecargar, deshabilitar o perjudicar la infraestructura del Servicio",
+      "Eludir los límites de frecuencia o abusar de la API",
+      "Extraer o revender datos obtenidos del Servicio",
+      "Usar herramientas automatizadas para acceder excesivamente al Servicio más allá de los endpoints API documentados",
+      "Violar cualquier ley o regulación aplicable"
+    ],
+    "limitations": "Limitaciones de Responsabilidad",
+    "limitationsIntro": "En la máxima medida permitida por la ley aplicable, SEOLens y sus operadores no serán responsables de ningún daño indirecto, incidental, especial, consecuente o punitivo, ni de cualquier pérdida de beneficios o ingresos, ya sea incurrida directa o indirectamente, ni de cualquier pérdida de datos, uso, reputación u otras pérdidas intangibles resultantes de:",
+    "limitationsItems": [
+      "Tu uso o incapacidad de usar el Servicio",
+      "Cualquier inexactitud en datos de palabras clave, volúmenes de búsqueda o puntuaciones de dificultad",
+      "Cualquier interrupción, suspensión o terminación del Servicio",
+      "Cualquier error, virus o fallos transmitidos a través del Servicio"
+    ],
+    "dataAccuracy": "Precisión de los Datos",
+    "dataAccuracyDescription": "Los datos de palabras clave, incluyendo volúmenes de búsqueda, rangos de CPC y puntuaciones de dificultad, provienen de proveedores terceros y se proporcionan solo con fines informativos. No garantizamos la precisión, integridad o actualidad de estos datos. Las decisiones SEO deben tomarse usando múltiples fuentes de datos y juicio profesional.",
+    "changes": "Cambios en estos Términos",
+    "changesDescription": "Nos reservamos el derecho de modificar o reemplazar estos Términos en cualquier momento. Si una revisión es material, proporcionaremos al menos 30 días de aviso antes de que los nuevos términos entren en vigor publicando un aviso en el Servicio. Lo que constituye un cambio material será determinado a nuestra única discreción. Tu uso continuado del Servicio después de dichas modificaciones constituye tu aceptación de los Términos actualizados.",
+    "contactUs": "Contáctanos",
+    "contactDescription": "Si tienes alguna pregunta sobre estos Términos de Servicio, por favor contáctanos en:"
+  },
+  "auth": {
+    "loginTitle": "Iniciar Sesión",
+    "signupTitle": "Crear Cuenta",
+    "subtitle": "Inicia sesión para gestionar tus claves API",
+    "continueWithGoogle": "Continuar con Google",
+    "continueWithGitHub": "Continuar con GitHub",
+    "or": "o",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "loginButton": "Iniciar Sesión",
+    "signupButton": "Crear Cuenta",
+    "loading": "Cargando...",
+    "noAccount": "¿No tienes una cuenta?",
+    "hasAccount": "¿Ya tienes una cuenta?",
+    "signupLink": "Regístrate",
+    "loginLink": "Inicia sesión",
+    "checkEmail": "Revisa tu correo para el enlace de confirmación."
+  },
+  "dashboard": {
+    "title": "Claves API",
+    "logout": "Cerrar Sesión",
+    "createKey": "Crear Nueva Clave API",
+    "keyNamePlaceholder": "ej. Mi Bot SEO",
+    "create": "Crear",
+    "creating": "Creando...",
+    "freeLimit": "Nivel gratuito: 100 solicitudes por día por clave.",
+    "yourKeys": "Tus Claves",
+    "noKeys": "Aún no tienes claves API. Crea una para empezar.",
+    "todayUsage": "Hoy",
+    "created": "Creado",
+    "delete": "Eliminar",
+    "newKeyCreated": "¡Clave API creada exitosamente!",
+    "copy": "Copiar",
+    "copied": "¡Copiado!",
+    "saveWarning": "Guarda esta clave ahora. No se mostrará de nuevo.",
+    "dismiss": "Cerrar",
+    "docsTitle": "Uso de la API",
+    "docsBaseUrl": "Endpoint",
+    "docsAuth": "Autenticación",
+    "docsParams": "Parámetros: keywords (string[], requerido, máx. 50), countryCode (string, por defecto: \"US\"), languageCode (string, por defecto: \"en\"). Países soportados: US, JP, GB, DE, FR, CA, AU, BR, IN, KR, MX, ES, IT, NL, SE, TW, TH, VN, ID, PH."
+  },
+  "footer": {
+    "product": "Producto",
+    "resources": "Recursos",
+    "legal": "Legal",
+    "features": "Funciones",
+    "pricing": "Precios",
+    "changelog": "Changelog",
+    "apiDocs": "Documentación API",
+    "blog": "Blog",
+    "documentation": "Documentación",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "copyright": "© {year} SEOLens. Todos los derechos reservados."
+  }
+}

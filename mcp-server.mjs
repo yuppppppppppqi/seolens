@@ -9,12 +9,17 @@
  * Usage:
  *   node mcp-server.mjs
  *
+ * Environment variables:
+ *   SEOLENS_URL     - API base URL (default: http://localhost:3008)
+ *   SEOLENS_API_KEY - API key (get one at https://seolens.app/dashboard)
+ *
  * Claude Code config (~/.claude/claude_desktop_config.json):
  * {
  *   "mcpServers": {
  *     "seolens": {
  *       "command": "node",
- *       "args": ["/path/to/seolens/mcp-server.mjs"]
+ *       "args": ["/path/to/seolens/mcp-server.mjs"],
+ *       "env": { "SEOLENS_API_KEY": "sk_live_..." }
  *     }
  *   }
  * }
@@ -28,6 +33,7 @@ import {
 } from "@modelcontextprotocol/sdk/types.js";
 
 const BASE_URL = process.env.SEOLENS_URL || "http://localhost:3008";
+const API_KEY = process.env.SEOLENS_API_KEY || "";
 
 const server = new Server(
   { name: "seolens", version: "1.0.0" },
@@ -84,9 +90,14 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
   }
 
   try {
+    const headers = { "Content-Type": "application/json" };
+    if (API_KEY) {
+      headers["Authorization"] = `Bearer ${API_KEY}`;
+    }
+
     const res = await fetch(`${BASE_URL}/api/v1/research`, {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers,
       body: JSON.stringify({ keywords, countryCode, languageCode }),
     });
 

@@ -69,3 +69,138 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--sl-text-muted);
 }
+
+/* Blog prose styles */
+.blog-prose {
+  color: var(--sl-text-secondary);
+  line-height: 1.8;
+  font-size: 1.0625rem;
+}
+
+.blog-prose h2 {
+  color: var(--sl-text-primary);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.blog-prose h3 {
+  color: var(--sl-text-primary);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+
+.blog-prose p {
+  margin-bottom: 1.25rem;
+}
+
+.blog-prose a {
+  color: var(--sl-accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.15s;
+}
+
+.blog-prose a:hover {
+  color: var(--sl-accent-hover);
+}
+
+.blog-prose strong {
+  color: var(--sl-text-primary);
+  font-weight: 600;
+}
+
+.blog-prose ul,
+.blog-prose ol {
+  margin-bottom: 1.25rem;
+  padding-left: 1.5rem;
+}
+
+.blog-prose ul {
+  list-style-type: disc;
+}
+
+.blog-prose ol {
+  list-style-type: decimal;
+}
+
+.blog-prose li {
+  margin-bottom: 0.5rem;
+}
+
+.blog-prose li > ul,
+.blog-prose li > ol {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.blog-prose blockquote {
+  border-left: 3px solid var(--sl-accent);
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  color: var(--sl-text-muted);
+  font-style: italic;
+}
+
+.blog-prose code {
+  background: var(--sl-bg-elevated);
+  color: var(--sl-accent);
+  padding: 0.15rem 0.4rem;
+  border-radius: 0.25rem;
+  font-size: 0.9em;
+  font-family: var(--font-geist-mono), monospace;
+}
+
+.blog-prose pre {
+  background: var(--sl-bg-surface);
+  border: 1px solid var(--sl-border);
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+}
+
+.blog-prose pre code {
+  background: none;
+  color: var(--sl-text-secondary);
+  padding: 0;
+  font-size: 0.875rem;
+}
+
+.blog-prose hr {
+  border: none;
+  border-top: 1px solid var(--sl-border);
+  margin: 2rem 0;
+}
+
+.blog-prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.9375rem;
+}
+
+.blog-prose th {
+  background: var(--sl-bg-surface);
+  color: var(--sl-text-primary);
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border: 1px solid var(--sl-border);
+}
+
+.blog-prose td {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--sl-border);
+}
+
+.blog-prose img {
+  max-width: 100%;
+  border-radius: 0.5rem;
+  margin: 1.5rem 0;
+}

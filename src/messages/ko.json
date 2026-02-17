@@ -1,0 +1,449 @@
+{
+  "metadata": {
+    "title": "SEOLens - 무료 키워드 리서치 도구",
+    "description": "전 세계 키워드의 검색량, 난이도, CPC, 경쟁 데이터를 무료로 조사하세요."
+  },
+  "nav": {
+    "home": "홈",
+    "features": "기능",
+    "pricing": "요금",
+    "docs": "문서",
+    "blog": "블로그",
+    "openTool": "도구 열기",
+    "apiKeys": "API 키"
+  },
+  "landing": {
+    "meta": {
+      "title": "무료 키워드 리서치 도구",
+      "description": "실시간 검색량, 난이도 점수, CPC 데이터, AI 기반 추천으로 키워드를 조사하세요."
+    },
+    "hero": {
+      "badge": "무료로 사용 가능",
+      "title": "키워드 리서치를,",
+      "titleHighlight": "더 간단하게",
+      "subtitle": "키워드를 입력하면 검색량, 난이도, CPC, 경쟁 데이터를 즉시 확인할 수 있습니다. 가입 불필요, 바로 사용 가능.",
+      "cta": "검색",
+      "ctaSecondary": "API 문서 보기",
+      "searchPlaceholder": "키워드를 입력하세요..."
+    },
+    "features": {
+      "title": "필요한 모든 것",
+      "subtitle": "개발자와 SEO 전문가를 위한 완벽한 키워드 리서치 도구.",
+      "searchVolume": {
+        "title": "검색량",
+        "description": "Google Ads API에서 가져온 정확한 월간 검색량 데이터와 과거 추세."
+      },
+      "difficulty": {
+        "title": "키워드 난이도",
+        "description": "DataForSEO 기반의 실시간 KD 점수로 순위 경쟁력을 평가."
+      },
+      "suggestions": {
+        "title": "키워드 추천",
+        "description": "Google 자동완성과 알파벳 크롤링을 활용한 AI 키워드 확장."
+      },
+      "global": {
+        "title": "글로벌 지원",
+        "description": "20개국, 14개 언어로 키워드 조사 가능."
+      },
+      "api": {
+        "title": "REST API & MCP",
+        "description": "REST API 또는 Claude MCP 통합을 통한 프로그래밍 방식 접근."
+      },
+      "cache": {
+        "title": "스마트 캐싱",
+        "description": "설정 가능한 TTL로 Supabase 캐시를 활용하여 API 비용 최소화."
+      }
+    },
+    "stats": {
+      "countries": "지원 국가",
+      "languages": "언어",
+      "keywords": "캐시된 KW",
+      "apis": "데이터 소스"
+    },
+    "howItWorks": {
+      "title": "사용 방법",
+      "subtitle": "3단계로 키워드 인사이트를 얻으세요.",
+      "step1": {
+        "title": "키워드 입력",
+        "description": "키워드를 입력하고 대상 국가와 언어를 선택합니다."
+      },
+      "step2": {
+        "title": "데이터 분석",
+        "description": "검색량, 난이도, CPC, 관련 추천을 실시간으로 가져옵니다."
+      },
+      "step3": {
+        "title": "내보내기 & 활용",
+        "description": "정렬 가능한 테이블에서 결과를 확인하고 콘텐츠 전략에 활용합니다."
+      }
+    },
+    "cta": {
+      "title": "리서치를 시작하세요",
+      "subtitle": "몇 초 만에 키워드 기회를 발견하세요.",
+      "button": "키워드 도구 열기"
+    }
+  },
+  "tool": {
+    "title": "키워드 탐색기",
+    "search": {
+      "placeholder": "키워드를 입력하세요 (줄당 하나 또는 쉼표로 구분)...",
+      "button": "검색",
+      "buttonMulti": "검색 ({count})",
+      "searching": "검색 중...",
+      "loading": "데이터를 가져오는 중... 새 키워드의 경우 몇 초가 걸릴 수 있습니다."
+    },
+    "results": {
+      "volume": "검색량",
+      "difficulty": "키워드 난이도",
+      "cpc": "CPC",
+      "competition": "경쟁",
+      "suggestions": "키워드 추천",
+      "exportCSV": "CSV",
+      "exportJSON": "JSON",
+      "volumeTooltip": "이 키워드가 Google에서 월간 검색되는 평균 횟수입니다. 숫자가 클수록 더 많은 트래픽이 기대됩니다.",
+      "difficultyTooltip": "이 키워드로 Google 검색 상위에 노출되는 어려움의 정도입니다. 점수가 낮을수록 상위 노출이 쉽습니다.",
+      "cpcTooltip": "클릭당 비용 — 광고주가 이 키워드의 광고 1회 클릭에 지불하는 평균 비용입니다. CPC가 높을수록 상업적 가치가 높은 경향이 있습니다.",
+      "competitionTooltip": "이 키워드에 입찰하는 광고주의 수입니다. HIGH는 경쟁이 치열하고, LOW는 광고주가 적다는 의미입니다."
+    },
+    "difficulty": {
+      "veryEasy": "매우 쉬움",
+      "easy": "쉬움",
+      "moderate": "보통",
+      "hard": "어려움",
+      "veryHard": "매우 어려움",
+      "extreme": "극도로 어려움"
+    }
+  },
+  "features": {
+    "meta": {
+      "title": "기능",
+      "description": "SEOLens의 모든 기능: 키워드 리서치, 난이도 점수, 관련 추천, 글로벌 지원, REST API, 스마트 캐싱."
+    },
+    "heading": "키워드 리서치에",
+    "headingHighlight": "필요한 모든 것",
+    "subtitle": "SEOLens는 완전 무료 키워드 리서치 도구를 제공합니다. 검색량에서 난이도 분석까지, 필요한 모든 것을 한 곳에서.",
+    "items": {
+      "searchVolume": {
+        "title": "검색량 데이터",
+        "description": "Google 키워드 플래너를 활용한 정확한 월간 검색량 데이터. 모든 키워드의 실제 수요를 파악하고 데이터 기반 콘텐츠 전략을 실현합니다.",
+        "details": [
+          "월간 평균 검색량",
+          "과거 추세 데이터",
+          "계절 변동 분석",
+          "지역별 검색량 범위"
+        ]
+      },
+      "difficulty": {
+        "title": "키워드 난이도 점수",
+        "description": "모든 키워드의 순위 경쟁 난이도를 즉시 평가. 경쟁 수준, CPC 데이터, 검색 의도를 고려한 난이도 점수로 명확한 판단이 가능합니다.",
+        "details": [
+          "쉬움 / 보통 / 어려움 난이도 라벨",
+          "Google 경쟁 지수",
+          "CPC 범위 지표",
+          "실용적인 순위 추천"
+        ]
+      },
+      "suggestions": {
+        "title": "관련 키워드 추천",
+        "description": "놓치고 있을 수 있는 고가치 키워드를 발견하세요. 의미적으로 관련된 용어, 롱테일 변형, 질문 기반 쿼리를 제안합니다.",
+        "details": [
+          "의미적으로 관련된 키워드",
+          "롱테일 키워드 변형",
+          "질문 기반 쿼리",
+          "각 추천의 검색량과 난이도"
+        ]
+      },
+      "global": {
+        "title": "20개국 이상 지원",
+        "description": "20개국 이상, 14개 언어로 키워드 리서치가 가능합니다. 타겟 시장에 맞는 현지화된 검색량과 경쟁 데이터를 확보하세요.",
+        "details": [
+          "미국, 영국, 일본, 독일, 프랑스 등",
+          "14개 언어 옵션",
+          "현지화된 검색량 데이터",
+          "국가별 경쟁 지표"
+        ]
+      },
+      "api": {
+        "title": "REST API 접근",
+        "description": "간단한 REST API로 키워드 리서치를 도구와 워크플로우에 직접 통합. 커스텀 대시보드 구축, 콘텐츠 파이프라인 자동화, SEO 도구 구축에 최적.",
+        "details": [
+          "간단한 POST 엔드포인트",
+          "JSON 요청 및 응답",
+          "배치 키워드 리서치 지원",
+          "MCP (Model Context Protocol) 통합"
+        ]
+      },
+      "cache": {
+        "title": "스마트 캐싱",
+        "description": "Supabase에 캐시된 결과로 빠른 반복 조회를 실현. 동일 키워드 쿼리는 캐시에서 즉시 반환되어 API 비용을 절감하고 응답 시간을 개선합니다.",
+        "details": [
+          "Supabase 기반 결과 캐싱",
+          "반복 쿼리의 즉시 캐시 히트",
+          "API 비용 절감",
+          "자동 캐시 무효화"
+        ]
+      }
+    },
+    "cta": "키워드 리서치를 시작할 준비가 되셨나요?",
+    "ctaButton": "키워드 도구 열기"
+  },
+  "pricing": {
+    "meta": {
+      "title": "요금",
+      "description": "SEOLens 요금 플랜. 키워드 리서치, 난이도 점수, API 접근을 포함한 무료 플랜으로 시작하세요."
+    },
+    "heading": "간단하고",
+    "headingHighlight": "투명한",
+    "headingSuffix": "요금 체계",
+    "subtitle": "무료로 키워드 리서치를 시작하세요. 신용카드 불필요.",
+    "free": {
+      "name": "무료",
+      "description": "시작하기에 완벽한 플랜",
+      "price": "$0",
+      "period": "/ 월",
+      "features": [
+        "키워드 리서치 도구",
+        "관련 키워드 추천",
+        "난이도 점수",
+        "20개국 이상 지원",
+        "REST API 접근",
+        "하루 100회 검색"
+      ],
+      "cta": "무료로 시작"
+    },
+    "pro": {
+      "name": "Pro",
+      "badge": "출시 예정",
+      "description": "파워 유저와 팀을 위한 플랜",
+      "price": "$19",
+      "period": "/ 월",
+      "features": [
+        "무료 플랜의 모든 기능",
+        "무제한 API 호출",
+        "대량 키워드 리서치 (50+)",
+        "우선 이메일 지원",
+        "CSV / JSON 내보내기"
+      ],
+      "cta": "출시 예정"
+    },
+    "contact": "더 높은 한도나 맞춤 요금이 필요하신가요?",
+    "contactLink": "문의하기"
+  },
+  "docs": {
+    "meta": {
+      "title": "문서",
+      "description": "SEOLens API 문서. REST API를 사용하여 키워드 리서치를 애플리케이션에 통합하는 방법을 안내합니다."
+    },
+    "heading": "문서",
+    "subtitle": "SEOLens REST API로 키워드 리서치를 애플리케이션에 통합하세요. 간단하고, 빠르며, 무료로 시작할 수 있습니다.",
+    "quickStart": "빠른 시작",
+    "quickStartDescription": "SEOLens API는 키워드 리서치를 위한 단일 엔드포인트를 제공합니다. 키워드를 포함한 POST 요청을 보내면 검색량, 난이도, 관련 추천을 받을 수 있습니다.",
+    "endpointDescription": "키워드를 리서치하고 검색량, 난이도, CPC, 관련 추천을 가져옵니다.",
+    "exampleRequest": "요청 예시",
+    "exampleResponse": "응답 예시",
+    "apiReference": "API 레퍼런스",
+    "apiReferenceDescription": "모든 엔드포인트, 파라미터, 응답 형식에 대한 상세 문서.",
+    "tryTool": "도구 사용해보기",
+    "tryToolDescription": "브라우저에서 직접 인터랙티브 키워드 리서치 도구를 사용하세요."
+  },
+  "docsApi": {
+    "meta": {
+      "title": "API 레퍼런스",
+      "description": "SEOLens 키워드 리서치 API의 완전한 레퍼런스. 엔드포인트, 파라미터, 응답 형식, 코드 예시."
+    },
+    "breadcrumbDocs": "문서",
+    "heading": "API 레퍼런스",
+    "subtitle": "SEOLens REST API의 완전한 레퍼런스.",
+    "baseUrl": "기본 URL",
+    "authentication": "인증",
+    "authenticationDescription": "모든 API 요청에는 API 키가 필요합니다. 대시보드에 로그인하여 무료 API 키를 생성하세요. Authorization 헤더 또는 x-api-key 헤더를 통해 요청에 포함하세요.",
+    "researchEndpointDescription": "하나 또는 여러 키워드를 리서치하고 검색량, 난이도, CPC 데이터, 관련 키워드 추천을 가져옵니다.",
+    "requestBody": "요청 본문",
+    "parameter": "파라미터",
+    "type": "타입",
+    "required": "필수",
+    "description": "설명",
+    "keywordDescription": "리서치할 단일 키워드",
+    "keywordsDescription": "키워드 배열 (최대 50개). 다음 대신 사용:",
+    "keywordsNote": "다음 중 하나를 지정:",
+    "keywordsNoteOr": "또는",
+    "keywordsNoteEnd": " (둘 다는 불가).",
+    "countryCodeDescription": "국가 코드 (기본값: \"US\"). 옵션: US, JP, GB, DE, FR, CA, AU, BR, IN, KR, MX, ES, IT, NL, SE, TW, TH, VN, ID, PH",
+    "languageCodeDescription": "언어 코드 (기본값: \"en\"). 옵션: en, ja, de, fr, es, pt, it, nl, ko, zh, th, vi, id, sv",
+    "responseSingle": "응답 형식 (단일 키워드)",
+    "responseBatch": "응답 형식 (배치)",
+    "codeExamples": "코드 예시",
+    "errorCodes": "오류 코드",
+    "status": "상태",
+    "errors": {
+      "200": "성공 - 키워드 데이터 반환됨",
+      "401": "인증 실패 - API 키 누락 또는 유효하지 않음",
+      "400": "잘못된 요청 - 파라미터 누락 또는 유효하지 않음",
+      "429": "요율 제한 초과 - 요청이 너무 많음",
+      "500": "내부 서버 오류 - 잠시 후 다시 시도하세요"
+    },
+    "rateLimits": "요율 제한",
+    "rateLimitsDescription": "무료 플랜은 모든 사용자의 공정한 이용을 보장하기 위해 요율 제한이 적용됩니다.",
+    "rateLimitItems": [
+      "IP 주소당 하루 100회 요청",
+      "배치 요청당 50개 키워드",
+      "캐시된 결과는 요율 제한에 포함되지 않음"
+    ]
+  },
+  "blog": {
+    "meta": {
+      "title": "블로그",
+      "description": "SEOLens 블로그 - 키워드 리서치, SEO 전략, 콘텐츠 최적화에 관한 팁, 튜토리얼, 인사이트."
+    },
+    "heading": "블로그",
+    "badge": "출시 예정",
+    "subtitle": "키워드 리서치, SEO 전략, 콘텐츠 최적화에 관한 기사를 준비 중입니다.",
+    "subtitleSecondary": "튜토리얼, 케이스 스터디, 업계 인사이트를 곧 공개할 예정입니다.",
+    "cta": "키워드 도구 사용해보기"
+  },
+  "blogPost": {
+    "meta": {
+      "title": "블로그 게시물",
+      "description": "SEOLens 블로그 게시물."
+    },
+    "notFoundHeading": "게시물을 찾을 수 없습니다",
+    "notFoundDescription": "이 블로그 게시물은 아직 존재하지 않거나 작성 중입니다.",
+    "notFoundSubtitle": "SEO, 키워드 리서치, 콘텐츠 전략에 관한 블로그를 곧 공개할 예정입니다.",
+    "backToBlog": "블로그로 돌아가기",
+    "tryTool": "도구 사용해보기"
+  },
+  "privacy": {
+    "meta": {
+      "title": "개인정보 처리방침",
+      "description": "SEOLens 개인정보 처리방침. 데이터의 수집, 사용 및 보호 방법에 대해 안내합니다."
+    },
+    "heading": "개인정보 처리방침",
+    "lastUpdated": "최종 업데이트: 2026년 2월",
+    "intro": "SEOLens(\"당사\")는 seolens.dev 웹사이트 및 API를 운영합니다. 이 개인정보 처리방침은 서비스를 이용할 때 정보의 수집, 사용, 공개 및 보호 방법을 설명합니다.",
+    "informationWeCollect": "수집하는 정보",
+    "usageData": "이용 데이터",
+    "usageDataDescription": "서비스를 방문하거나 이용할 때 IP 주소, 브라우저 유형, 운영 체제, 참조 URL, 열람 페이지, 방문 일시 등의 정보를 자동으로 수집합니다. 이 데이터는 분석 및 서비스 개선에 사용됩니다.",
+    "searchQueries": "검색 쿼리",
+    "searchQueriesDescription": "도구 또는 API를 통해 리서치하는 키워드는 결과를 제공하기 위해 처리됩니다. 모든 사용자의 성능을 향상시키기 위해 키워드 결과를 캐시할 수 있습니다. 캐시된 키워드 데이터는 개별 사용자와 연결되지 않습니다.",
+    "cookies": "쿠키 및 추적",
+    "cookiesDescription": "언어 설정 및 기본 사이트 기능을 위해 필수 쿠키를 사용합니다. 제3자 광고 쿠키나 추적 픽셀은 사용하지 않습니다.",
+    "howWeUse": "정보 이용 방법",
+    "howWeUseItems": [
+      "키워드 리서치 서비스의 제공 및 유지",
+      "서비스의 개선, 개인화 및 확장",
+      "이용 패턴 및 추세의 이해와 분석",
+      "기술적 문제 및 부정 이용의 감지, 예방 및 대처",
+      "요율 제한 시행 및 API의 공정한 이용 보장"
+    ],
+    "dataRetention": "데이터 보존",
+    "dataRetentionIntro": "이 방침에 기재된 목적을 달성하는 데 필요한 기간 동안 이용 데이터를 보존합니다. 구체적으로:",
+    "dataRetentionItems": [
+      "캐시된 키워드 결과는 성능 향상을 위해 최대 30일 보존",
+      "서버 로그 (IP 주소 포함)는 최대 90일 보존",
+      "집계된 분석 데이터 (개인 식별 불가)는 무기한 보존될 수 있음"
+    ],
+    "thirdParty": "제3자 서비스",
+    "thirdPartyIntro": "SEOLens 운영에 다음 제3자 서비스를 사용합니다:",
+    "thirdPartyVercel": "호스팅 및 배포",
+    "thirdPartySupabase": "데이터베이스 및 캐시",
+    "thirdPartyGoogle": "키워드 데이터 소스",
+    "contactUs": "문의하기",
+    "contactDescription": "이 개인정보 처리방침 또는 데이터 처리에 관한 질문이 있으시면 아래로 문의해 주세요:"
+  },
+  "terms": {
+    "meta": {
+      "title": "이용약관",
+      "description": "SEOLens 이용약관. 키워드 리서치 도구 및 API의 이용 조건을 확인하세요."
+    },
+    "heading": "이용약관",
+    "lastUpdated": "최종 업데이트: 2026년 2월",
+    "acceptance": "약관 동의",
+    "acceptanceDescription": "SEOLens(이하 \"본 서비스\")(seolens.dev에서 이용 가능)에 접근하거나 사용함으로써 본 이용약관(이하 \"본 약관\")에 동의하는 것으로 간주됩니다. 본 약관의 전부에 동의하지 않는 경우 본 서비스를 사용하지 마십시오. 당사는 수시로 본 약관을 업데이트할 권리를 보유합니다. 변경 후 본 서비스의 계속 사용은 변경된 약관의 수락을 구성합니다.",
+    "serviceDescription": "서비스 설명",
+    "serviceDescriptionIntro": "SEOLens는 사용자가 다음을 수행할 수 있는 무료 키워드 리서치 도구 및 REST API를 제공합니다:",
+    "serviceDescriptionItems": [
+      "키워드의 검색량, 경쟁, CPC 데이터 리서치",
+      "관련 키워드 추천 발견",
+      "SEO 목적의 키워드 난이도 평가",
+      "REST API를 통한 프로그래밍 방식의 키워드 데이터 접근"
+    ],
+    "serviceDescriptionDisclaimer": "본 서비스는 명시적이든 묵시적이든 어떠한 종류의 보증도 없이 \"있는 그대로\" \"이용 가능한 상태로\" 제공됩니다.",
+    "acceptableUse": "허용되는 이용",
+    "acceptableUseIntro": "다음 목적으로 본 서비스를 사용하지 않는 것에 동의합니다:",
+    "acceptableUseItems": [
+      "서비스 인프라의 과부하, 무효화 또는 장애",
+      "요율 제한의 우회 또는 API의 부정 이용",
+      "서비스에서 얻은 데이터의 스크래핑 또는 재판매",
+      "문서화된 API 엔드포인트 외의 자동화 도구를 통한 과도한 접근",
+      "적용 법률 또는 규정의 위반"
+    ],
+    "limitations": "책임 제한",
+    "limitationsIntro": "적용법이 허용하는 최대 범위 내에서 SEOLens 및 그 운영자는 다음으로 인한 간접적, 우발적, 특별, 결과적 또는 징벌적 손해, 또는 직접적 또는 간접적으로 발생한 이익이나 수익의 손실, 데이터, 사용, 영업권, 기타 무형 손실에 대해 책임을 지지 않습니다:",
+    "limitationsItems": [
+      "본 서비스의 사용 또는 사용 불능",
+      "키워드 데이터, 검색량, 난이도 점수의 부정확성",
+      "본 서비스의 중단, 정지 또는 종료",
+      "본 서비스를 통해 전송된 버그, 바이러스 또는 오류"
+    ],
+    "dataAccuracy": "데이터 정확성",
+    "dataAccuracyDescription": "검색량, CPC 범위, 난이도 점수를 포함한 키워드 데이터는 제3자 제공업체에서 소싱되며 정보 제공 목적으로만 제공됩니다. 이 데이터의 정확성, 완전성 또는 적시성을 보장하지 않습니다. SEO에 관한 의사결정은 여러 데이터 소스와 전문적인 판단에 기반하여 이루어져야 합니다.",
+    "changes": "본 약관의 변경",
+    "changesDescription": "당사는 수시로 본 약관을 수정 또는 변경할 권리를 보유합니다. 중요한 변경이 있는 경우 새로운 약관이 발효되기 최소 30일 전에 서비스에 공지를 게시합니다. 무엇이 중요한 변경에 해당하는지는 당사의 단독 재량에 의해 결정됩니다. 그러한 변경 후 본 서비스의 계속 사용은 업데이트된 약관의 수락을 구성합니다.",
+    "contactUs": "문의하기",
+    "contactDescription": "본 이용약관에 관한 질문이 있으시면 아래로 문의해 주세요:"
+  },
+  "auth": {
+    "loginTitle": "로그인",
+    "signupTitle": "계정 생성",
+    "subtitle": "API 키를 관리하려면 로그인하세요",
+    "continueWithGoogle": "Google로 계속",
+    "continueWithGitHub": "GitHub로 계속",
+    "or": "또는",
+    "email": "이메일",
+    "password": "비밀번호",
+    "loginButton": "로그인",
+    "signupButton": "계정 생성",
+    "loading": "로딩 중...",
+    "noAccount": "계정이 없으신가요?",
+    "hasAccount": "이미 계정이 있으신가요?",
+    "signupLink": "회원가입",
+    "loginLink": "로그인",
+    "checkEmail": "확인 링크를 이메일로 발송했습니다."
+  },
+  "dashboard": {
+    "title": "API 키",
+    "logout": "로그아웃",
+    "createKey": "새 API 키 생성",
+    "keyNamePlaceholder": "예: My SEO Bot",
+    "create": "생성",
+    "creating": "생성 중...",
+    "freeLimit": "무료 플랜: 키당 하루 100회 요청",
+    "yourKeys": "키 목록",
+    "noKeys": "아직 API 키가 없습니다. 하나를 생성하여 시작하세요.",
+    "todayUsage": "오늘",
+    "created": "생성일",
+    "delete": "삭제",
+    "newKeyCreated": "API 키가 생성되었습니다!",
+    "copy": "복사",
+    "copied": "복사 완료!",
+    "saveWarning": "이 키를 지금 저장하세요. 다시 표시되지 않습니다.",
+    "dismiss": "닫기",
+    "docsTitle": "API 사용법",
+    "docsBaseUrl": "엔드포인트",
+    "docsAuth": "인증",
+    "docsParams": "파라미터: keywords (string[], 필수, 최대 50개), countryCode (string, 기본값: \"US\"), languageCode (string, 기본값: \"en\"). 지원 국가: US, JP, GB, DE, FR, CA, AU, BR, IN, KR, MX, ES, IT, NL, SE, TW, TH, VN, ID, PH."
+  },
+  "footer": {
+    "product": "제품",
+    "resources": "리소스",
+    "legal": "법적 정보",
+    "features": "기능",
+    "pricing": "요금",
+    "changelog": "변경 로그",
+    "apiDocs": "API 문서",
+    "blog": "블로그",
+    "documentation": "문서",
+    "privacy": "개인정보 처리방침",
+    "terms": "이용약관",
+    "copyright": "© {year} SEOLens. All rights reserved."
+  }
+}

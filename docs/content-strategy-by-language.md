@@ -1,23 +1,14 @@
 # SEO Lens コンテンツ戦略（言語別）
 
-## 調査対象: 14言語 / 20カ国
+## 対象言語: 5言語 / 9カ国
 
-| # | 言語 | 対象国 | データ品質 | 優先度 |
-|---|------|--------|-----------|--------|
-| 1 | English (en) | US, GB, CA, AU, IN, PH | ★★★ USのみ数値データあり | S |
-| 2 | Japanese (ja) | JP | ★★☆ 一部数値データあり | S |
-| 3 | Korean (ko) | KR | ★☆☆ サジェストのみ | A |
-| 4 | Chinese Traditional (zh) | TW | ★☆☆ サジェストのみ | A |
-| 5 | Spanish (es) | ES, MX | ★☆☆ サジェストのみ | A |
-| 6 | Portuguese (pt) | BR | ★☆☆ サジェストのみ | B |
-| 7 | German (de) | DE | ★☆☆ サジェストのみ | B |
-| 8 | French (fr) | FR | ★☆☆ サジェストのみ | B |
-| 9 | Indonesian (id) | ID | ★☆☆ サジェストのみ | B |
-| 10 | Italian (it) | IT | ★☆☆ サジェストのみ | C |
-| 11 | Dutch (nl) | NL | ★☆☆ サジェストのみ | C |
-| 12 | Thai (th) | TH | ★☆☆ サジェストのみ | C |
-| 13 | Swedish (sv) | SE | ☆☆☆ 最小限 | C |
-| 14 | Vietnamese (vi) | VN | ☆☆☆ 最小限 | C |
+| # | 言語 | 対象国 | 優先度 |
+|---|------|--------|--------|
+| 1 | English (en) | US, GB, CA, AU, IN, PH | S |
+| 2 | Japanese (ja) | JP | S |
+| 3 | Korean (ko) | KR | A |
+| 4 | Chinese Traditional (zh) | TW | A |
+| 5 | Spanish (es) | ES, MX | A |
 
 ---
 
@@ -101,7 +92,7 @@ KDが低く、CPCが高い = 商業価値が高くて勝てるゾーン
 | Meta Tags in HTML: Reference | meta tags html | 1,900 | 42 | 2 |
 | Meta Tags for SEO: Full Guide | meta tags for seo | 2,900 | 57 | 3 |
 
-### 英語 合計記事数: 約28本
+### 英語 合計: 28本
 
 ---
 
@@ -187,7 +178,7 @@ KDが低く、CPCが高い = 商業価値が高くて勝てるゾーン
 | 検索エンジンの仕組みとSEO | 検索エンジンとは | 2 |
 | サイト分析ツール おすすめ無料版 | サイト分析ツール 無料 | 2 |
 
-### 日本語 合計記事数: 約32本
+### 日本語 合計: 32本
 
 ---
 
@@ -195,12 +186,11 @@ KDが低く、CPCが高い = 商業価値が高くて勝てるゾーン
 
 ### 市場規模と特徴
 
-- 数値データはN/Aだが、**サジェストが非常に豊富** → 需要はある
 - Naver（韓国独自検索エンジン）のSEOも絡む独自市場
 - 「〜 뜻」（意味）系のキーワードが多い → 入門記事需要が高い
 - 韓国語のSEO情報はまだ少ない → ブルーオーシャン
 
-### 狙うべきキーワードと記事
+### ピラー＆クラスター戦略
 
 #### Pillar A: SEO 기초 (SEO基礎)
 
@@ -245,7 +235,7 @@ KDが低く、CPCが高い = 商業価値が高くて勝てるゾーン
 | 검색엔진 종류와 점유율 비교 | 검색엔진 종류 | 2 |
 | AI 검색엔진 시대의 SEO | 검색엔진 ai | 2 |
 
-### 韓国語 合計記事数: 約22本
+### 韓国語 合計: 22本
 
 ---
 
@@ -257,7 +247,7 @@ KDが低く、CPCが高い = 商業価値が高くて勝てるゾーン
 - SEO情報は英語からの翻訳記事が多く、**オリジナル繁体字コンテンツ**に価値がある
 - 「〜是什麼」（〜とは何か）系の検索が多い
 
-### 狙うべきキーワードと記事
+### ピラー＆クラスター戦略
 
 #### Pillar A: SEO 基礎
 
@@ -285,7 +275,7 @@ KDが低く、CPCが高い = 商業価値が高くて勝てるゾーン
 | SEO工具推薦：免費與付費比較 | seo工具 | 2 |
 | 搜尋引擎優化完整指南 | 搜尋引擎優化 | 2 |
 
-### 繁体字中国語 合計記事数: 約11本
+### 繁体字中国語 合計: 11本
 
 ---
 
@@ -298,7 +288,7 @@ KDが低く、CPCが高い = 商業価値が高くて勝てるゾーン
 - SEOコンテンツの質はまだ英語圏に比べて低い → 差別化チャンス
 - 「herramientas SEO」（SEOツール）系のサジェストが豊富
 
-### 狙うべきキーワードと記事
+### ピラー＆クラスター戦略
 
 #### Pillar A: SEO Básico (SEO基礎)
 
@@ -325,166 +315,7 @@ KDが低く、CPCが高い = 商業価値が高くて勝てるゾーン
 | Backlinks gratis: Cómo conseguirlos | backlinks gratis | 1 |
 | Optimización SEO: Paso a paso | optimización seo | 2 |
 
-### スペイン語 合計記事数: 約10本
-
----
-
-## 6. Portuguese (pt) — BR
-
-### 市場規模と特徴
-
-- ブラジル単独で2億人超の市場
-- 「tráfego pago」（有料トラフィック）「tráfego orgânico」（自然流入）の検索が多い
-- デジタルマーケティング市場が急成長中
-
-### 狙うべきキーワードと記事
-
-| 記事タイトル | ターゲットKW | Phase |
-|-------------|-------------|-------|
-| O que é SEO? Guia completo | seo o que é | 1 |
-| Backlinks: O que é e como funciona | backlinks o que é | 1 |
-| Ferramentas SEO gratuitas: Top 10 | ferramentas seo gratuitas | 1 |
-| Tráfego orgânico vs pago: Qual escolher? | tráfego organico / tráfego pago | 1 |
-| Análise SEO de site grátis | analise seo de site | 2 |
-| Otimização SEO: Passo a passo | otimização seo | 2 |
-| Indexação Google: Como funciona | indexação google | 2 |
-
-### ポルトガル語 合計記事数: 約7本
-
----
-
-## 7. German (de) — DE
-
-### 市場規模と特徴
-
-- ヨーロッパ最大のGDP、オンライン市場も大きい
-- 「Suchmaschinenoptimierung」（検索エンジン最適化）というドイツ語特有のキーワードがある
-- 「kostenlos」（無料）付きキーワードの需要が高い
-
-### 狙うべきキーワードと記事
-
-| 記事タイトル | ターゲットKW | Phase |
-|-------------|-------------|-------|
-| Was ist SEO? Bedeutung & Grundlagen | seo bedeutung | 1 |
-| SEO Optimierung: Kompletter Guide | seo optimierung | 1 |
-| Kostenlose SEO Tools im Vergleich | seo tools kostenlos | 1 |
-| SEO Analyse kostenlos: Beste Tools | seo analyse kostenlos | 1 |
-| Backlinks aufbauen: Strategie Guide | backlinks aufbauen | 2 |
-| Suchmaschinenoptimierung Komplett-Guide | suchmaschinenoptimierung | 2 |
-| Sichtbarkeitsindex prüfen & verbessern | sichtbarkeitsindex | 2 |
-
-### ドイツ語 合計記事数: 約7本
-
----
-
-## 8. French (fr) — FR
-
-### 市場規模と特徴
-
-- フランス + アフリカのフランス語圏をカバー可能
-- 「référencement naturel」（自然検索ランキング）がフランス独自のSEO概念
-- 「gratuit」（無料）付きキーワードが人気
-
-### 狙うべきキーワードと記事
-
-| 記事タイトル | ターゲットKW | Phase |
-|-------------|-------------|-------|
-| Référencement naturel : Guide complet | référencement naturel | 1 |
-| Référencement Google : Comment ça marche | référencement google | 1 |
-| Outils SEO gratuit : Top 10 | outils seo gratuit | 1 |
-| Audit SEO gratuit en ligne | audit seo gratuit | 1 |
-| Mots-clés SEO : Guide pratique | mots-clés seo | 2 |
-| Référencement IA : L'avenir du SEO | référencement ia | 2 |
-| Backlinks SEO : Définition & stratégie | backlinks seo définition | 2 |
-
-### フランス語 合計記事数: 約7本
-
----
-
-## 9. Indonesian (id) — ID
-
-### 市場規模と特徴
-
-- 人口2.7億人の巨大市場、インターネット普及率急上昇中
-- SEOリテラシーがまだ低く、**入門コンテンツに大きな需要**
-- 「adalah」（〜とは）系のキーワードが特徴的
-
-### 狙うべきキーワードと記事
-
-| 記事タイトル | ターゲットKW | Phase |
-|-------------|-------------|-------|
-| Apa itu SEO? Panduan lengkap | seo adalah | 1 |
-| Backlink adalah: Panduan SEO | backlink adalah | 1 |
-| Backlink gratis: Cara mendapatkan | backlink gratis | 1 |
-| Kata kunci SEO: Panduan riset | kata kunci seo | 1 |
-| Optimasi SEO: Langkah demi langkah | optimasi seo | 2 |
-| Alat SEO terbaik untuk pemula | alat seo | 2 |
-| Meta tag SEO: Cara setting | meta tag seo | 2 |
-
-### インドネシア語 合計記事数: 約7本
-
----
-
-## 10. Italian (it) — IT
-
-### 狙うべきキーワードと記事
-
-| 記事タイトル | ターゲットKW | Phase |
-|-------------|-------------|-------|
-| Cos'è la SEO? Significato e guida | seo significato | 1 |
-| Strumenti SEO gratuiti: I migliori | strumenti seo gratuiti | 1 |
-| Analisi SEO sito gratis | analisi seo gratis | 1 |
-| Backlinks: Cosa sono e come ottenere | backlinks cosa sono | 2 |
-| Ottimizzazione SEO: Guida pratica | ottimizzazione seo | 2 |
-| Indicizzazione Google: Come funziona | indicizzazione google | 2 |
-
-### イタリア語 合計記事数: 約6本
-
----
-
-## 11. Dutch (nl) — NL
-
-### 狙うべきキーワードと記事
-
-| 記事タイトル | ターゲットKW | Phase |
-|-------------|-------------|-------|
-| Wat is SEO? Betekenis & uitleg | seo betekenis | 1 |
-| Zoekwoorden onderzoek: Complete gids | zoekwoorden onderzoek | 1 |
-| Gratis SEO tools vergelijking | seo tools gratis | 1 |
-| SEO analyse website: Hoe doe je dat | seo analyse website | 2 |
-| Backlinks kopen vs zelf opbouwen | backlinks kopen | 2 |
-
-### オランダ語 合計記事数: 約5本
-
----
-
-## 12. Thai (th) — TH
-
-### 狙うべきキーワードと記事
-
-| 記事タイトル | ターゲットKW | Phase |
-|-------------|-------------|-------|
-| SEO คืออะไร? คู่มือเริ่มต้น | seo คือ | 1 |
-| คีย์เวิร์ด คืออะไร? วิธีค้นหา | คีย์เวิร์ด คือ | 1 |
-| เครื่องมือ SEO ฟรี ที่ดีที่สุด | เครื่องมือ seo ฟรี | 1 |
-| แบ็คลิงค์ คืออะไร? ทำไมสำคัญ | แบ็คลิงค์ คือ | 2 |
-
-### タイ語 合計記事数: 約4本
-
----
-
-## 13-14. Swedish (sv) / Vietnamese (vi)
-
-### 現状
-
-- データがほぼ取得できず（N/A、サジェスト最小限）
-- 市場規模も相対的に小さい
-
-### 推奨
-
-- **Phase 3以降で検討**
-- 英語コンテンツの翻訳版として最低限展開
-- 各3本程度（SEOとは、キーワードリサーチ、バックリンク基礎）
+### スペイン語 合計: 10本
 
 ---
 
@@ -497,38 +328,74 @@ KDが低く、CPCが高い = 商業価値が高くて勝てるゾーン
 | Korean | 22本 | 10 | 10 | 2 |
 | Chinese (TW) | 11本 | 5 | 4 | 2 |
 | Spanish | 10本 | 5 | 4 | 1 |
-| Portuguese | 7本 | 4 | 3 | - |
-| German | 7本 | 4 | 3 | - |
-| French | 7本 | 4 | 3 | - |
-| Indonesian | 7本 | 4 | 3 | - |
-| Italian | 6本 | 3 | 3 | - |
-| Dutch | 5本 | 3 | 2 | - |
-| Thai | 4本 | 3 | 1 | - |
-| Swedish | 3本 | - | - | 3 |
-| Vietnamese | 3本 | - | - | 3 |
-| **合計** | **152本** | **73** | **58** | **21** |
+| **合計** | **103本** | **48** | **40** | **15** |
 
 ---
 
 ## 実行ロードマップ
 
-### Phase 1（0〜3ヶ月）: 73本
+### Phase 1（0〜3ヶ月）: 48本
 
 ```
 Month 1: EN (12本) + JA (8本) = 20本
 Month 2: JA (8本) + KO (5本) + ZH (3本) = 16本
-Month 3: KO (5本) + ES (5本) + PT/DE/FR/ID (各2本) = 18本
-         + IT/NL/TH (各1本) = 3本
-         残り: 16本 → 次月へ繰越
+Month 3: KO (5本) + ES (5本) + ZH (2本) = 12本
 ```
 
-### Phase 2（3〜6ヶ月）: 58本
+### Phase 2（3〜6ヶ月）: 40本
 
 各言語のPhase 1記事が上位表示され始めたら、中難易度キーワードへ展開。
 
-### Phase 3（6〜12ヶ月）: 21本
+```
+Month 4: EN (5本) + JA (6本) = 11本
+Month 5: JA (6本) + KO (5本) = 11本
+Month 6: KO (5本) + EN (5本) + ZH (4本) + ES (4本) = 18本
+```
 
-ドメインパワーが育ったら高KDキーワードに挑戦 + SV/VI展開。
+### Phase 3（6〜12ヶ月）: 15本
+
+ドメインパワーが育ったら高KDキーワードに挑戦。
+
+```
+EN (6本) + JA (4本) + KO (2本) + ZH (2本) + ES (1本) = 15本
+```
+
+---
+
+## 記事の推奨文字数ガイドライン
+
+### ピラー記事（Pillar Content）
+
+トピック全体を網羅する「ハブ」的な記事。クラスター記事へ内部リンクで繋ぐ。
+
+| 言語 | 推奨文字数 | 実績値 |
+|------|-----------|--------|
+| English | 3,000〜5,000 words（20,000〜35,000文字） | 3,400〜4,500 words |
+| Japanese | 8,000〜15,000文字 | 10,700〜12,500文字 |
+| Korean | 8,000〜15,000文字 | 12,100〜13,500文字 |
+| Chinese (TW) | 8,000〜15,000文字 | 10,000〜12,000文字 |
+| Spanish | 2,500〜4,000 words | TBD |
+
+### クラスター記事（Cluster Content）
+
+ピラーの1サブトピックを深掘りする記事。ピラーの約1/3の分量。
+
+| 言語 | 推奨文字数 |
+|------|-----------|
+| English | 1,000〜2,000 words（7,000〜14,000文字） |
+| Japanese | 3,000〜6,000文字 |
+| Korean | 3,000〜6,000文字 |
+| Chinese (TW) | 3,000〜6,000文字 |
+| Spanish | 800〜1,500 words |
+
+### 文字数よりも重要なこと
+
+1. **検索意図の充足**: ユーザーの疑問にすべて答えているか
+2. **構造の明確さ**: H2/H3で整理されてスキャンしやすいか
+3. **内部リンク**: ピラー⇔クラスター間の相互リンク
+4. **独自価値**: 競合記事にない情報（ツール紹介、実データ等）
+
+> Google検索上位10記事の平均は英語で約2,400 words。ピラーはそれを上回る長さが定石だが、長さだけでは上位表示されない。
 
 ---
 

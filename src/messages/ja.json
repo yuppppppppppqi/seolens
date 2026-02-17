@@ -9,7 +9,8 @@
     "pricing": "料金",
     "docs": "ドキュメント",
     "blog": "ブログ",
-    "openTool": "ツールを開く"
+    "openTool": "ツールを開く",
+    "apiKeys": "APIキー"
   },
   "landing": {
     "meta": {
@@ -17,7 +18,7 @@
       "description": "リアルタイムの検索ボリューム、難易度スコア、CPCデータ、AI搭載サジェストでキーワードを調査。"
     },
     "hero": {
-      "badge": "無料 & オープンソース",
+      "badge": "無料で使える",
       "title": "キーワードリサーチを、",
       "titleHighlight": "もっとシンプルに",
       "subtitle": "キーワードを入力するだけ。検索ボリューム・難易度・CPC・競合データを一瞬で取得。登録不要、すぐに使えます。",
@@ -254,7 +255,7 @@
     "subtitle": "SEOLens REST APIの完全なリファレンス。",
     "baseUrl": "ベースURL",
     "authentication": "認証",
-    "authenticationDescription": "APIは現在無料で、認証は不要です。IPアドレスごとにレート制限が適用されます。将来のバージョンでは、より高いレート制限のためにAPIキー認証が導入される可能性があります。",
+    "authenticationDescription": "すべてのAPIリクエストにはAPIキーが必要です。ダッシュボードにログインして無料のAPIキーを作成してください。AuthorizationヘッダーまたはX-API-Keyヘッダーでリクエストに含めてください。",
     "researchEndpointDescription": "1つまたは複数のキーワードをリサーチし、検索ボリューム、難易度、CPCデータ、関連キーワードサジェストを取得します。",
     "requestBody": "リクエストボディ",
     "parameter": "パラメータ",
@@ -275,6 +276,7 @@
     "status": "ステータス",
     "errors": {
       "200": "成功 - キーワードデータが返されました",
+      "401": "Unauthorized - APIキーが不足または無効",
       "400": "Bad Request - パラメータが不足または無効",
       "429": "レート制限超過 - リクエストが多すぎます",
       "500": "内部サーバーエラー - しばらくしてから再試行してください"
@@ -388,6 +390,47 @@
     "changesDescription": "当社は随時本規約を修正または変更する権利を留保します。重要な変更がある場合は、新しい規約が発効する少なくとも30日前にサービス上に通知を掲載します。何が重要な変更に当たるかは、当社の単独の裁量により決定されます。そのような変更後の本サービスの継続使用は、更新された規約の承諾を構成します。",
     "contactUs": "お問い合わせ",
     "contactDescription": "本利用規約についてご質問がある場合は、以下までお問い合わせください："
+  },
+  "auth": {
+    "loginTitle": "ログイン",
+    "signupTitle": "アカウント作成",
+    "subtitle": "APIキーを管理するにはログインしてください",
+    "continueWithGoogle": "Googleで続ける",
+    "continueWithGitHub": "GitHubで続ける",
+    "or": "または",
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "loginButton": "ログイン",
+    "signupButton": "アカウント作成",
+    "loading": "読み込み中...",
+    "noAccount": "アカウントをお持ちでないですか？",
+    "hasAccount": "すでにアカウントをお持ちですか？",
+    "signupLink": "新規登録",
+    "loginLink": "ログイン",
+    "checkEmail": "確認リンクをメールで送信しました。"
+  },
+  "dashboard": {
+    "title": "APIキー",
+    "logout": "ログアウト",
+    "createKey": "新しいAPIキーを作成",
+    "keyNamePlaceholder": "例: My SEO Bot",
+    "create": "作成",
+    "creating": "作成中...",
+    "freeLimit": "無料枠: 1キーあたり1日100リクエスト",
+    "yourKeys": "キー一覧",
+    "noKeys": "APIキーがありません。作成して始めましょう。",
+    "todayUsage": "本日",
+    "created": "作成日",
+    "delete": "削除",
+    "newKeyCreated": "APIキーが作成されました！",
+    "copy": "コピー",
+    "copied": "コピーしました！",
+    "saveWarning": "このキーを今すぐ保存してください。再表示されません。",
+    "dismiss": "閉じる",
+    "docsTitle": "APIの使い方",
+    "docsBaseUrl": "エンドポイント",
+    "docsAuth": "認証",
+    "docsParams": "パラメータ: keywords (string[], 必須, 最大50件), countryCode (string, デフォルト: \"US\"), languageCode (string, デフォルト: \"en\")。対応国: US, JP, GB, DE, FR, CA, AU, BR, IN, KR, MX, ES, IT, NL, SE, TW, TH, VN, ID, PH。"
   },
   "footer": {
     "product": "プロダクト",

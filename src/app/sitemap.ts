@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 const BASE_URL = "https://seolens.dev";
-const locales = ["en", "ja"];
+const locales = ["en", "ja", "ko", "zh", "es"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = [
@@ -28,6 +28,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
           languages: {
             en: `${BASE_URL}/en${page}`,
             ja: `${BASE_URL}/ja${page}`,
+            ko: `${BASE_URL}/ko${page}`,
+            zh: `${BASE_URL}/zh${page}`,
+            es: `${BASE_URL}/es${page}`,
           },
         },
       });

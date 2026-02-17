@@ -1,8 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getSuggestions } from "@/lib/google-suggest";
+import { isInternalRequest } from "@/lib/api-auth";
 import { getCachedSuggestions, setCachedSuggestions } from "@/lib/cache";
 
 export async function POST(req: NextRequest) {
+  if (!isInternalRequest(req)) {
+    return NextResponse.json(
+      { error: "This endpoint is for internal use. Use /api/v1/research with an API key." },
+      { status: 403 }
+    );
+  }
+
   try {
     const { keyword, countryCode, languageCode } = await req.json();
 

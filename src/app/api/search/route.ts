@@ -1,7 +1,15 @@
 import { NextRequest, NextResponse } from "next/server";
 import { performSearch } from "@/lib/search";
+import { isInternalRequest } from "@/lib/api-auth";
 
 export async function POST(req: NextRequest) {
+  if (!isInternalRequest(req)) {
+    return NextResponse.json(
+      { error: "This endpoint is for internal use. Use /api/v1/research with an API key." },
+      { status: 403 }
+    );
+  }
+
   try {
     const body = await req.json();
 

@@ -1,0 +1,402 @@
+{
+  "metadata": {
+    "title": "SEOLens - 免費關鍵字研究工具",
+    "description": "免費查詢全球關鍵字的搜尋量、難度、CPC 及競爭數據。"
+  },
+  "nav": {
+    "home": "首頁",
+    "features": "功能",
+    "pricing": "方案",
+    "docs": "文件",
+    "blog": "部落格",
+    "openTool": "開啟工具",
+    "apiKeys": "API 金鑰"
+  },
+  "landing": {
+    "meta": {
+      "title": "免費關鍵字研究工具",
+      "description": "透過即時搜尋量、難度評分、CPC 數據和 AI 推薦功能進行關鍵字研究。"
+    },
+    "hero": {
+      "badge": "免费使用",
+      "title": "關鍵字研究，",
+      "titleHighlight": "化繁為簡",
+      "subtitle": "輸入關鍵字即可立即取得搜尋量、難度、CPC 和競爭數據。無需註冊，立即使用。",
+      "cta": "搜尋",
+      "ctaSecondary": "查看 API 文件",
+      "searchPlaceholder": "輸入關鍵字進行研究..."
+    },
+    "features": {
+      "title": "您所需要的一切",
+      "subtitle": "為開發者和 SEO 專業人士打造的完整關鍵字研究工具。",
+      "searchVolume": {
+        "title": "搜尋量",
+        "description": "來自 Google Ads API 的精確月搜尋量數據與歷史趨勢。"
+      },
+      "difficulty": {
+        "title": "關鍵字難度",
+        "description": "由 DataForSEO 驅動的即時 KD 評分，評估排名潛力。"
+      },
+      "suggestions": {
+        "title": "關鍵字推薦",
+        "description": "利用 Google 自動完成與字母擴展的 AI 關鍵字擴充。"
+      },
+      "global": {
+        "title": "全球覆蓋",
+        "description": "支援 20 個國家、14 種語言的關鍵字研究。"
+      },
+      "api": {
+        "title": "REST API & MCP",
+        "description": "透過 REST API 或 Claude MCP 整合進行程式化存取。"
+      },
+      "cache": {
+        "title": "智慧快取",
+        "description": "透過可設定 TTL 的 Supabase 快取，最小化 API 成本。"
+      }
+    },
+    "stats": {
+      "countries": "支援國家",
+      "languages": "語言",
+      "keywords": "已快取關鍵字",
+      "apis": "資料來源"
+    },
+    "howItWorks": {
+      "title": "使用方法",
+      "subtitle": "三個步驟取得關鍵字洞察。",
+      "step1": {
+        "title": "輸入關鍵字",
+        "description": "輸入一個或多個關鍵字，選擇目標國家和語言。"
+      },
+      "step2": {
+        "title": "分析數據",
+        "description": "即時取得搜尋量、難度、CPC 和相關推薦。"
+      },
+      "step3": {
+        "title": "匯出與應用",
+        "description": "在可排序的表格中檢視結果，用於優化您的內容策略。"
+      }
+    },
+    "cta": {
+      "title": "準備好開始研究了嗎？",
+      "subtitle": "幾秒鐘內發現關鍵字機會。",
+      "button": "開啟關鍵字工具"
+    }
+  },
+  "tool": {
+    "title": "關鍵字探索器",
+    "search": {
+      "placeholder": "輸入關鍵字（每行一個或以逗號分隔）...",
+      "button": "搜尋",
+      "buttonMulti": "搜尋 ({count})",
+      "searching": "搜尋中...",
+      "loading": "正在取得數據... 新關鍵字可能需要幾秒鐘。"
+    },
+    "results": {
+      "volume": "搜尋量",
+      "difficulty": "關鍵字難度",
+      "cpc": "CPC",
+      "competition": "競爭",
+      "suggestions": "關鍵字推薦",
+      "exportCSV": "CSV",
+      "exportJSON": "JSON",
+      "volumeTooltip": "此關鍵字在 Google 上的月平均搜尋次數。數字越高代表潛在流量越大。",
+      "difficultyTooltip": "此關鍵字在 Google 搜尋首頁排名的難度。分數越低越容易排名。",
+      "cpcTooltip": "每次點擊成本 — 廣告主為此關鍵字的廣告每次點擊支付的平均費用。CPC 越高通常代表商業價值越高。",
+      "competitionTooltip": "對此關鍵字出價的廣告主數量。HIGH 表示競爭激烈，LOW 表示廣告主較少。"
+    },
+    "difficulty": {
+      "veryEasy": "非常簡單",
+      "easy": "簡單",
+      "moderate": "中等",
+      "hard": "困難",
+      "veryHard": "非常困難",
+      "extreme": "極度困難"
+    }
+  },
+  "features": {
+    "meta": {
+      "title": "功能",
+      "description": "探索 SEOLens 所有功能：關鍵字研究、難度評分、相關推薦、全球覆蓋、REST API、智慧快取。"
+    },
+    "heading": "關鍵字研究",
+    "headingHighlight": "所需的一切",
+    "subtitle": "SEOLens 提供完全免費的關鍵字研究工具套件。從搜尋量到難度分析，所有功能一應俱全。",
+    "items": {
+      "searchVolume": {
+        "title": "搜尋量數據",
+        "description": "利用 Google 關鍵字規劃工具取得精確的月搜尋量數據。了解每個關鍵字的真實需求，做出數據驅動的內容決策。",
+        "details": ["月平均搜尋量", "歷史趨勢數據", "季節性波動分析", "各地區搜尋量範圍"]
+      },
+      "difficulty": {
+        "title": "關鍵字難度評分",
+        "description": "即時評估任何關鍵字的排名難度。難度評分考量競爭程度、CPC 數據和搜尋意圖，為您提供清晰的判斷依據。",
+        "details": ["簡單 / 中等 / 困難 難度標籤", "Google 競爭指數", "CPC 範圍指標", "實用的排名建議"]
+      },
+      "suggestions": {
+        "title": "相關關鍵字推薦",
+        "description": "發現您可能遺漏的高價值關鍵字機會。推薦引擎提供語義相關的詞彙、長尾變體和問題型查詢。",
+        "details": ["語義相關的關鍵字", "長尾關鍵字變體", "問題型查詢", "每個推薦的搜尋量和難度"]
+      },
+      "global": {
+        "title": "20+ 國家覆蓋",
+        "description": "在 20 多個國家、14 種語言中進行關鍵字研究。取得針對您目標市場的本地化搜尋量和競爭數據。",
+        "details": ["美國、英國、日本、德國、法國等", "14 種語言選項", "本地化搜尋量數據", "國家別競爭指標"]
+      },
+      "api": {
+        "title": "REST API 存取",
+        "description": "透過簡單的 REST API 將關鍵字研究直接整合到您的工具和工作流程中。適合建立自訂儀表板、自動化內容流程或打造 SEO 工具。",
+        "details": ["簡單的 POST 端點", "JSON 請求與回應", "批次關鍵字研究支援", "MCP（Model Context Protocol）整合"]
+      },
+      "cache": {
+        "title": "智慧快取",
+        "description": "結果快取在 Supabase 中，實現超快速的重複查詢。相同的關鍵字查詢會立即從快取返回，降低 API 成本並改善回應時間。",
+        "details": ["Supabase 支援的結果快取", "重複查詢的即時快取命中", "降低 API 成本", "自動快取失效"]
+      }
+    },
+    "cta": "準備好開始您的關鍵字研究了嗎？",
+    "ctaButton": "開啟關鍵字工具"
+  },
+  "pricing": {
+    "meta": {
+      "title": "方案",
+      "description": "SEOLens 定價方案。從包含關鍵字研究、難度評分和 API 存取的免費方案開始。"
+    },
+    "heading": "簡單，",
+    "headingHighlight": "透明的",
+    "headingSuffix": "定價",
+    "subtitle": "免費開始關鍵字研究。無需信用卡。",
+    "free": {
+      "name": "免費",
+      "description": "適合入門使用",
+      "price": "$0",
+      "period": "/ 月",
+      "features": ["關鍵字研究工具", "相關關鍵字推薦", "難度評分", "20+ 國家支援", "REST API 存取", "每日 100 次查詢"],
+      "cta": "免費開始"
+    },
+    "pro": {
+      "name": "Pro",
+      "badge": "即將推出",
+      "description": "適合進階用戶和團隊",
+      "price": "$19",
+      "period": "/ 月",
+      "features": ["免費方案的所有功能", "無限 API 呼叫", "批次關鍵字研究（50+）", "優先電子郵件支援", "CSV / JSON 匯出"],
+      "cta": "即將推出"
+    },
+    "contact": "需要更高的限額或自訂定價嗎？",
+    "contactLink": "聯繫我們"
+  },
+  "docs": {
+    "meta": {
+      "title": "文件",
+      "description": "SEOLens API 文件。了解如何透過 REST API 將關鍵字研究整合到您的應用程式中。"
+    },
+    "heading": "文件",
+    "subtitle": "透過 SEOLens REST API 將關鍵字研究整合到您的應用程式中。簡單、快速，免費開始。",
+    "quickStart": "快速開始",
+    "quickStartDescription": "SEOLens API 提供單一端點進行關鍵字研究。發送包含關鍵字的 POST 請求，即可取得搜尋量、難度和相關推薦。",
+    "endpointDescription": "研究關鍵字並取得搜尋量、難度、CPC 和相關推薦。",
+    "exampleRequest": "請求範例",
+    "exampleResponse": "回應範例",
+    "apiReference": "API 參考",
+    "apiReferenceDescription": "所有端點、參數和回應格式的詳細文件。",
+    "tryTool": "試用工具",
+    "tryToolDescription": "直接在瀏覽器中使用互動式關鍵字研究工具。"
+  },
+  "docsApi": {
+    "meta": {
+      "title": "API 參考",
+      "description": "SEOLens 關鍵字研究 API 的完整參考。端點、參數、回應格式和程式碼範例。"
+    },
+    "breadcrumbDocs": "文件",
+    "heading": "API 參考",
+    "subtitle": "SEOLens REST API 的完整參考。",
+    "baseUrl": "基礎 URL",
+    "authentication": "認證",
+    "authenticationDescription": "所有 API 請求都需要 API 金鑰。登入控制台建立免費 API 金鑰。透過 Authorization 標頭或 x-api-key 標頭將金鑰包含在每個請求中。",
+    "researchEndpointDescription": "研究一個或多個關鍵字，取得搜尋量、難度、CPC 數據和相關關鍵字推薦。",
+    "requestBody": "請求主體",
+    "parameter": "參數",
+    "type": "類型",
+    "required": "必填",
+    "description": "說明",
+    "keywordDescription": "要研究的單一關鍵字",
+    "keywordsDescription": "關鍵字陣列（最多 50 個）。用來取代：",
+    "keywordsNote": "請提供以下其一：",
+    "keywordsNoteOr": "或",
+    "keywordsNoteEnd": "（不可同時使用）。",
+    "countryCodeDescription": "國家代碼（預設：\"US\"）。選項：US, JP, GB, DE, FR, CA, AU, BR, IN, KR, MX, ES, IT, NL, SE, TW, TH, VN, ID, PH",
+    "languageCodeDescription": "語言代碼（預設：\"en\"）。選項：en, ja, de, fr, es, pt, it, nl, ko, zh, th, vi, id, sv",
+    "responseSingle": "回應格式（單一關鍵字）",
+    "responseBatch": "回應格式（批次）",
+    "codeExamples": "程式碼範例",
+    "errorCodes": "錯誤代碼",
+    "status": "狀態",
+    "errors": {
+      "200": "成功 - 已返回關鍵字數據",
+      "401": "未授權 - API 金鑰缺失或無效",
+      "400": "錯誤請求 - 參數缺失或無效",
+      "429": "超過速率限制 - 請求過多",
+      "500": "內部伺服器錯誤 - 請稍後重試"
+    },
+    "rateLimits": "速率限制",
+    "rateLimitsDescription": "免費方案設有速率限制，以確保所有用戶的公平使用。",
+    "rateLimitItems": ["每個 IP 位址每日 100 次請求", "每次批次請求 50 個關鍵字", "已快取的結果不計入速率限制"]
+  },
+  "blog": {
+    "meta": {
+      "title": "部落格",
+      "description": "SEOLens 部落格 - 關鍵字研究、SEO 策略、內容優化的技巧、教學和洞察。"
+    },
+    "heading": "部落格",
+    "badge": "即將推出",
+    "subtitle": "我們正在準備關於關鍵字研究、SEO 策略和內容優化的文章。",
+    "subtitleSecondary": "教學、案例研究和產業洞察即將推出。",
+    "cta": "試用關鍵字工具"
+  },
+  "blogPost": {
+    "meta": {
+      "title": "部落格文章",
+      "description": "SEOLens 部落格文章。"
+    },
+    "notFoundHeading": "找不到文章",
+    "notFoundDescription": "此部落格文章尚不存在或正在撰寫中。",
+    "notFoundSubtitle": "我們的部落格即將推出 SEO、關鍵字研究和內容策略相關文章。",
+    "backToBlog": "返回部落格",
+    "tryTool": "試用工具"
+  },
+  "privacy": {
+    "meta": {
+      "title": "隱私權政策",
+      "description": "SEOLens 隱私權政策。了解我們如何收集、使用和保護您的資料。"
+    },
+    "heading": "隱私權政策",
+    "lastUpdated": "最後更新：2026 年 2 月",
+    "intro": "SEOLens（「我們」）營運 seolens.dev 網站及 API。本隱私權政策說明當您使用我們的服務時，我們如何收集、使用、揭露和保護您的資訊。",
+    "informationWeCollect": "我們收集的資訊",
+    "usageData": "使用數據",
+    "usageDataDescription": "當您造訪或使用我們的服務時，我們會自動收集某些資訊，包括您的 IP 位址、瀏覽器類型、作業系統、參照 URL、瀏覽頁面及造訪日期和時間。此數據用於分析和改善服務。",
+    "searchQueries": "搜尋查詢",
+    "searchQueriesDescription": "您透過我們的工具或 API 研究的關鍵字會被處理以提供結果。我們可能會快取關鍵字結果以改善所有用戶的效能。快取的關鍵字數據不會與個別用戶關聯。",
+    "cookies": "Cookie 與追蹤",
+    "cookiesDescription": "我們使用必要的 Cookie 來儲存語言偏好和基本網站功能。我們不使用第三方廣告 Cookie 或追蹤像素。",
+    "howWeUse": "我們如何使用您的資訊",
+    "howWeUseItems": [
+      "提供和維護我們的關鍵字研究服務",
+      "改善、個人化和擴展我們的服務",
+      "了解和分析使用模式和趨勢",
+      "偵測、預防和處理技術問題或濫用",
+      "執行速率限制並確保 API 的公平使用"
+    ],
+    "dataRetention": "資料保留",
+    "dataRetentionIntro": "我們在完成本政策所述目的所需的期間內保留使用數據。具體而言：",
+    "dataRetentionItems": [
+      "快取的關鍵字結果保留最多 30 天以改善效能",
+      "伺服器日誌（包括 IP 位址）保留最多 90 天",
+      "彙總的分析數據（無法識別個人身份）可能無限期保留"
+    ],
+    "thirdParty": "第三方服務",
+    "thirdPartyIntro": "我們使用以下第三方服務來營運 SEOLens：",
+    "thirdPartyVercel": "主機託管和部署",
+    "thirdPartySupabase": "資料庫和快取",
+    "thirdPartyGoogle": "關鍵字資料來源",
+    "contactUs": "聯繫我們",
+    "contactDescription": "如果您對本隱私權政策或我們的資料處理方式有任何疑問，請透過以下方式聯繫我們："
+  },
+  "terms": {
+    "meta": {
+      "title": "服務條款",
+      "description": "SEOLens 服務條款。請閱讀使用我們關鍵字研究工具和 API 的條款和條件。"
+    },
+    "heading": "服務條款",
+    "lastUpdated": "最後更新：2026 年 2 月",
+    "acceptance": "接受條款",
+    "acceptanceDescription": "存取或使用 SEOLens（以下簡稱「本服務」）（可在 seolens.dev 使用），即表示您同意受本服務條款（以下簡稱「本條款」）的約束。如果您不同意本條款的全部內容，請勿使用本服務。我們保留隨時更新本條款的權利。在變更後繼續使用本服務即構成對修改後條款的接受。",
+    "serviceDescription": "服務說明",
+    "serviceDescriptionIntro": "SEOLens 提供免費的關鍵字研究工具和 REST API，讓用戶可以：",
+    "serviceDescriptionItems": [
+      "研究關鍵字的搜尋量、競爭和 CPC 數據",
+      "發現相關關鍵字推薦",
+      "評估 SEO 目的的關鍵字難度",
+      "透過 REST API 程式化存取關鍵字數據"
+    ],
+    "serviceDescriptionDisclaimer": "本服務以「現況」和「可用」的基礎提供，不提供任何明示或暗示的保證。",
+    "acceptableUse": "可接受的使用",
+    "acceptableUseIntro": "您同意不將本服務用於以下目的：",
+    "acceptableUseItems": [
+      "使服務基礎設施過載、癱瘓或損害",
+      "規避速率限制或濫用 API",
+      "抓取或轉售從本服務獲取的數據",
+      "透過文件記載的 API 端點以外的自動化工具過度存取本服務",
+      "違反任何適用的法律或法規"
+    ],
+    "limitations": "責任限制",
+    "limitationsIntro": "在適用法律允許的最大範圍內，SEOLens 及其營運者不對以下原因造成的任何間接、偶然、特殊、後果性或懲罰性損害承擔責任：",
+    "limitationsItems": [
+      "您對本服務的使用或無法使用",
+      "關鍵字數據、搜尋量或難度評分的不準確性",
+      "本服務的任何中斷、暫停或終止",
+      "透過本服務傳輸的任何錯誤、病毒或錯誤"
+    ],
+    "dataAccuracy": "數據準確性",
+    "dataAccuracyDescription": "包括搜尋量、CPC 範圍和難度評分在內的關鍵字數據來自第三方提供者，僅供參考之用。我們不保證此數據的準確性、完整性或即時性。SEO 決策應基於多個數據來源和專業判斷做出。",
+    "changes": "本條款的變更",
+    "changesDescription": "我們保留隨時修改或更改本條款的權利。如有重大變更，我們將在新條款生效前至少 30 天在服務上發布通知。在此類變更後繼續使用本服務即構成對更新條款的接受。",
+    "contactUs": "聯繫我們",
+    "contactDescription": "如果您對本服務條款有任何疑問，請透過以下方式聯繫我們："
+  },
+  "auth": {
+    "loginTitle": "登入",
+    "signupTitle": "建立帳號",
+    "subtitle": "登入以管理您的 API 金鑰",
+    "continueWithGoogle": "使用 Google 繼續",
+    "continueWithGitHub": "使用 GitHub 繼續",
+    "or": "或",
+    "email": "電子郵件",
+    "password": "密碼",
+    "loginButton": "登入",
+    "signupButton": "建立帳號",
+    "loading": "載入中...",
+    "noAccount": "還沒有帳號嗎？",
+    "hasAccount": "已經有帳號了嗎？",
+    "signupLink": "註冊",
+    "loginLink": "登入",
+    "checkEmail": "確認連結已發送到您的電子郵件。"
+  },
+  "dashboard": {
+    "title": "API 金鑰",
+    "logout": "登出",
+    "createKey": "建立新的 API 金鑰",
+    "keyNamePlaceholder": "例：My SEO Bot",
+    "create": "建立",
+    "creating": "建立中...",
+    "freeLimit": "免費方案：每把金鑰每日 100 次請求",
+    "yourKeys": "您的金鑰",
+    "noKeys": "尚無 API 金鑰。建立一把開始使用。",
+    "todayUsage": "今日",
+    "created": "建立日期",
+    "delete": "刪除",
+    "newKeyCreated": "API 金鑰已建立！",
+    "copy": "複製",
+    "copied": "已複製！",
+    "saveWarning": "請立即儲存此金鑰。它將不會再次顯示。",
+    "dismiss": "關閉",
+    "docsTitle": "API 使用方式",
+    "docsBaseUrl": "端點",
+    "docsAuth": "認證",
+    "docsParams": "參數: keywords (string[], 必填, 最多 50 個), countryCode (string, 預設: \"US\"), languageCode (string, 預設: \"en\")。支援國家: US, JP, GB, DE, FR, CA, AU, BR, IN, KR, MX, ES, IT, NL, SE, TW, TH, VN, ID, PH。"
+  },
+  "footer": {
+    "product": "產品",
+    "resources": "資源",
+    "legal": "法律資訊",
+    "features": "功能",
+    "pricing": "方案",
+    "changelog": "更新日誌",
+    "apiDocs": "API 文件",
+    "blog": "部落格",
+    "documentation": "文件",
+    "privacy": "隱私權政策",
+    "terms": "服務條款",
+    "copyright": "© {year} SEOLens. All rights reserved."
+  }
+}

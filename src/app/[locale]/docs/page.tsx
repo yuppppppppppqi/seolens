@@ -65,10 +65,11 @@ export default async function DocsPage({ params }: Props) {
             </span>
           </div>
           <pre className="p-4 overflow-x-auto text-sm text-sl-text-secondary font-mono leading-relaxed">
-            <code>{`curl -X POST https://seolens.dev/api/v1/research \\
+            <code>{`curl -X POST https://seo-lens.site/api/v1/research \\
   -H "Content-Type: application/json" \\
+  -H "Authorization: Bearer YOUR_API_KEY" \\
   -d '{
-    "keyword": "nextjs seo",
+    "keywords": ["nextjs seo"],
     "countryCode": "US",
     "languageCode": "en"
   }'`}</code>

@@ -15,7 +15,6 @@ export default function Header() {
     { href: "/" as const, label: t("home") },
     { href: "/features" as const, label: t("features") },
     { href: "/pricing" as const, label: t("pricing") },
-    { href: "/docs" as const, label: t("docs") },
     { href: "/blog" as const, label: t("blog") },
   ];
 
@@ -50,6 +49,12 @@ export default function Header() {
         {/* Right side */}
         <div className="flex items-center gap-3">
           <LocaleSwitcher />
+          <Link
+            href="/dashboard"
+            className="hidden sm:inline-flex text-sm text-sl-text-muted hover:text-sl-text-secondary transition-colors"
+          >
+            {t("apiKeys")}
+          </Link>
           <Link
             href="/tool"
             className="hidden sm:inline-flex rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 px-4 py-2 text-sm font-medium text-white hover:from-cyan-400 hover:to-blue-400 transition-all shadow-[0_0_20px_rgba(6,182,212,0.2)]"
@@ -105,6 +110,13 @@ export default function Header() {
               {item.label}
             </Link>
           ))}
+          <Link
+            href="/dashboard"
+            onClick={() => setMobileOpen(false)}
+            className="block py-2 text-sm text-sl-text-muted"
+          >
+            {t("apiKeys")}
+          </Link>
           <Link
             href="/tool"
             onClick={() => setMobileOpen(false)}
