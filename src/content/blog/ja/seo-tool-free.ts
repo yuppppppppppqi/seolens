@@ -18,6 +18,16 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 8,
   relatedSlugs: ["seo-tools-guide", "seo-tool-toha", "kensaku-juni-checker"],
+  thumbnail: "/blog/seo-tool-free/thumbnail.jpg",
+  sectionImages: [
+    "/blog/seo-tool-free/section-1.jpg",
+    "/blog/seo-tool-free/section-2.jpg",
+    "/blog/seo-tool-free/section-3.jpg",
+    "/blog/seo-tool-free/section-4.jpg",
+    "/blog/seo-tool-free/section-5.jpg",
+    "/blog/seo-tool-free/section-6.jpg",
+    "/blog/seo-tool-free/section-7.jpg",
+  ],
   content: `
 ## はじめに：無料SEOツールだけで成果は出せるのか？
 

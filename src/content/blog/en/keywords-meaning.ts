@@ -18,6 +18,14 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 7,
   relatedSlugs: ["keyword-research-guide", "seo-audit-guide", "meta-tags-seo-guide"],
+  thumbnail: "/blog/keywords-meaning/thumbnail.jpg",
+  sectionImages: [
+    "/blog/keywords-meaning/section-1.jpg",
+    "/blog/keywords-meaning/section-2.jpg",
+    "/blog/keywords-meaning/section-3.jpg",
+    "/blog/keywords-meaning/section-4.jpg",
+    "/blog/keywords-meaning/section-5.jpg",
+  ],
   content: `
 ## What Are Keywords? A Simple Definition
 

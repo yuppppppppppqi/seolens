@@ -18,6 +18,7 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 8,
   relatedSlugs: ["backlinks-guide", "seo-basics-guide"],
+  thumbnail: "/blog/backlinks-free/thumbnail.jpg",
   content: `
 ## ¿Qué son los backlinks y por qué importan?
 

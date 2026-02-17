@@ -13,6 +13,15 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 7,
   relatedSlugs: ["seo-tools-guide", "seo-tool-free"],
+  thumbnail: "/blog/seo-tool-toha/thumbnail.jpg",
+  sectionImages: [
+    "/blog/seo-tool-toha/section-1.jpg",
+    "/blog/seo-tool-toha/section-2.jpg",
+    "/blog/seo-tool-toha/section-3.jpg",
+    "/blog/seo-tool-toha/section-4.jpg",
+    "/blog/seo-tool-toha/section-5.jpg",
+    "/blog/seo-tool-toha/section-6.jpg",
+  ],
   content: `
 ## SEOツールとは？基本的な定義をわかりやすく解説
 

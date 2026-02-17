@@ -18,6 +18,15 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 8,
   relatedSlugs: ["seo-audit-guide", "seo-tools-guide"],
+  thumbnail: "/blog/seo-audit-template/thumbnail.jpg",
+  sectionImages: [
+    "/blog/seo-audit-template/section-1.jpg",
+    "/blog/seo-audit-template/section-2.jpg",
+    "/blog/seo-audit-template/section-3.jpg",
+    "/blog/seo-audit-template/section-4.jpg",
+    "/blog/seo-audit-template/section-5.jpg",
+    "/blog/seo-audit-template/section-6.jpg",
+  ],
   content: `
 Running an SEO audit without a structured template is like performing surgery without a checklist — you will inevitably miss something important. An **SEO audit template** gives you a repeatable, organized framework to evaluate every aspect of your website's search performance, from technical infrastructure to content quality and backlink health.
 

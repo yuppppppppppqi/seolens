@@ -17,6 +17,20 @@ export const post: BlogPost = {
     "backlinks-guide",
     "search-ranking-guide",
   ],
+  thumbnail: "/blog/seo-basics-guide/thumbnail.jpg",
+  sectionImages: [
+    "/blog/seo-basics-guide/section-1.jpg",
+    "/blog/seo-basics-guide/section-2.jpg",
+    "/blog/seo-basics-guide/section-3.jpg",
+    "/blog/seo-basics-guide/section-4.jpg",
+    "/blog/seo-basics-guide/section-5.jpg",
+    "/blog/seo-basics-guide/section-6.jpg",
+    "/blog/seo-basics-guide/section-7.jpg",
+    "/blog/seo-basics-guide/section-8.jpg",
+    "/blog/seo-basics-guide/section-9.jpg",
+    "/blog/seo-basics-guide/section-10.jpg",
+    "/blog/seo-basics-guide/section-11.jpg",
+  ],
   content: `
 ## 시작하며: 2026년, 왜 SEO가 중요한가
 

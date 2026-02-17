@@ -13,6 +13,15 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 7,
   relatedSlugs: ["keyword-research-guide", "keyword-map"],
+  thumbnail: "/blog/keyword-toha/thumbnail.jpg",
+  sectionImages: [
+    "/blog/keyword-toha/section-1.jpg",
+    "/blog/keyword-toha/section-2.jpg",
+    "/blog/keyword-toha/section-3.jpg",
+    "/blog/keyword-toha/section-4.jpg",
+    "/blog/keyword-toha/section-5.jpg",
+    "/blog/keyword-toha/section-6.jpg",
+  ],
   content: `
 ## キーワードとは？── 基本的な定義
 

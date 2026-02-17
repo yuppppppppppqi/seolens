@@ -24,6 +24,20 @@ export const post: BlogPost = {
     "backlinks-guide",
     "meta-tags-seo-guide",
   ],
+  thumbnail: "/blog/seo-tools-guide/thumbnail.jpg",
+  sectionImages: [
+    "/blog/seo-tools-guide/section-1.jpg",
+    "/blog/seo-tools-guide/section-2.jpg",
+    "/blog/seo-tools-guide/section-3.jpg",
+    "/blog/seo-tools-guide/section-4.jpg",
+    "/blog/seo-tools-guide/section-5.jpg",
+    "/blog/seo-tools-guide/section-6.jpg",
+    "/blog/seo-tools-guide/section-7.jpg",
+    "/blog/seo-tools-guide/section-8.jpg",
+    "/blog/seo-tools-guide/section-9.jpg",
+    "/blog/seo-tools-guide/section-10.jpg",
+    "/blog/seo-tools-guide/section-11.jpg",
+  ],
   content: `
 ## Introduction: Why the Right SEO Tools Make All the Difference
 

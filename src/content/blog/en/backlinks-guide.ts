@@ -24,6 +24,18 @@ export const post: BlogPost = {
     "seo-tools-guide",
     "meta-tags-seo-guide",
   ],
+  thumbnail: "/blog/backlinks-guide/thumbnail.jpg",
+  sectionImages: [
+    "/blog/backlinks-guide/section-1.jpg",
+    "/blog/backlinks-guide/section-2.jpg",
+    "/blog/backlinks-guide/section-3.jpg",
+    "/blog/backlinks-guide/section-4.jpg",
+    "/blog/backlinks-guide/section-5.jpg",
+    "/blog/backlinks-guide/section-6.jpg",
+    "/blog/backlinks-guide/section-7.jpg",
+    "/blog/backlinks-guide/section-8.jpg",
+    "/blog/backlinks-guide/section-9.jpg",
+  ],
   content: `
 Backlinks remain one of the most powerful ranking factors in search engine optimization. Despite countless algorithm updates, Google consistently treats links from other websites as votes of confidence, using them to determine how trustworthy, authoritative, and relevant your content is. Whether you are launching a new website or trying to push an established domain to the top of the SERPs, understanding how to earn, build, and manage backlinks is essential.
 

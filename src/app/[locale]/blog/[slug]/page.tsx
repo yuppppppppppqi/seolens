@@ -1,5 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { notFound } from "next/navigation";
+import { redirect } from "next/navigation";
+import Image from "next/image";
 import { getPostBySlug, slugRegistry } from "@/lib/blog";
 import { routing } from "@/i18n/routing";
 import BlogContent from "@/components/blog/BlogContent";
@@ -30,9 +31,20 @@ export async function generateMetadata({ params }: Props) {
     };
   }
 
+  const languages: Record<string, string> = {};
+  for (const loc of routing.locales) {
+    if ((slugRegistry[loc] ?? []).includes(slug)) {
+      languages[loc] = `/${loc}/blog/${slug}`;
+    }
+  }
+
   return {
     title: post.title,
     description: post.description,
+    alternates: {
+      canonical: `/${locale}/blog/${slug}`,
+      languages,
+    },
     openGraph: {
       title: post.title,
       description: post.description,
@@ -40,6 +52,16 @@ export async function generateMetadata({ params }: Props) {
       publishedTime: post.publishedAt,
       modifiedTime: post.updatedAt,
       tags: post.tags,
+      ...(post.thumbnail && {
+        images: [
+          {
+            url: post.thumbnail,
+            width: 1200,
+            height: 630,
+            alt: post.title,
+          },
+        ],
+      }),
     },
   };
 }
@@ -51,7 +73,7 @@ export default async function BlogPostPage({ params }: Props) {
   const post = await getPostBySlug(locale, slug);
 
   if (!post) {
-    notFound();
+    redirect(`/${locale}/blog`);
   }
 
   const jsonLd = {
@@ -61,6 +83,9 @@ export default async function BlogPostPage({ params }: Props) {
     description: post.description,
     datePublished: post.publishedAt,
     dateModified: post.updatedAt,
+    ...(post.thumbnail && {
+      image: `https://seolens.dev${post.thumbnail}`,
+    }),
     publisher: {
       "@type": "Organization",
       name: "SEOLens",
@@ -139,11 +164,24 @@ export default async function BlogPostPage({ params }: Props) {
           </div>
         </header>
 
-        {/* Divider */}
-        <div className="border-t border-sl-border mb-10" />
+        {/* Hero Image or Divider */}
+        {post.thumbnail ? (
+          <div className="relative aspect-2/1 w-full overflow-hidden rounded-xl mb-10">
+            <Image
+              src={post.thumbnail}
+              alt={post.title}
+              fill
+              sizes="(max-width: 768px) 100vw, 768px"
+              className="object-cover"
+              priority
+            />
+          </div>
+        ) : (
+          <div className="border-t border-sl-border mb-10" />
+        )}
 
         {/* Content */}
-        <BlogContent content={post.content} />
+        <BlogContent content={post.content} sectionImages={post.sectionImages} />
 
         {/* Tags */}
         <div className="mt-12 pt-8 border-t border-sl-border">
@@ -169,7 +207,7 @@ export default async function BlogPostPage({ params }: Props) {
           </p>
           <a
             href={`/${locale}/tool`}
-            className="inline-flex rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 px-6 py-3 text-sm font-medium text-white hover:from-cyan-400 hover:to-blue-400 transition-all shadow-[0_0_20px_rgba(6,182,212,0.2)]"
+            className="inline-flex rounded-lg bg-linear-to-r from-cyan-500 to-blue-500 px-6 py-3 text-sm font-medium text-white hover:from-cyan-400 hover:to-blue-400 transition-all shadow-[0_0_20px_rgba(6,182,212,0.2)]"
           >
             Try SEOLens Free
           </a>

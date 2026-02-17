@@ -13,6 +13,7 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 7,
   relatedSlugs: ["keyword-research-guide", "seo-basics-guide"],
+  thumbnail: "/blog/seo-keyword-analysis/thumbnail.jpg",
   content: `
 ## 為什麼需要關鍵字分析？
 

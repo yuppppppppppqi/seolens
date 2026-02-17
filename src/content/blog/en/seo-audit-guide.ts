@@ -24,6 +24,19 @@ export const post: BlogPost = {
     "backlinks-guide",
     "meta-tags-seo-guide",
   ],
+  thumbnail: "/blog/seo-audit-guide/thumbnail.jpg",
+  sectionImages: [
+    "/blog/seo-audit-guide/section-1.jpg",
+    "/blog/seo-audit-guide/section-2.jpg",
+    "/blog/seo-audit-guide/section-3.jpg",
+    "/blog/seo-audit-guide/section-4.jpg",
+    "/blog/seo-audit-guide/section-5.jpg",
+    "/blog/seo-audit-guide/section-6.jpg",
+    "/blog/seo-audit-guide/section-7.jpg",
+    "/blog/seo-audit-guide/section-8.jpg",
+    "/blog/seo-audit-guide/section-9.jpg",
+    "/blog/seo-audit-guide/section-10.jpg",
+  ],
   content: `
 An SEO audit is the foundation of every successful search engine optimization strategy. Whether you are managing a small business website or a large enterprise platform, regularly auditing your site's SEO health ensures you stay ahead of competitors, adapt to algorithm changes, and capture the organic traffic your content deserves. In this comprehensive guide, we walk through every aspect of a thorough website audit — from technical infrastructure to content quality — so you can build a clear, actionable plan for improvement.
 

@@ -13,6 +13,7 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 7,
   relatedSlugs: ["seo-basics-guide", "seo-optimization"],
+  thumbnail: "/blog/seo-copywriting/thumbnail.jpg",
   content: `
 ## 什麼是 SEO 文案？
 

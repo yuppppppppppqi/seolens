@@ -18,6 +18,7 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 8,
   relatedSlugs: ["seo-basics-guide", "seo-tools-guide"],
+  thumbnail: "/blog/keywords-seo/thumbnail.jpg",
   content: `
 ## ¿Qué son las palabras clave en SEO?
 

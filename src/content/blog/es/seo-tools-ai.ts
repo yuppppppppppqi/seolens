@@ -18,6 +18,7 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 8,
   relatedSlugs: ["seo-tools-guide", "seo-basics-guide"],
+  thumbnail: "/blog/seo-tools-ai/thumbnail.jpg",
   content: `
 ## ¿Qué son las herramientas SEO con IA?
 

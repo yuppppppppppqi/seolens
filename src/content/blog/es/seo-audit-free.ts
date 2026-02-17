@@ -18,6 +18,7 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 8,
   relatedSlugs: ["seo-basics-guide", "seo-tools-free"],
+  thumbnail: "/blog/seo-audit-free/thumbnail.jpg",
   content: `
 ## ¿Qué es una auditoría SEO?
 

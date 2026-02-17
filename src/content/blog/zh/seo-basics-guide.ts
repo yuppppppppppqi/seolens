@@ -13,6 +13,17 @@ export const post: BlogPost = {
   isPillar: true,
   readingTime: 15,
   relatedSlugs: ["keyword-research-guide", "backlinks-guide"],
+  thumbnail: "/blog/seo-basics-guide/thumbnail.jpg",
+  sectionImages: [
+    "/blog/seo-basics-guide/section-1.jpg",
+    "/blog/seo-basics-guide/section-2.jpg",
+    "/blog/seo-basics-guide/section-3.jpg",
+    "/blog/seo-basics-guide/section-4.jpg",
+    "/blog/seo-basics-guide/section-5.jpg",
+    "/blog/seo-basics-guide/section-6.jpg",
+    "/blog/seo-basics-guide/section-7.jpg",
+    "/blog/seo-basics-guide/section-8.jpg",
+  ],
   content: `
 ## 前言：為什麼你需要了解SEO？
 

@@ -13,6 +13,15 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 8,
   relatedSlugs: ["backlinks-guide", "backlink-building"],
+  thumbnail: "/blog/backlink-how-to/thumbnail.jpg",
+  sectionImages: [
+    "/blog/backlink-how-to/section-1.jpg",
+    "/blog/backlink-how-to/section-2.jpg",
+    "/blog/backlink-how-to/section-3.jpg",
+    "/blog/backlink-how-to/section-4.jpg",
+    "/blog/backlink-how-to/section-5.jpg",
+    "/blog/backlink-how-to/section-6.jpg",
+  ],
   content: `
 ## 백링크 거는법 기초: HTML a 태그
 

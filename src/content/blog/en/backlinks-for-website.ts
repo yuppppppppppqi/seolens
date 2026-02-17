@@ -18,6 +18,17 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 8,
   relatedSlugs: ["backlinks-guide", "seo-audit-guide"],
+  thumbnail: "/blog/backlinks-for-website/thumbnail.jpg",
+  sectionImages: [
+    "/blog/backlinks-for-website/section-1.jpg",
+    "/blog/backlinks-for-website/section-2.jpg",
+    "/blog/backlinks-for-website/section-3.jpg",
+    "/blog/backlinks-for-website/section-4.jpg",
+    "/blog/backlinks-for-website/section-5.jpg",
+    "/blog/backlinks-for-website/section-6.jpg",
+    "/blog/backlinks-for-website/section-7.jpg",
+    "/blog/backlinks-for-website/section-8.jpg",
+  ],
   content: `
 Every website owner eventually faces the same question: how do I get other sites to link to mine? Backlinks for your website are not just a vanity metric. They are one of the strongest signals search engines use to determine whether your content deserves to rank. The more high-quality sites that point to your pages, the more authority and trust your domain accumulates in Google's eyes.
 

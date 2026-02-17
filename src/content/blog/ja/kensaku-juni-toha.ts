@@ -13,6 +13,16 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 7,
   relatedSlugs: ["search-ranking-guide", "kensaku-juni-shirabekata"],
+  thumbnail: "/blog/kensaku-juni-toha/thumbnail.jpg",
+  sectionImages: [
+    "/blog/kensaku-juni-toha/section-1.jpg",
+    "/blog/kensaku-juni-toha/section-2.jpg",
+    "/blog/kensaku-juni-toha/section-3.jpg",
+    "/blog/kensaku-juni-toha/section-4.jpg",
+    "/blog/kensaku-juni-toha/section-5.jpg",
+    "/blog/kensaku-juni-toha/section-6.jpg",
+    "/blog/kensaku-juni-toha/section-7.jpg",
+  ],
   content: `
 ## 検索順位とは？基本的な定義
 

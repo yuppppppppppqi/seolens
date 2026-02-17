@@ -13,6 +13,15 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 10,
   relatedSlugs: ["seo-basics-guide", "keyword-research-guide"],
+  thumbnail: "/blog/seo-marketing/thumbnail.jpg",
+  sectionImages: [
+    "/blog/seo-marketing/section-1.jpg",
+    "/blog/seo-marketing/section-2.jpg",
+    "/blog/seo-marketing/section-3.jpg",
+    "/blog/seo-marketing/section-4.jpg",
+    "/blog/seo-marketing/section-5.jpg",
+    "/blog/seo-marketing/section-6.jpg",
+  ],
   content: `
 ## SEO 마케팅의 정의
 

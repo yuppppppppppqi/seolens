@@ -17,6 +17,17 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 8,
   relatedSlugs: ["keyword-research-guide", "seo-tools-guide"],
+  thumbnail: "/blog/keyword-planner-tsukaikata/thumbnail.jpg",
+  sectionImages: [
+    "/blog/keyword-planner-tsukaikata/section-1.jpg",
+    "/blog/keyword-planner-tsukaikata/section-2.jpg",
+    "/blog/keyword-planner-tsukaikata/section-3.jpg",
+    "/blog/keyword-planner-tsukaikata/section-4.jpg",
+    "/blog/keyword-planner-tsukaikata/section-5.jpg",
+    "/blog/keyword-planner-tsukaikata/section-6.jpg",
+    "/blog/keyword-planner-tsukaikata/section-7.jpg",
+    "/blog/keyword-planner-tsukaikata/section-8.jpg",
+  ],
   content: `
 ## キーワードプランナーとは
 

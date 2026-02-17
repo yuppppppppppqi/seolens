@@ -13,6 +13,14 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 9,
   relatedSlugs: ["keyword-research-guide", "seo-basics-guide"],
+  thumbnail: "/blog/keyword-search-volume/thumbnail.jpg",
+  sectionImages: [
+    "/blog/keyword-search-volume/section-1.jpg",
+    "/blog/keyword-search-volume/section-2.jpg",
+    "/blog/keyword-search-volume/section-3.jpg",
+    "/blog/keyword-search-volume/section-4.jpg",
+    "/blog/keyword-search-volume/section-5.jpg",
+  ],
   content: `
 ## 키워드 검색량이란
 

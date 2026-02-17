@@ -18,6 +18,17 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 7,
   relatedSlugs: ["keyword-research-guide", "keywords-meaning"],
+  thumbnail: "/blog/keywords-for-instagram/thumbnail.jpg",
+  sectionImages: [
+    "/blog/keywords-for-instagram/section-1.jpg",
+    "/blog/keywords-for-instagram/section-2.jpg",
+    "/blog/keywords-for-instagram/section-3.jpg",
+    "/blog/keywords-for-instagram/section-4.jpg",
+    "/blog/keywords-for-instagram/section-5.jpg",
+    "/blog/keywords-for-instagram/section-6.jpg",
+    "/blog/keywords-for-instagram/section-7.jpg",
+    "/blog/keywords-for-instagram/section-8.jpg",
+  ],
   content: `
 Instagram is no longer just a photo-sharing app. In 2026, it functions as a visual search engine where millions of users actively search for products, creators, tutorials, and inspiration every day. If your content does not contain the right **keywords for Instagram**, you are invisible to the very audience you want to reach.
 

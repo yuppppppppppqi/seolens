@@ -19,6 +19,18 @@ export const post: BlogPost = {
   isPillar: true,
   readingTime: 14,
   relatedSlugs: ["seo-basics-guide", "keyword-research-guide", "backlinks-guide"],
+  thumbnail: "/blog/search-ranking-guide/thumbnail.jpg",
+  sectionImages: [
+    "/blog/search-ranking-guide/section-1.jpg",
+    "/blog/search-ranking-guide/section-2.jpg",
+    "/blog/search-ranking-guide/section-3.jpg",
+    "/blog/search-ranking-guide/section-4.jpg",
+    "/blog/search-ranking-guide/section-5.jpg",
+    "/blog/search-ranking-guide/section-6.jpg",
+    "/blog/search-ranking-guide/section-7.jpg",
+    "/blog/search-ranking-guide/section-8.jpg",
+    "/blog/search-ranking-guide/section-9.jpg",
+  ],
   content: `
 검색순위는 온라인 비즈니스의 성패를 좌우하는 핵심 지표입니다. 구글 검색 결과에서 1위에 노출되는 페이지와 10위에 노출되는 페이지는 클릭률에서 10배 이상 차이가 나며, 2페이지 이후로 넘어가면 사실상 존재하지 않는 것이나 다름없습니다. 한국 시장에서는 구글뿐 아니라 네이버 검색순위까지 관리해야 하므로, 전략적 접근이 더욱 중요합니다.
 

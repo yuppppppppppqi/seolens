@@ -13,6 +13,14 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 9,
   relatedSlugs: ["backlinks-guide", "backlink-building"],
+  thumbnail: "/blog/backlink-free/thumbnail.jpg",
+  sectionImages: [
+    "/blog/backlink-free/section-1.jpg",
+    "/blog/backlink-free/section-2.jpg",
+    "/blog/backlink-free/section-3.jpg",
+    "/blog/backlink-free/section-4.jpg",
+    "/blog/backlink-free/section-5.jpg",
+  ],
   content: `
 ## 무료 백링크란
 

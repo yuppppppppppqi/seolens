@@ -13,6 +13,16 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 8,
   relatedSlugs: ["keyword-research-guide", "seo-basics-guide"],
+  thumbnail: "/blog/keyword-map/thumbnail.jpg",
+  sectionImages: [
+    "/blog/keyword-map/section-1.jpg",
+    "/blog/keyword-map/section-2.jpg",
+    "/blog/keyword-map/section-3.jpg",
+    "/blog/keyword-map/section-4.jpg",
+    "/blog/keyword-map/section-5.jpg",
+    "/blog/keyword-map/section-6.jpg",
+    "/blog/keyword-map/section-7.jpg",
+  ],
   content: `
 キーワードマップは、SEO戦略を「見える化」するための設計図です。どのページでどのキーワードを狙うのかを一覧にまとめることで、コンテンツの抜け漏れやキーワードの重複を防ぎ、サイト全体の検索パフォーマンスを最大化できます。
 

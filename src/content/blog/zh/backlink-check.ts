@@ -13,6 +13,7 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 7,
   relatedSlugs: ["backlinks-guide", "seo-basics-guide"],
+  thumbnail: "/blog/backlink-check/thumbnail.jpg",
   content: `
 ## 什麼是反向連結查詢？
 

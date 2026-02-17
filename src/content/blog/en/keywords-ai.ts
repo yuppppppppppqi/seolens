@@ -18,6 +18,18 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 8,
   relatedSlugs: ["keyword-research-guide", "seo-tools-guide"],
+  thumbnail: "/blog/keywords-ai/thumbnail.jpg",
+  sectionImages: [
+    "/blog/keywords-ai/section-1.jpg",
+    "/blog/keywords-ai/section-2.jpg",
+    "/blog/keywords-ai/section-3.jpg",
+    "/blog/keywords-ai/section-4.jpg",
+    "/blog/keywords-ai/section-5.jpg",
+    "/blog/keywords-ai/section-6.jpg",
+    "/blog/keywords-ai/section-7.jpg",
+    "/blog/keywords-ai/section-8.jpg",
+    "/blog/keywords-ai/section-9.jpg",
+  ],
   content: `
 Keyword research has always been the backbone of every effective SEO strategy. But in 2026, the process looks dramatically different from what it did even two years ago. Artificial intelligence has moved from a novelty add-on to an essential part of the keyword research workflow, reshaping how marketers discover opportunities, analyze intent, and build content strategies at scale.
 

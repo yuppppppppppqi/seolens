@@ -13,6 +13,14 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 10,
   relatedSlugs: ["seo-basics-guide", "keyword-research-guide"],
+  thumbnail: "/blog/seo-optimization/thumbnail.jpg",
+  sectionImages: [
+    "/blog/seo-optimization/section-1.jpg",
+    "/blog/seo-optimization/section-2.jpg",
+    "/blog/seo-optimization/section-3.jpg",
+    "/blog/seo-optimization/section-4.jpg",
+    "/blog/seo-optimization/section-5.jpg",
+  ],
   content: `
 ## SEO 최적화란 무엇인가
 

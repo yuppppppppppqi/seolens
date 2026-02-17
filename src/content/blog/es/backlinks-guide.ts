@@ -19,6 +19,17 @@ export const post: BlogPost = {
   isPillar: true,
   readingTime: 15,
   relatedSlugs: ["seo-basics-guide", "seo-tools-guide"],
+  thumbnail: "/blog/backlinks-guide/thumbnail.jpg",
+  sectionImages: [
+    "/blog/backlinks-guide/section-1.jpg",
+    "/blog/backlinks-guide/section-2.jpg",
+    "/blog/backlinks-guide/section-3.jpg",
+    "/blog/backlinks-guide/section-4.jpg",
+    "/blog/backlinks-guide/section-5.jpg",
+    "/blog/backlinks-guide/section-6.jpg",
+    "/blog/backlinks-guide/section-7.jpg",
+    "/blog/backlinks-guide/section-8.jpg",
+  ],
   content: `
 Si trabajas en marketing digital o gestionas un sitio web, es probable que hayas escuchado el término "backlinks" una y otra vez. Pero, **backlinks, ¿qué son exactamente?** En pocas palabras, un backlink es un enlace que apunta desde otro sitio web hacia el tuyo. Estos enlaces funcionan como votos de confianza ante los motores de búsqueda: cuantos más enlaces de calidad reciba tu página, mayor autoridad tendrá a ojos de Google.
 

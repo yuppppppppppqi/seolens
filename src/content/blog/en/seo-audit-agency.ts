@@ -13,6 +13,14 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 7,
   relatedSlugs: ["seo-audit-guide", "seo-audit-template"],
+  thumbnail: "/blog/seo-audit-agency/thumbnail.jpg",
+  sectionImages: [
+    "/blog/seo-audit-agency/section-1.jpg",
+    "/blog/seo-audit-agency/section-2.jpg",
+    "/blog/seo-audit-agency/section-3.jpg",
+    "/blog/seo-audit-agency/section-4.jpg",
+    "/blog/seo-audit-agency/section-5.jpg",
+  ],
   content: `
 Hiring an SEO audit agency can be one of the smartest investments you make for your website — or one of the most frustrating. The difference comes down to choosing the right partner. With hundreds of agencies claiming to offer expert SEO audits, knowing what separates genuine expertise from empty promises is essential. This guide walks you through everything you need to evaluate, from pricing and deliverables to red flags and the questions you should ask before signing a contract.
 

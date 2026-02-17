@@ -18,6 +18,17 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 7,
   relatedSlugs: ["keyword-research-guide", "keywords-meaning"],
+  thumbnail: "/blog/keywords-definition/thumbnail.jpg",
+  sectionImages: [
+    "/blog/keywords-definition/section-1.jpg",
+    "/blog/keywords-definition/section-2.jpg",
+    "/blog/keywords-definition/section-3.jpg",
+    "/blog/keywords-definition/section-4.jpg",
+    "/blog/keywords-definition/section-5.jpg",
+    "/blog/keywords-definition/section-6.jpg",
+    "/blog/keywords-definition/section-7.jpg",
+    "/blog/keywords-definition/section-8.jpg",
+  ],
   content: `
 ## The Formal Definition of Keywords in SEO
 

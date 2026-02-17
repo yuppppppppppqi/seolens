@@ -18,6 +18,15 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 8,
   relatedSlugs: ["seo-audit-guide", "seo-tools-guide"],
+  thumbnail: "/blog/seo-audit-report-template/thumbnail.jpg",
+  sectionImages: [
+    "/blog/seo-audit-report-template/section-1.jpg",
+    "/blog/seo-audit-report-template/section-2.jpg",
+    "/blog/seo-audit-report-template/section-3.jpg",
+    "/blog/seo-audit-report-template/section-4.jpg",
+    "/blog/seo-audit-report-template/section-5.jpg",
+    "/blog/seo-audit-report-template/section-6.jpg",
+  ],
   content: `
 A well-structured SEO audit report template is the difference between actionable insights that drive real results and a pile of data nobody reads. Whether you are reporting to a client, presenting findings to your marketing team, or documenting issues for developers, having a reliable template saves hours of work and ensures nothing slips through the cracks.
 

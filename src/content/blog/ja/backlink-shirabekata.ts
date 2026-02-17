@@ -13,6 +13,15 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 7,
   relatedSlugs: ["backlinks-guide", "backlink-toha"],
+  thumbnail: "/blog/backlink-shirabekata/thumbnail.jpg",
+  sectionImages: [
+    "/blog/backlink-shirabekata/section-1.jpg",
+    "/blog/backlink-shirabekata/section-2.jpg",
+    "/blog/backlink-shirabekata/section-3.jpg",
+    "/blog/backlink-shirabekata/section-4.jpg",
+    "/blog/backlink-shirabekata/section-5.jpg",
+    "/blog/backlink-shirabekata/section-6.jpg",
+  ],
   content: `
 ## なぜ被リンクを調べる必要があるのか？
 

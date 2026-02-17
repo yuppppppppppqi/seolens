@@ -18,6 +18,19 @@ export const post: BlogPost = {
     "search-ranking-guide",
     "seo-tools-guide",
   ],
+  thumbnail: "/blog/backlinks-guide/thumbnail.jpg",
+  sectionImages: [
+    "/blog/backlinks-guide/section-1.jpg",
+    "/blog/backlinks-guide/section-2.jpg",
+    "/blog/backlinks-guide/section-3.jpg",
+    "/blog/backlinks-guide/section-4.jpg",
+    "/blog/backlinks-guide/section-5.jpg",
+    "/blog/backlinks-guide/section-6.jpg",
+    "/blog/backlinks-guide/section-7.jpg",
+    "/blog/backlinks-guide/section-8.jpg",
+    "/blog/backlinks-guide/section-9.jpg",
+    "/blog/backlinks-guide/section-10.jpg",
+  ],
   content: `
 被リンクは、2026年現在においてもGoogleのランキングアルゴリズムにおける最重要シグナルの一つです。Googleは他サイトからのリンクを「信頼の票」として評価し、サイトの権威性・信頼性・関連性を判断する際に活用しています。どれほど優れたコンテンツを作成しても、被リンクなしにはSEOで上位表示を達成することは非常に困難です。
 

@@ -13,6 +13,17 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 8,
   relatedSlugs: ["seo-basics-guide", "seo-tools-guide"],
+  thumbnail: "/blog/seo-ai/thumbnail.jpg",
+  sectionImages: [
+    "/blog/seo-ai/section-1.jpg",
+    "/blog/seo-ai/section-2.jpg",
+    "/blog/seo-ai/section-3.jpg",
+    "/blog/seo-ai/section-4.jpg",
+    "/blog/seo-ai/section-5.jpg",
+    "/blog/seo-ai/section-6.jpg",
+    "/blog/seo-ai/section-7.jpg",
+    "/blog/seo-ai/section-8.jpg",
+  ],
   content: `
 ## はじめに：AI時代のSEOはどう変わったのか
 

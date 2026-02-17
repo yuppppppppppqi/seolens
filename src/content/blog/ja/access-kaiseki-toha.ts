@@ -13,6 +13,17 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 7,
   relatedSlugs: ["seo-tools-guide", "access-kaiseki-tool-free"],
+  thumbnail: "/blog/access-kaiseki-toha/thumbnail.jpg",
+  sectionImages: [
+    "/blog/access-kaiseki-toha/section-1.jpg",
+    "/blog/access-kaiseki-toha/section-2.jpg",
+    "/blog/access-kaiseki-toha/section-3.jpg",
+    "/blog/access-kaiseki-toha/section-4.jpg",
+    "/blog/access-kaiseki-toha/section-5.jpg",
+    "/blog/access-kaiseki-toha/section-6.jpg",
+    "/blog/access-kaiseki-toha/section-7.jpg",
+    "/blog/access-kaiseki-toha/section-8.jpg",
+  ],
   content: `
 ## アクセス解析とは？── 基本的な定義
 

@@ -18,6 +18,17 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 7,
   relatedSlugs: ["seo-tools-guide", "seo-audit-guide"],
+  thumbnail: "/blog/analytics-definition/thumbnail.jpg",
+  sectionImages: [
+    "/blog/analytics-definition/section-1.jpg",
+    "/blog/analytics-definition/section-2.jpg",
+    "/blog/analytics-definition/section-3.jpg",
+    "/blog/analytics-definition/section-4.jpg",
+    "/blog/analytics-definition/section-5.jpg",
+    "/blog/analytics-definition/section-6.jpg",
+    "/blog/analytics-definition/section-7.jpg",
+    "/blog/analytics-definition/section-8.jpg",
+  ],
   content: `
 Analytics is a term you will encounter constantly in digital marketing, SEO, and web development. Yet many people use it loosely without fully understanding what it encompasses or how to apply it effectively. Whether you are a business owner trying to measure the return on your marketing spend or an SEO professional optimizing a website for search engines, a solid grasp of analytics is essential.
 

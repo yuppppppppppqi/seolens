@@ -18,6 +18,18 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 7,
   relatedSlugs: ["meta-tags-seo-guide", "seo-audit-guide"],
+  thumbnail: "/blog/meta-tags-font-generator/thumbnail.jpg",
+  sectionImages: [
+    "/blog/meta-tags-font-generator/section-1.jpg",
+    "/blog/meta-tags-font-generator/section-2.jpg",
+    "/blog/meta-tags-font-generator/section-3.jpg",
+    "/blog/meta-tags-font-generator/section-4.jpg",
+    "/blog/meta-tags-font-generator/section-5.jpg",
+    "/blog/meta-tags-font-generator/section-6.jpg",
+    "/blog/meta-tags-font-generator/section-7.jpg",
+    "/blog/meta-tags-font-generator/section-8.jpg",
+    "/blog/meta-tags-font-generator/section-9.jpg",
+  ],
   content: `
 Getting your meta tags right is one of the fastest ways to improve how your pages appear in search results and social media feeds. A meta tags font generator — or more broadly, a meta tag generator — helps you create properly formatted HTML meta tags without memorizing every attribute and character limit. Whether you are looking for a tool that outputs ready-to-paste HTML or you want to add special characters and unicode formatting to your title tags, this guide covers both angles and gives you everything you need to build perfect meta tags for every page on your site.
 

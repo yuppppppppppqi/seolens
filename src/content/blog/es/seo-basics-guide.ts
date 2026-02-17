@@ -19,6 +19,13 @@ export const post: BlogPost = {
   isPillar: true,
   readingTime: 15,
   relatedSlugs: ["seo-tools-guide", "backlinks-guide"],
+  thumbnail: "/blog/seo-basics-guide/thumbnail.jpg",
+  sectionImages: [
+    "/blog/seo-basics-guide/section-1.jpg",
+    "/blog/seo-basics-guide/section-2.jpg",
+    "/blog/seo-basics-guide/section-3.jpg",
+    "/blog/seo-basics-guide/section-4.jpg",
+  ],
   content: `
 ## Introducción: ¿Qué es SEO y por qué todo el mundo habla de ello?
 

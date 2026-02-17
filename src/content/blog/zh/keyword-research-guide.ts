@@ -13,6 +13,19 @@ export const post: BlogPost = {
   isPillar: true,
   readingTime: 15,
   relatedSlugs: ["seo-basics-guide", "backlinks-guide"],
+  thumbnail: "/blog/keyword-research-guide/thumbnail.jpg",
+  sectionImages: [
+    "/blog/keyword-research-guide/section-1.jpg",
+    "/blog/keyword-research-guide/section-2.jpg",
+    "/blog/keyword-research-guide/section-3.jpg",
+    "/blog/keyword-research-guide/section-4.jpg",
+    "/blog/keyword-research-guide/section-5.jpg",
+    "/blog/keyword-research-guide/section-6.jpg",
+    "/blog/keyword-research-guide/section-7.jpg",
+    "/blog/keyword-research-guide/section-8.jpg",
+    "/blog/keyword-research-guide/section-9.jpg",
+    "/blog/keyword-research-guide/section-10.jpg",
+  ],
   content: `
 ## 前言：為什麼關鍵字分析是SEO的基礎
 

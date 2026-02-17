@@ -13,6 +13,15 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 10,
   relatedSlugs: ["backlinks-guide", "backlink-free"],
+  thumbnail: "/blog/backlink-building/thumbnail.jpg",
+  sectionImages: [
+    "/blog/backlink-building/section-1.jpg",
+    "/blog/backlink-building/section-2.jpg",
+    "/blog/backlink-building/section-3.jpg",
+    "/blog/backlink-building/section-4.jpg",
+    "/blog/backlink-building/section-5.jpg",
+    "/blog/backlink-building/section-6.jpg",
+  ],
   content: `
 ## 백링크 만들기의 기본 원칙
 

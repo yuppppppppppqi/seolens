@@ -13,6 +13,15 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 6,
   relatedSlugs: ["keyword-toha", "keyword-research-guide", "keyword-map"],
+  thumbnail: "/blog/keyword-imi/thumbnail.jpg",
+  sectionImages: [
+    "/blog/keyword-imi/section-1.jpg",
+    "/blog/keyword-imi/section-2.jpg",
+    "/blog/keyword-imi/section-3.jpg",
+    "/blog/keyword-imi/section-4.jpg",
+    "/blog/keyword-imi/section-5.jpg",
+    "/blog/keyword-imi/section-6.jpg",
+  ],
   content: `
 ## キーワードの意味とは？── 語源から理解する基本定義
 

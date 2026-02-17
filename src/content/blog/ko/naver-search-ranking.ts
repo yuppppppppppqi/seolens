@@ -13,6 +13,17 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 11,
   relatedSlugs: ["search-ranking-guide", "seo-basics-guide"],
+  thumbnail: "/blog/naver-search-ranking/thumbnail.jpg",
+  sectionImages: [
+    "/blog/naver-search-ranking/section-1.jpg",
+    "/blog/naver-search-ranking/section-2.jpg",
+    "/blog/naver-search-ranking/section-3.jpg",
+    "/blog/naver-search-ranking/section-4.jpg",
+    "/blog/naver-search-ranking/section-5.jpg",
+    "/blog/naver-search-ranking/section-6.jpg",
+    "/blog/naver-search-ranking/section-7.jpg",
+    "/blog/naver-search-ranking/section-8.jpg",
+  ],
   content: `
 ## 네이버 검색 알고리즘 이해
 

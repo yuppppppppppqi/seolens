@@ -25,6 +25,20 @@ export const post: BlogPost = {
     "seo-tools-guide",
     "backlinks-guide",
   ],
+  thumbnail: "/blog/meta-tags-seo-guide/thumbnail.jpg",
+  sectionImages: [
+    "/blog/meta-tags-seo-guide/section-1.jpg",
+    "/blog/meta-tags-seo-guide/section-2.jpg",
+    "/blog/meta-tags-seo-guide/section-3.jpg",
+    "/blog/meta-tags-seo-guide/section-4.jpg",
+    "/blog/meta-tags-seo-guide/section-5.jpg",
+    "/blog/meta-tags-seo-guide/section-6.jpg",
+    "/blog/meta-tags-seo-guide/section-7.jpg",
+    "/blog/meta-tags-seo-guide/section-8.jpg",
+    "/blog/meta-tags-seo-guide/section-9.jpg",
+    "/blog/meta-tags-seo-guide/section-10.jpg",
+    "/blog/meta-tags-seo-guide/section-11.jpg",
+  ],
   content: `
 Meta tags are one of the most fundamental elements of search engine optimization. They sit quietly in the \`<head>\` section of your HTML, invisible to visitors, yet they play a decisive role in how search engines understand, index, and display your pages. Whether you are launching a brand-new website or auditing an existing one as part of a broader [SEO audit](/en/blog/seo-audit-guide), getting your meta tags right is a non-negotiable step toward higher rankings and better click-through rates.
 

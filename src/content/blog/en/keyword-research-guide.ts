@@ -24,6 +24,19 @@ export const post: BlogPost = {
     "backlinks-guide",
     "meta-tags-seo-guide",
   ],
+  thumbnail: "/blog/keyword-research-guide/thumbnail.jpg",
+  sectionImages: [
+    "/blog/keyword-research-guide/section-1.jpg",
+    "/blog/keyword-research-guide/section-2.jpg",
+    "/blog/keyword-research-guide/section-3.jpg",
+    "/blog/keyword-research-guide/section-4.jpg",
+    "/blog/keyword-research-guide/section-5.jpg",
+    "/blog/keyword-research-guide/section-6.jpg",
+    "/blog/keyword-research-guide/section-7.jpg",
+    "/blog/keyword-research-guide/section-8.jpg",
+    "/blog/keyword-research-guide/section-9.jpg",
+    "/blog/keyword-research-guide/section-10.jpg",
+  ],
   content: `
 ## Introduction: Why Keyword Research Is the Foundation of SEO
 

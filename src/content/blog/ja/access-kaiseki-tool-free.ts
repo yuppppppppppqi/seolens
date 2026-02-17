@@ -18,6 +18,16 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 8,
   relatedSlugs: ["seo-tools-guide", "access-kaiseki-toha", "seo-tool-free"],
+  thumbnail: "/blog/access-kaiseki-tool-free/thumbnail.jpg",
+  sectionImages: [
+    "/blog/access-kaiseki-tool-free/section-1.jpg",
+    "/blog/access-kaiseki-tool-free/section-2.jpg",
+    "/blog/access-kaiseki-tool-free/section-3.jpg",
+    "/blog/access-kaiseki-tool-free/section-4.jpg",
+    "/blog/access-kaiseki-tool-free/section-5.jpg",
+    "/blog/access-kaiseki-tool-free/section-6.jpg",
+    "/blog/access-kaiseki-tool-free/section-7.jpg",
+  ],
   content: `
 ## はじめに：なぜ無料アクセス解析ツールを導入すべきか
 

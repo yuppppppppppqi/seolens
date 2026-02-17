@@ -1,0 +1,1 @@
+Run `vercel --prod` to deploy the application to Vercel production.

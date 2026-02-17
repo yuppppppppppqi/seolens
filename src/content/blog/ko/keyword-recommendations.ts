@@ -13,6 +13,13 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 9,
   relatedSlugs: ["keyword-research-guide", "keyword-search-volume"],
+  thumbnail: "/blog/keyword-recommendations/thumbnail.jpg",
+  sectionImages: [
+    "/blog/keyword-recommendations/section-1.jpg",
+    "/blog/keyword-recommendations/section-2.jpg",
+    "/blog/keyword-recommendations/section-3.jpg",
+    "/blog/keyword-recommendations/section-4.jpg",
+  ],
   content: `
 ## 키워드 추천이 중요한 이유
 

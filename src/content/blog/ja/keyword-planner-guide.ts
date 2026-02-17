@@ -18,6 +18,16 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 8,
   relatedSlugs: ["keyword-research-guide", "keyword-planner-tsukaikata"],
+  thumbnail: "/blog/keyword-planner-guide/thumbnail.jpg",
+  sectionImages: [
+    "/blog/keyword-planner-guide/section-1.jpg",
+    "/blog/keyword-planner-guide/section-2.jpg",
+    "/blog/keyword-planner-guide/section-3.jpg",
+    "/blog/keyword-planner-guide/section-4.jpg",
+    "/blog/keyword-planner-guide/section-5.jpg",
+    "/blog/keyword-planner-guide/section-6.jpg",
+    "/blog/keyword-planner-guide/section-7.jpg",
+  ],
   content: `
 ## キーワードプランナーとは
 

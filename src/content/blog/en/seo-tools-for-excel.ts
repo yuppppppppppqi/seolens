@@ -18,6 +18,16 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 7,
   relatedSlugs: ["seo-tools-guide", "keyword-research-guide"],
+  thumbnail: "/blog/seo-tools-for-excel/thumbnail.jpg",
+  sectionImages: [
+    "/blog/seo-tools-for-excel/section-1.jpg",
+    "/blog/seo-tools-for-excel/section-2.jpg",
+    "/blog/seo-tools-for-excel/section-3.jpg",
+    "/blog/seo-tools-for-excel/section-4.jpg",
+    "/blog/seo-tools-for-excel/section-5.jpg",
+    "/blog/seo-tools-for-excel/section-6.jpg",
+    "/blog/seo-tools-for-excel/section-7.jpg",
+  ],
   content: `
 Spreadsheets remain one of the most powerful environments for SEO work. While dedicated platforms handle crawling, rank tracking, and backlink monitoring, it is inside Excel and Google Sheets where most SEO professionals do their deepest analysis -- merging data sources, building custom scoring models, mapping keywords to URLs, and creating reports that actually get read by stakeholders. The missing piece is usually getting SEO data into the spreadsheet efficiently.
 

@@ -23,6 +23,19 @@ export const post: BlogPost = {
     "keyword-research-guide",
     "search-ranking-guide",
   ],
+  thumbnail: "/blog/backlinks-guide/thumbnail.jpg",
+  sectionImages: [
+    "/blog/backlinks-guide/section-1.jpg",
+    "/blog/backlinks-guide/section-2.jpg",
+    "/blog/backlinks-guide/section-3.jpg",
+    "/blog/backlinks-guide/section-4.jpg",
+    "/blog/backlinks-guide/section-5.jpg",
+    "/blog/backlinks-guide/section-6.jpg",
+    "/blog/backlinks-guide/section-7.jpg",
+    "/blog/backlinks-guide/section-8.jpg",
+    "/blog/backlinks-guide/section-9.jpg",
+    "/blog/backlinks-guide/section-10.jpg",
+  ],
   content: `
 백링크는 2026년 현재에도 구글 검색 알고리즘에서 가장 중요한 순위 요소 중 하나입니다. 구글은 다른 웹사이트로부터의 링크를 "신뢰의 투표"로 간주하며, 사이트의 권위성과 신뢰도를 판단하는 데 핵심적인 역할을 부여합니다. 아무리 뛰어난 콘텐츠를 작성하더라도 백링크 없이는 검색 상위 노출을 달성하기 어렵습니다.
 

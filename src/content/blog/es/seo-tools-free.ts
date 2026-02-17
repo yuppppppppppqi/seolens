@@ -18,6 +18,7 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 9,
   relatedSlugs: ["seo-tools-guide", "seo-basics-guide"],
+  thumbnail: "/blog/seo-tools-free/thumbnail.jpg",
   content: `
 ## ¿Por qué usar herramientas SEO gratis?
 

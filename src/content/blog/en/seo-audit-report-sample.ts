@@ -18,6 +18,15 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 8,
   relatedSlugs: ["seo-audit-guide", "seo-audit-report-template"],
+  thumbnail: "/blog/seo-audit-report-sample/thumbnail.jpg",
+  sectionImages: [
+    "/blog/seo-audit-report-sample/section-1.jpg",
+    "/blog/seo-audit-report-sample/section-2.jpg",
+    "/blog/seo-audit-report-sample/section-3.jpg",
+    "/blog/seo-audit-report-sample/section-4.jpg",
+    "/blog/seo-audit-report-sample/section-5.jpg",
+    "/blog/seo-audit-report-sample/section-6.jpg",
+  ],
   content: `
 If you have ever wondered what a finished SEO audit actually looks like, you are not alone. Plenty of guides explain *how* to audit a website, but few show you the finished product — the report itself. In this article we walk through a realistic SEO audit report sample section by section so you can see exactly what professional auditors deliver, understand the metrics they track, and learn how to structure a report of your own.
 

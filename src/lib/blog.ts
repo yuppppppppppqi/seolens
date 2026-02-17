@@ -11,6 +11,8 @@ export type BlogPost = {
   readingTime: number;
   relatedSlugs: string[];
   content: string; // markdown
+  thumbnail?: string;
+  sectionImages?: string[];
 };
 
 // Dynamic import of all posts by locale

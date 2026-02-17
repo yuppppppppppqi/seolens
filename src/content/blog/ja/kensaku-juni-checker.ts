@@ -22,6 +22,20 @@ export const post: BlogPost = {
     "kensaku-juni-shirabekata",
     "seo-tool-free",
   ],
+  thumbnail: "/blog/kensaku-juni-checker/thumbnail.jpg",
+  sectionImages: [
+    "/blog/kensaku-juni-checker/section-1.jpg",
+    "/blog/kensaku-juni-checker/section-2.jpg",
+    "/blog/kensaku-juni-checker/section-3.jpg",
+    "/blog/kensaku-juni-checker/section-4.jpg",
+    "/blog/kensaku-juni-checker/section-5.jpg",
+    "/blog/kensaku-juni-checker/section-6.jpg",
+    "/blog/kensaku-juni-checker/section-7.jpg",
+    "/blog/kensaku-juni-checker/section-8.jpg",
+    "/blog/kensaku-juni-checker/section-9.jpg",
+    "/blog/kensaku-juni-checker/section-10.jpg",
+    "/blog/kensaku-juni-checker/section-11.jpg",
+  ],
   content: `
 ## 検索順位チェッカーとは
 

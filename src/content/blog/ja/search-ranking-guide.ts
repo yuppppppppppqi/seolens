@@ -18,6 +18,18 @@ export const post: BlogPost = {
     "backlinks-guide",
     "seo-tools-guide",
   ],
+  thumbnail: "/blog/search-ranking-guide/thumbnail.jpg",
+  sectionImages: [
+    "/blog/search-ranking-guide/section-1.jpg",
+    "/blog/search-ranking-guide/section-2.jpg",
+    "/blog/search-ranking-guide/section-3.jpg",
+    "/blog/search-ranking-guide/section-4.jpg",
+    "/blog/search-ranking-guide/section-5.jpg",
+    "/blog/search-ranking-guide/section-6.jpg",
+    "/blog/search-ranking-guide/section-7.jpg",
+    "/blog/search-ranking-guide/section-8.jpg",
+    "/blog/search-ranking-guide/section-9.jpg",
+  ],
   content: `
 検索順位は、Webサイトの集客力を左右する最も重要な指標のひとつです。Googleの検索結果で1位に表示されるページと10位に表示されるページでは、クリック率に10倍以上の差が生まれることも珍しくありません。つまり、検索順位を1つでも上げることが、ビジネスの成長に直結するのです。
 

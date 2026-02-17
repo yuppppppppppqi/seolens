@@ -13,6 +13,16 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 8,
   relatedSlugs: ["seo-basics-guide", "seo-taisaku-toha"],
+  thumbnail: "/blog/seo-taisaku-yarikata/thumbnail.jpg",
+  sectionImages: [
+    "/blog/seo-taisaku-yarikata/section-1.jpg",
+    "/blog/seo-taisaku-yarikata/section-2.jpg",
+    "/blog/seo-taisaku-yarikata/section-3.jpg",
+    "/blog/seo-taisaku-yarikata/section-4.jpg",
+    "/blog/seo-taisaku-yarikata/section-5.jpg",
+    "/blog/seo-taisaku-yarikata/section-6.jpg",
+    "/blog/seo-taisaku-yarikata/section-7.jpg",
+  ],
   content: `
 ## はじめに：SEO対策は自分でできる
 

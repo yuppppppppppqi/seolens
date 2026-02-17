@@ -13,6 +13,18 @@ export const post: BlogPost = {
   isPillar: true,
   readingTime: 14,
   relatedSlugs: ["seo-basics-guide", "keyword-research-guide"],
+  thumbnail: "/blog/backlinks-guide/thumbnail.jpg",
+  sectionImages: [
+    "/blog/backlinks-guide/section-1.jpg",
+    "/blog/backlinks-guide/section-2.jpg",
+    "/blog/backlinks-guide/section-3.jpg",
+    "/blog/backlinks-guide/section-4.jpg",
+    "/blog/backlinks-guide/section-5.jpg",
+    "/blog/backlinks-guide/section-6.jpg",
+    "/blog/backlinks-guide/section-7.jpg",
+    "/blog/backlinks-guide/section-8.jpg",
+    "/blog/backlinks-guide/section-9.jpg",
+  ],
   content: `
 反向連結（Backlinks）在 2026 年依然是 Google 搜尋排名演算法中最關鍵的訊號之一。Google 將來自其他網站的連結視為「信任投票」，藉此判斷你的網站是否具備權威性、可信度與相關性。無論你的內容品質多高，若缺乏高品質的反向連結，要在搜尋結果中取得理想排名仍然非常困難。
 

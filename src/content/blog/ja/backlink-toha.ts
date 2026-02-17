@@ -13,6 +13,17 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 7,
   relatedSlugs: ["backlinks-guide", "backlink-shirabekata"],
+  thumbnail: "/blog/backlink-toha/thumbnail.jpg",
+  sectionImages: [
+    "/blog/backlink-toha/section-1.jpg",
+    "/blog/backlink-toha/section-2.jpg",
+    "/blog/backlink-toha/section-3.jpg",
+    "/blog/backlink-toha/section-4.jpg",
+    "/blog/backlink-toha/section-5.jpg",
+    "/blog/backlink-toha/section-6.jpg",
+    "/blog/backlink-toha/section-7.jpg",
+    "/blog/backlink-toha/section-8.jpg",
+  ],
   content: `
 ## 被リンクとは？まずは基本の定義を押さえよう
 

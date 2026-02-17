@@ -13,6 +13,16 @@ export const post: BlogPost = {
   isPillar: false,
   readingTime: 7,
   relatedSlugs: ["search-ranking-guide", "kensaku-juni-toha", "kensaku-juni-checker"],
+  thumbnail: "/blog/kensaku-juni-shirabekata/thumbnail.jpg",
+  sectionImages: [
+    "/blog/kensaku-juni-shirabekata/section-1.jpg",
+    "/blog/kensaku-juni-shirabekata/section-2.jpg",
+    "/blog/kensaku-juni-shirabekata/section-3.jpg",
+    "/blog/kensaku-juni-shirabekata/section-4.jpg",
+    "/blog/kensaku-juni-shirabekata/section-5.jpg",
+    "/blog/kensaku-juni-shirabekata/section-6.jpg",
+    "/blog/kensaku-juni-shirabekata/section-7.jpg",
+  ],
   content: `
 ## なぜ検索順位を調べる必要があるのか
 

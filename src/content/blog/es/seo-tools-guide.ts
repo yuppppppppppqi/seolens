@@ -19,6 +19,14 @@ export const post: BlogPost = {
   isPillar: true,
   readingTime: 15,
   relatedSlugs: ["seo-basics-guide", "backlinks-guide"],
+  thumbnail: "/blog/seo-tools-guide/thumbnail.jpg",
+  sectionImages: [
+    "/blog/seo-tools-guide/section-1.jpg",
+    "/blog/seo-tools-guide/section-2.jpg",
+    "/blog/seo-tools-guide/section-3.jpg",
+    "/blog/seo-tools-guide/section-4.jpg",
+    "/blog/seo-tools-guide/section-5.jpg",
+  ],
   content: `
 ## Introducción: Por qué las herramientas SEO son imprescindibles en 2026
 
