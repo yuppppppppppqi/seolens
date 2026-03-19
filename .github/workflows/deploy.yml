@@ -83,27 +83,29 @@ jobs:
             }
 
       - name: Notify Slack on Success
-        if: success() && secrets.SLACK_WEBHOOK_URL != ''
+        if: success() && github.event_name == 'push'
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
-          if [ "${{ github.event_name }}" = "push" ]; then
-            TYPE="Production Deploy"
+          if [ -n "$SLACK_WEBHOOK_URL" ]; then
             MSG=$(echo "${{ github.event.head_commit.message }}" | head -1)
-          else
-            TYPE="Preview Deploy"
-            MSG="${{ github.event.pull_request.title }}"
+            curl -s -X POST "$SLACK_WEBHOOK_URL" \
+              -H 'Content-Type: application/json' \
+              -d "{\"text\":\"✅ Production Deploy 成功: ${MSG} (${{ github.actor }})\"}"
           fi
-          curl -s -X POST "${{ secrets.SLACK_WEBHOOK_URL }}" \
-            -H 'Content-Type: application/json' \
-            -d "{\"text\":\"✅ ${TYPE} 成功: ${MSG} (${{ github.actor }})\"}"
 
       - name: Notify Slack on Failure
-        if: failure() && secrets.SLACK_WEBHOOK_URL != ''
+        if: failure()
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
-          if [ "${{ github.event_name }}" = "push" ]; then
-            MSG=$(echo "${{ github.event.head_commit.message }}" | head -1)
-          else
-            MSG="${{ github.event.pull_request.title }}"
+          if [ -n "$SLACK_WEBHOOK_URL" ]; then
+            if [ "${{ github.event_name }}" = "push" ]; then
+              MSG=$(echo "${{ github.event.head_commit.message }}" | head -1)
+            else
+              MSG="${{ github.event.pull_request.title }}"
+            fi
+            curl -s -X POST "$SLACK_WEBHOOK_URL" \
+              -H 'Content-Type: application/json' \
+              -d "{\"text\":\"❌ デプロイ失敗: ${MSG} (${{ github.actor }})\"}"
           fi
-          curl -s -X POST "${{ secrets.SLACK_WEBHOOK_URL }}" \
-            -H 'Content-Type: application/json' \
-            -d "{\"text\":\"❌ デプロイ失敗: ${MSG} (${{ github.actor }})\"}"
