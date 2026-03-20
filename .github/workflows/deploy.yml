@@ -11,7 +11,31 @@ permissions:
   pull-requests: write
 
 jobs:
+  e2e:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
+
+      - name: Build
+        run: npm run build
+
+      - name: Run smoke tests
+        run: npx playwright test e2e/smoke.spec.ts --reporter=github
+
   build-and-deploy:
+    if: always()
+    needs: [e2e]
     runs-on: ubuntu-latest
     env:
       VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
@@ -20,6 +44,10 @@ jobs:
       preview_url: ${{ steps.deploy_preview.outputs.preview_url }}
 
     steps:
+      - name: Abort if e2e failed
+        if: needs.e2e.result == 'failure'
+        run: exit 1
+
       - uses: actions/checkout@v4
 
       - uses: actions/setup-node@v4

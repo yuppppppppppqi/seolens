@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test:e2e": "playwright test",
+    "test:e2e:smoke": "playwright test e2e/smoke.spec.ts"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.26.0",
@@ -28,6 +30,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
     "tailwindcss": "^4",
+    "@playwright/test": "^1.52.0",
     "typescript": "^5"
   }
 }
