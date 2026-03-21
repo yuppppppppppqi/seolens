@@ -13,7 +13,7 @@ permissions:
 jobs:
   e2e:
     if: github.event_name == 'push'
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v4
 
@@ -39,7 +39,7 @@ jobs:
   build-and-deploy:
     if: always()
     needs: [e2e]
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     env:
       VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
       VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
