@@ -21,8 +21,11 @@ jobs:
         with:
           node-version: '24'
 
+      - name: Remove lockfile for cross-platform native deps
+        run: find . -name "package-lock.json" -not -path "*/node_modules/*" -delete
+
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
       - name: Install Playwright browsers
         run: npx playwright install --with-deps chromium
