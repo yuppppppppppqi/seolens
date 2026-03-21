@@ -6,7 +6,25 @@ on:
   workflow_dispatch:
 
 jobs:
+  supabase-health:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Supabase is alive
+        run: |
+          status=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 \
+            "https://vtehdhnsimevvknwetsp.supabase.co/rest/v1/" \
+            -H "apikey: dummy")
+          if [ "$status" = "000" ]; then
+            echo "::error::Supabase project is PAUSED or unreachable (seolens)"
+            curl -s -X POST "${{ secrets.SLACK_WEBHOOK_URL }}" \
+              -H 'Content-Type: application/json' \
+              -d '{"text":"⚠️ Supabase PAUSED: seolens (seo-lens.site)\nhttps://supabase.com/dashboard/projects"}'
+            exit 1
+          fi
+          echo "Supabase OK (HTTP $status)"
+
   e2e-production:
+    needs: supabase-health
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:
@@ -29,6 +47,7 @@ jobs:
           retention-days: 14
 
   lighthouse:
+    needs: supabase-health
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
