@@ -1,0 +1,6 @@
+export default {
+  test: {
+    exclude: ["e2e/**", "node_modules/**"],
+    passWithNoTests: true,
+  },
+};
