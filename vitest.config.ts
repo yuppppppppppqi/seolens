@@ -4,5 +4,6 @@ export default {
       "node_modules/**",
       "e2e/**",
     ],
+    passWithNoTests: true,
   },
 };
