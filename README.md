@@ -40,3 +40,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 This project is lovingly maintained by the seolens team. Feel free to open issues, submit PRs, or just say hi 👋
 
 > "Good SEO is not about tricking Google. It's about partnering with Google to provide the best search results for users." ✨
+
+Built with curiosity, caffeine, and just the right amount of keyword research ☕🔍
