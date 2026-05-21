@@ -138,6 +138,18 @@ npm run test:e2e       # Run E2E tests
 npm run test:e2e:smoke # Run smoke tests
 ```
 
+## Contributing
+
+Contributions are welcome! If you'd like to contribute, please follow these steps:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+Please make sure your code passes linting (`npm run lint`) and E2E tests (`npm run test:e2e:smoke`) before submitting.
+
 ## License
 
 Private
