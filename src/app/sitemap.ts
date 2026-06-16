@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const BASE_URL = "https://seolens.dev";
+const BASE_URL = "https://seo-lens.site";
 const locales = ["en", "ja", "ko", "zh", "es"];
 
 export default function sitemap(): MetadataRoute.Sitemap {

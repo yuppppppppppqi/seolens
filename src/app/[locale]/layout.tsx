@@ -28,7 +28,7 @@ export async function generateMetadata({
       template: "%s | SEOLens",
     },
     description: t("description"),
-    metadataBase: new URL("https://seolens.dev"),
+    metadataBase: new URL("https://seo-lens.site"),
     alternates: {
       canonical: `/${locale}`,
       languages: {

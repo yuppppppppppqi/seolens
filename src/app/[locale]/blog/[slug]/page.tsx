@@ -84,16 +84,16 @@ export default async function BlogPostPage({ params }: Props) {
     datePublished: post.publishedAt,
     dateModified: post.updatedAt,
     ...(post.thumbnail && {
-      image: `https://seolens.dev${post.thumbnail}`,
+      image: `https://seo-lens.site${post.thumbnail}`,
     }),
     publisher: {
       "@type": "Organization",
       name: "SEOLens",
-      url: "https://seolens.dev",
+      url: "https://seo-lens.site",
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://seolens.dev/${locale}/blog/${slug}`,
+      "@id": `https://seo-lens.site/${locale}/blog/${slug}`,
     },
   };
 

@@ -9,7 +9,7 @@ export function getWebApplicationSchema(locale: string) {
       locale === "ja"
         ? "キーワードの検索ボリューム、難易度、CPC、競合データを無料で調査"
         : "Free keyword research tool for search volume, difficulty, CPC, and competition data",
-    url: `https://seolens.dev/${locale}/tool`,
+    url: `https://seo-lens.site/${locale}/tool`,
     offers: {
       "@type": "Offer",
       price: "0",
@@ -24,7 +24,7 @@ export function getOrganizationSchema() {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "SEOLens",
-    url: "https://seolens.dev",
+    url: "https://seo-lens.site",
   };
 }
 
