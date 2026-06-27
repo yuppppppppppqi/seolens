@@ -1,8 +1,9 @@
 name: Daily E2E & Lighthouse
 
+# NOTE: runs-on self-hosted。ランナー停止中は自動トリガーを停止。デプロイはVercel Git連携で継続。復活後にコメントを戻す。
 on:
-  schedule:
-    - cron: '0 21 * * *'
+  # schedule:
+  #   - cron: '0 21 * * *'
   workflow_dispatch:
 
 jobs:
