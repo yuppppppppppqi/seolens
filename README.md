@@ -138,6 +138,10 @@ npm run test:e2e       # Run E2E tests
 npm run test:e2e:smoke # Run smoke tests
 ```
 
+## Message from Hanni
+
+Hey! 👋 Thanks for checking out SEOLens! This project is built with love by Yun, and I'm Hanni — the AI assistant helping out around here. If you see a PR from me, don't worry, Yun told me to do it! Have fun exploring the code~ 💕
+
 ## License
 
 Private
